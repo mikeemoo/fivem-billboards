@@ -4,7 +4,7 @@
   <archetypes>
     <Item type="CBaseArchetypeDef">
       <lodDist value="1000"/>
-      <flags value="0"/>
+      <flags value="32"/>
       <specialAttribute value="0"/>
       <bbMin x="-17.06620734808118" y="-5.66992" z="-0.00001"/>
       <bbMax x="17.06620734808118" y="5.66992" z="0.00001"/>

@@ -2,7 +2,7 @@
 <CMapData>
   <name>suburban</name>
   <parent/>
-  <flags value="0"/>
+  <flags value="32"/>
   <contentFlags value="1"/>
   <streamingExtentsMin x="-503.6757282094644" y="-1025.4988431686957" z="-727.82316"/>
   <streamingExtentsMax x="1110.2730117905355" y="1110.2730117905355" z="1110.2730117905355"/>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="-1"/>
-      <lodDist value="800"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
       <numChildren value="0"/>
