@@ -25,7 +25,7 @@
       "z": 20.6894
     },
     "offset": 0.1,
-    "worldPosition": "X:199.619 Y:-178.7976 Z:64.69637"
+    "worldPosition": "X:199.6067 Y:-178.4445 Z:57.42818"
   },
   "crevis": {
     "bottomLeft": {
@@ -39,7 +39,7 @@
       "z": 20.6894
     },
     "offset": 0.1,
-    "worldPosition": "X:199.619 Y:-178.7976 Z:64.69637"
+    "worldPosition": "X:199.6067 Y:-178.4445 Z:57.42818"
   },
   "weazel_space": {
     "bottomLeft": {
@@ -53,7 +53,7 @@
       "z": 13.9624
     },
     "offset": 0.1,
-    "worldPosition": "X:199.619 Y:-178.7976 Z:64.69637"
+    "worldPosition": "X:199.6067 Y:-178.4445 Z:57.42818"
   },
   "behind_weazel_space": {
     "bottomLeft": {
@@ -67,6 +67,6 @@
       "z": 13.9624
     },
     "offset": 0.1,
-    "worldPosition": "X:199.619 Y:-178.7976 Z:64.69637"
+    "worldPosition": "X:199.6067 Y:-178.4445 Z:57.42818"
   }
 }

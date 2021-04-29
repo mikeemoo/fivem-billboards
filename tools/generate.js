@@ -185,7 +185,7 @@ const generateYmap = (name, worldPosition, quaternion, p1, p2, lod = 800 ) => bu
   CMapData: {
     name: [ name ],
     parent: [""],
-    flags: [{ $: { value: 32 }}],
+    flags: [{ $: { value: 0 }}],
     contentFlags: [{ $: { value: 1 }}],
     streamingExtentsMin: [{ $: {
       x: worldPosition.x + Math.min(p1.x, p2.x) - lod,
@@ -194,8 +194,8 @@ const generateYmap = (name, worldPosition, quaternion, p1, p2, lod = 800 ) => bu
     }}],
     streamingExtentsMax: [{ $: {
       x: worldPosition.x + Math.max(p1.x, p2.x) + lod,
-      y: worldPosition.x + Math.max(p1.x, p2.x) + lod,
-      z: worldPosition.x + Math.max(p1.x, p2.x) + lod
+      y: worldPosition.y + Math.max(p1.y, p2.y) + lod,
+      z: worldPosition.z + Math.max(p1.z, p2.z) + lod
     }}],
     entitiesExtentsMin:  [{ $: {
       x: worldPosition.x + Math.min(p1.x, p2.x),
@@ -211,9 +211,13 @@ const generateYmap = (name, worldPosition, quaternion, p1, p2, lod = 800 ) => bu
       { Item: [{
         $: { type: "CEntityDef" },
         archetypeName: [ name ],
-        flags: [{ $: { value: 0 }}],
+        flags: [{ $: { value: 32 }}],
         guid: [{ $: { value: 0 }}],
-        position: [{ $: worldPosition }],
+        position: [{ $: {
+          x: worldPosition.x + (p1.x + (p2.x - p1.x) / 2),
+          y: worldPosition.y + (p1.y + (p2.y - p1.y) / 2),
+          z: worldPosition.z + (p1.z + (p2.z - p1.z) / 2),
+        }}],
         rotation: [{ $: quaternion }],
         scaleXY: [ { $: { value: 1.00000000 }}],
         scaleZ: [ { $: { value: 1.00000000 }}],
