@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>behind_weazel_space</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-629.7993006163293" y="-973.6624553575089" z="-727.01066"/>
+  <streamingExtentsMax x="980.3764993836706" y="980.3764993836706" z="980.3764993836706"/>
+  <entitiesExtentsMin x="170.20069938367067" y="-173.66245535750892" z="72.98934"/>
+  <entitiesExtentsMax x="180.37649938367068" y="-164.1731653575089" z="78.65877"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>suburban</archetypeName>
+      <flags value="0"/>
+      <guid value="0"/>
+      <position x="199.55079938367066" y="-178.7244653575089" z="64.69637"/>
+      <rotation x="0" y="0" z="0.9304156127534519" w="0.36650619032237197"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>behind_weazel_space</name>
+    <owner/>
+  </block>
+</CMapData>

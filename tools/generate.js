@@ -210,7 +210,7 @@ const generateYmap = (name, worldPosition, quaternion, p1, p2, lod = 800 ) => bu
     entities: [
       { Item: [{
         $: { type: "CEntityDef" },
-        archetypeName: [ "suburban" ],
+        archetypeName: [ name ],
         flags: [{ $: { value: 0 }}],
         guid: [{ $: { value: 0 }}],
         position: [{ $: worldPosition }],
@@ -262,15 +262,15 @@ const generateManifest = (billboardNames) => builder.buildObject({
     imapDependencies: [""],
     itypDependencies_2: [""],
     Interiors: [""],
-    imapDependencies_2: billboardNames.map((name) => ({
-      Item: {
+    imapDependencies_2: {
+      Item: billboardNames.map((name) => ({
         imapName: name,
         manifestFlags: [""],
         itypDepArray: [{
           Item: name
         }]
-      }
-    }))
+      }))
+    }
   }
 });
 

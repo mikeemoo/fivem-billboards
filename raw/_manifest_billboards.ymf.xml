@@ -13,5 +13,33 @@
         <Item>suburban</Item>
       </itypDepArray>
     </Item>
+    <Item>
+      <imapName>flying_bravo</imapName>
+      <manifestFlags/>
+      <itypDepArray>
+        <Item>flying_bravo</Item>
+      </itypDepArray>
+    </Item>
+    <Item>
+      <imapName>crevis</imapName>
+      <manifestFlags/>
+      <itypDepArray>
+        <Item>crevis</Item>
+      </itypDepArray>
+    </Item>
+    <Item>
+      <imapName>weazel_space</imapName>
+      <manifestFlags/>
+      <itypDepArray>
+        <Item>weazel_space</Item>
+      </itypDepArray>
+    </Item>
+    <Item>
+      <imapName>behind_weazel_space</imapName>
+      <manifestFlags/>
+      <itypDepArray>
+        <Item>behind_weazel_space</Item>
+      </itypDepArray>
+    </Item>
   </imapDependencies_2>
 </CPackFileMetaData>

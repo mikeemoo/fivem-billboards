@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="32"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.065895301949322" y="-5.6693999999999996" z="-0.00001"/>
+      <bbMax x="17.065895301949322" y="5.6693999999999996" z="0.00001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.065895301949322"/>
+      <hdTextureDist value="1000"/>
+      <name>flying_bravo</name>
+      <textureDictionary>flying_bravo</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>flying_bravo</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>
