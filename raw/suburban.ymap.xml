@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>suburban</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-503.6757282094644" y="-1025.4988431686957" z="-727.82316"/>
+  <streamingExtentsMax x="1110.2730117905355" y="1110.2730117905355" z="1110.2730117905355"/>
+  <entitiesExtentsMin x="296.3242717905356" y="-225.4988431686956" z="72.17684"/>
+  <entitiesExtentsMax x="310.2730117905356" y="-215.6658331686956" z="77.84675999999999"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>suburban</archetypeName>
+      <flags value="0"/>
+      <guid value="0"/>
+      <position x="303.2261317905356" y="-220.4793131686956" z="75.0118"/>
+      <rotation x="0" y="0" z="0.30221599778483416" w="0.9532394718447811"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="800"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>suburban</name>
+    <owner/>
+  </block>
+</CMapData>

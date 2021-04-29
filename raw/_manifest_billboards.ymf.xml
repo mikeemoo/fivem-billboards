@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CPackFileMetaData>
+  <MapDataGroups/>
+  <HDTxdBindingArray/>
+  <imapDependencies/>
+  <itypDependencies_2/>
+  <Interiors/>
+  <imapDependencies_2>
+    <Item>
+      <imapName>suburban</imapName>
+      <manifestFlags/>
+      <itypDepArray>
+        <Item>suburban</Item>
+      </itypDepArray>
+    </Item>
+  </imapDependencies_2>
+</CPackFileMetaData>

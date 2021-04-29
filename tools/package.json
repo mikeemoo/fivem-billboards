@@ -1,0 +1,13 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "dxt-js": "^0.0.3",
+    "hash-jenkins": "^1.0.1",
+    "quaternion": "^1.1.0",
+    "xml2js": "^0.4.23",
+    "zlib": "^1.0.5"
+  }
+}
