@@ -4,17 +4,17 @@
   <parent/>
   <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-503.6757282094644" y="-1025.4988431686957" z="-727.82316"/>
-  <streamingExtentsMax x="1110.2730117905355" y="1110.2730117905355" z="1110.2730117905355"/>
-  <entitiesExtentsMin x="296.3242717905356" y="-225.4988431686956" z="72.17684"/>
-  <entitiesExtentsMax x="310.2730117905356" y="-215.6658331686956" z="77.84675999999999"/>
+  <streamingExtentsMin x="-503.65844315637776" y="-1025.5233630981365" z="-727.82316"/>
+  <streamingExtentsMax x="1110.2902968436222" y="1110.2902968436222" z="1110.2902968436222"/>
+  <entitiesExtentsMin x="296.34155684362224" y="-225.5233630981366" z="72.17684"/>
+  <entitiesExtentsMax x="310.29029684362223" y="-215.6903530981366" z="77.84675999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>suburban</archetypeName>
       <flags value="0"/>
       <guid value="0"/>
-      <position x="303.2261317905356" y="-220.4793131686956" z="75.0118"/>
-      <rotation x="0" y="0" z="0.30221599778483416" w="0.9532394718447811"/>
+      <position x="303.24341684362224" y="-220.5038330981366" z="75.0118"/>
+      <rotation x="0" y="0" z="-0.30221599778483416" w="0.9532394718447811"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="-1"/>
