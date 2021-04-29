@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>loneliest_robot2</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-871.6470171014569" y="-1003.0332400509784" z="-747.32136"/>
+  <streamingExtentsMax x="741.0077328985432" y="602.8680599490216" z="858.348077"/>
+  <entitiesExtentsMin x="-71.64701710145684" y="-203.03324005097843" z="52.678639999999994"/>
+  <entitiesExtentsMax x="-58.99226710145685" y="-197.13194005097844" z="58.348076999999996"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>loneliest_robot2</archetypeName>
+      <flags value="32"/>
+      <guid value="0"/>
+      <position x="-65.31964210145685" y="-200.08259005097844" z="55.513358499999995"/>
+      <rotation x="0" y="0" z="0.9762939478220369" w="0.21644890262152383"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>loneliest_robot2</name>
+    <owner/>
+  </block>
+</CMapData>

@@ -2,18 +2,18 @@
 <CMapData>
   <name>suburban</name>
   <parent/>
-  <flags value="32"/>
+  <flags value="0"/>
   <contentFlags value="1"/>
   <streamingExtentsMin x="-503.65844315637776" y="-1025.5233630981365" z="-727.82316"/>
-  <streamingExtentsMax x="1110.2902968436222" y="1110.2902968436222" z="1110.2902968436222"/>
+  <streamingExtentsMax x="1110.2902968436222" y="584.3096469018634" z="877.84676"/>
   <entitiesExtentsMin x="296.34155684362224" y="-225.5233630981366" z="72.17684"/>
   <entitiesExtentsMax x="310.29029684362223" y="-215.6903530981366" z="77.84675999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>suburban</archetypeName>
-      <flags value="0"/>
+      <flags value="32"/>
       <guid value="0"/>
-      <position x="303.24341684362224" y="-220.5038330981366" z="75.0118"/>
+      <position x="303.31592684362226" y="-220.6068580981366" z="75.0118"/>
       <rotation x="0" y="0" z="-0.30221599778483416" w="0.9532394718447811"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>

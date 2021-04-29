@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>dusche_gold2</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-656.9293607059074" y="-815.6055298373939" z="-717.37999"/>
+  <streamingExtentsMax x="957.0305392940926" y="794.1664501626061" z="888.27674"/>
+  <entitiesExtentsMin x="143.07063929409262" y="-15.605529837393888" z="82.62001"/>
+  <entitiesExtentsMax x="157.03053929409262" y="-5.833549837393887" z="88.27673999999999"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>dusche_gold2</archetypeName>
+      <flags value="32"/>
+      <guid value="0"/>
+      <position x="150.05058929409262" y="-10.719539837393889" z="85.448375"/>
+      <rotation x="0" y="0" z="-0.9537375273156596" w="0.30064053118269246"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>dusche_gold2</name>
+    <owner/>
+  </block>
+</CMapData>

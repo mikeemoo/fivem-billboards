@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>digitalden1</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-289.44658658814274" y="-888.6984510231906" z="-722.87085"/>
+  <streamingExtentsMax x="1324.7384734118573" y="713.8025489768094" z="883.9607100000001"/>
+  <entitiesExtentsMin x="510.55341341185726" y="-88.69845102319064" z="77.12915"/>
+  <entitiesExtentsMax x="524.7384734118573" y="-86.19745102319064" z="83.96071"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>digitalden1</archetypeName>
+      <flags value="32"/>
+      <guid value="0"/>
+      <position x="517.6459434118573" y="-87.44795102319064" z="80.54493"/>
+      <rotation x="0" y="0" z="-0.08714863192727662" w="0.9961953201823446"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>digitalden1</name>
+    <owner/>
+  </block>
+</CMapData>

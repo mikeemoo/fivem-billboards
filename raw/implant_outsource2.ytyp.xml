@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="32"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-13.963146478942345" y="-5.669400000000001" z="-0.00001"/>
+      <bbMax x="13.963146478942345" y="5.669400000000001" z="0.00001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="13.963146478942345"/>
+      <hdTextureDist value="1000"/>
+      <name>implant_outsource2</name>
+      <textureDictionary>implant_outsource2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>implant_outsource2</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

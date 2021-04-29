@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>cherry_popper</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-609.2118724231333" y="-835.9239717042892" z="-712.64267"/>
+  <streamingExtentsMax x="1000.0454275768667" y="772.9686082957107" z="893.02675"/>
+  <entitiesExtentsMin x="190.78812757686674" y="-35.923971704289244" z="87.35733"/>
+  <entitiesExtentsMax x="200.04542757686673" y="-27.03139170428924" z="93.02675"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>cherry_popper</archetypeName>
+      <flags value="32"/>
+      <guid value="0"/>
+      <position x="195.41677757686674" y="-31.47768170428924" z="90.19204"/>
+      <rotation x="0" y="0" z="-0.37338289400813834" w="0.9276773223821456"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>cherry_popper</name>
+    <owner/>
+  </block>
+</CMapData>

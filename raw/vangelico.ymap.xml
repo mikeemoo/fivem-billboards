@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>vangelico</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1268.192115784282" y="-883.5708805718507" z="-750.61833"/>
+  <streamingExtentsMax x="340.8859942157181" y="727.6400844281494" z="856.08138"/>
+  <entitiesExtentsMin x="-468.1921157842819" y="-83.57088057185064" z="49.38167"/>
+  <entitiesExtentsMax x="-459.1140057842819" y="-72.35991557185064" z="56.081379999999996"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>vangelico</archetypeName>
+      <flags value="32"/>
+      <guid value="0"/>
+      <position x="-463.65306078428193" y="-77.96539807185063" z="52.731525"/>
+      <rotation x="0" y="0" z="0.43051961714517833" w="0.9025812203082718"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>vangelico</name>
+    <owner/>
+  </block>
+</CMapData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>swallow</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-723.2178001798503" y="-797.8676398895699" z="-722.80732"/>
+  <streamingExtentsMax x="885.9296998201497" y="811.1846091104301" z="882.8797"/>
+  <entitiesExtentsMin x="76.78219982014969" y="2.132360110430115" z="77.19268"/>
+  <entitiesExtentsMax x="85.92969982014968" y="11.184609110430115" z="82.8797"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>swallow</archetypeName>
+      <flags value="32"/>
+      <guid value="0"/>
+      <position x="81.35594982014968" y="6.658484610430115" z="80.03619"/>
+      <rotation x="0" y="0" z="-0.38026451885645357" w="0.9248777733835265"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>swallow</name>
+    <owner/>
+  </block>
+</CMapData>

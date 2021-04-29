@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="32"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.02344557462607" y="-5.678720000000001" z="-0.00001"/>
+      <bbMax x="17.02344557462607" y="5.678720000000001" z="0.00001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.02344557462607"/>
+      <hdTextureDist value="1000"/>
+      <name>dusche_gold1</name>
+      <textureDictionary>dusche_gold1</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dusche_gold1</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

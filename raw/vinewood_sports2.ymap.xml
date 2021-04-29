@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>vinewood_sports2</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-736.3984043645166" y="-926.6778073612761" z="-732.34085"/>
+  <streamingExtentsMax x="871.0010056354834" y="685.1635026387239" z="873.32909"/>
+  <entitiesExtentsMin x="63.60159563548335" y="-126.67780736127605" z="67.65915"/>
+  <entitiesExtentsMax x="71.00100563548335" y="-114.83649736127606" z="73.32909"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>vinewood_sports2</archetypeName>
+      <flags value="32"/>
+      <guid value="0"/>
+      <position x="67.30130063548334" y="-120.75715236127606" z="70.49412"/>
+      <rotation x="0" y="0" z="0.874621743166556" w="0.48480594713791925"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>vinewood_sports2</name>
+    <owner/>
+  </block>
+</CMapData>

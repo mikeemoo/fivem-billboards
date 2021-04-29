@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>smell_like_a_bitch</name>
+  <parent/>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1328.4721488222785" y="-863.7427714816729" z="-749.6445"/>
+  <streamingExtentsMax x="277.1640811777214" y="749.5360085183271" z="857.05472"/>
+  <entitiesExtentsMin x="-528.4721488222785" y="-63.74277148167289" z="50.3555"/>
+  <entitiesExtentsMax x="-522.8359188222786" y="-50.46399148167289" z="57.05472"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>smell_like_a_bitch</archetypeName>
+      <flags value="32"/>
+      <guid value="0"/>
+      <position x="-525.6540338222786" y="-57.10338148167289" z="53.705110000000005"/>
+      <rotation x="0" y="0" z="-0.5519443736786831" w="0.8338809317669078"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>smell_like_a_bitch</name>
+    <owner/>
+  </block>
+</CMapData>

@@ -2,18 +2,18 @@
 <CMapData>
   <name>behind_weazel_space</name>
   <parent/>
-  <flags value="32"/>
+  <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-629.7993006163293" y="-973.6624553575089" z="-727.01066"/>
-  <streamingExtentsMax x="980.3764993836706" y="980.3764993836706" z="980.3764993836706"/>
-  <entitiesExtentsMin x="170.20069938367067" y="-173.66245535750892" z="72.98934"/>
-  <entitiesExtentsMax x="180.37649938367068" y="-164.1731653575089" z="78.65877"/>
+  <streamingExtentsMin x="-629.8116006163293" y="-973.3093553575089" z="-734.27885"/>
+  <streamingExtentsMax x="980.3641993836707" y="636.179934642491" z="871.39058"/>
+  <entitiesExtentsMin x="170.18839938367066" y="-173.30935535750893" z="65.72115"/>
+  <entitiesExtentsMax x="180.36419938367067" y="-163.82006535750892" z="71.39058"/>
   <entities>
     <Item type="CEntityDef">
-      <archetypeName>suburban</archetypeName>
-      <flags value="0"/>
+      <archetypeName>behind_weazel_space</archetypeName>
+      <flags value="32"/>
       <guid value="0"/>
-      <position x="199.55079938367066" y="-178.7244653575089" z="64.69637"/>
+      <position x="175.27629938367065" y="-168.56471035750891" z="68.555865"/>
       <rotation x="0" y="0" z="0.9304156127534519" w="0.36650619032237197"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>

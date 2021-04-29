@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="32"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-14.398031633872735" y="-6.692360000000001" z="-0.00001"/>
+      <bbMax x="14.398031633872735" y="6.692360000000001" z="0.00001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="14.398031633872735"/>
+      <hdTextureDist value="1000"/>
+      <name>obey1</name>
+      <textureDictionary>obey1</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>obey1</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

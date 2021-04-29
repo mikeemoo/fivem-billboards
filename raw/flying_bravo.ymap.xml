@@ -2,18 +2,18 @@
 <CMapData>
   <name>flying_bravo</name>
   <parent/>
-  <flags value="32"/>
+  <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-597.8840174350725" y="-995.7072819705726" z="-720.28363"/>
-  <streamingExtentsMax x="1006.5329725649276" y="1006.5329725649276" z="1006.5329725649276"/>
-  <entitiesExtentsMin x="202.11598256492752" y="-195.70728197057258" z="79.71637"/>
-  <entitiesExtentsMax x="206.53297256492755" y="-179.22289597057258" z="85.38577000000001"/>
+  <streamingExtentsMin x="-597.8963174350724" y="-995.3541819705727" z="-727.55182"/>
+  <streamingExtentsMax x="1006.5206725649275" y="621.1302040294274" z="878.11758"/>
+  <entitiesExtentsMin x="202.1036825649275" y="-195.3541819705726" z="72.44818"/>
+  <entitiesExtentsMax x="206.5206725649275" y="-178.8697959705726" z="78.11758"/>
   <entities>
     <Item type="CEntityDef">
-      <archetypeName>suburban</archetypeName>
-      <flags value="0"/>
+      <archetypeName>flying_bravo</archetypeName>
+      <flags value="32"/>
       <guid value="0"/>
-      <position x="199.71559256492753" y="-178.82348197057257" z="64.69637"/>
+      <position x="204.3121775649275" y="-187.11198897057258" z="75.28288"/>
       <rotation x="0" y="0" z="-0.6087611577105069" w="0.7933535484656027"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>

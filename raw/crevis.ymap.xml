@@ -2,18 +2,18 @@
 <CMapData>
   <name>crevis</name>
   <parent/>
-  <flags value="32"/>
+  <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-603.7338418877354" y="-993.5400405522334" z="-720.28363"/>
-  <streamingExtentsMax x="1003.4629381122647" y="1003.4629381122647" z="1003.4629381122647"/>
-  <entitiesExtentsMin x="196.26615811226466" y="-193.5400405522335" z="79.71637"/>
-  <entitiesExtentsMax x="203.46293811226468" y="-178.1054385522335" z="85.38577000000001"/>
+  <streamingExtentsMin x="-603.7461418877353" y="-993.1869405522335" z="-727.55182"/>
+  <streamingExtentsMax x="1003.4506381122646" y="622.2476614477665" z="878.11758"/>
+  <entitiesExtentsMin x="196.25385811226465" y="-193.18694055223352" z="72.44818"/>
+  <entitiesExtentsMax x="203.45063811226467" y="-177.7523385522335" z="78.11758"/>
   <entities>
     <Item type="CEntityDef">
-      <archetypeName>suburban</archetypeName>
-      <flags value="0"/>
+      <archetypeName>crevis</archetypeName>
+      <flags value="32"/>
       <guid value="0"/>
-      <position x="199.52836811226467" y="-178.7553405522335" z="64.69637"/>
+      <position x="199.85224811226468" y="-185.4696395522335" z="75.28288"/>
       <rotation x="0" y="0" z="0.8433843956539337" w="0.5373106747194298"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
