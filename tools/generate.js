@@ -112,7 +112,30 @@ const generateYdr = (name, textureName = "texture", width, height) => {
               ...Array(4848).fill(0)
   ]);
 
-  // write the object name
+  // bounding sphere radius
+  contentBuffer.writeFloatLE(Math.max(hWidth, hHeight) * 2, 0x02C);
+
+  // bounding box min
+  contentBuffer.writeFloatLE(-hWidth,   0x030); // x
+  contentBuffer.writeFloatLE(-hWidth,   0x3C0); // x
+
+  contentBuffer.writeFloatLE(-0.0001,   0x034); // y
+  contentBuffer.writeFloatLE(-0.0001,   0x3C4); // y
+
+  contentBuffer.writeFloatLE(-hHeight,   0x038); // z
+  contentBuffer.writeFloatLE(-hHeight,   0x3C8); // z
+
+  // bounding box max
+  contentBuffer.writeFloatLE(hWidth,    0x040); // x
+  contentBuffer.writeFloatLE(hWidth,    0x3D0); // x
+
+  contentBuffer.writeFloatLE(0.0001,    0x044); // y
+  contentBuffer.writeFloatLE(0.0001,    0x3D4); // y
+
+  contentBuffer.writeFloatLE(hHeight,   0x048); // z
+  contentBuffer.writeFloatLE(hHeight,   0x3D8); // z
+
+  // object name
   contentBuffer.write(name, 0x140, 'ascii');
   contentBuffer.write(textureName, 0xC80, 'ascii');
 
@@ -160,8 +183,8 @@ const generateYtyp = (name, width, height, lod) => builder.buildObject({
         lodDist: [{ $: { value: lod }}],
         flags: [{ $: { value: 0 }}],
         specialAttribute: [{ $: { value: 0 }}],
-        bbMin: [{ $: { x: -width, y: -height, z:-0.00001 }}],
-        bbMax: [{ $: { x: width, y: height, z: 0.00001 }}],
+        bbMin: [{ $: { x: -width, y: -0.0001, z: -height}}],
+        bbMax: [{ $: { x: width, y: 0.0001, z: height }}],
         bsCentre: [{ $: { x: 0.00000000, y: 0.00000000, z: 0.00000000 }}],
         bsRadius: [{ $: { value: Math.max(width, height) }}],
         hdTextureDist: [{ $: { value: lod }}],

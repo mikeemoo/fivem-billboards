@@ -6,8 +6,8 @@
       <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
-      <bbMin x="-4.456024724576941" y="-7.05811" z="-0.00001"/>
-      <bbMax x="4.456024724576941" y="7.05811" z="0.00001"/>
+      <bbMin x="-4.456024724576941" y="-0.0001" z="-7.05811"/>
+      <bbMax x="4.456024724576941" y="0.0001" z="7.05811"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="7.05811"/>
       <hdTextureDist value="1000"/>
