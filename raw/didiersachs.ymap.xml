@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>didiersachs</name>
+  <parent>didiersachs_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-89.80425030575913" y="181.2251079843079" z="0.18475999999999715"/>
+  <streamingExtentsMax x="159.09954969424086" y="445.6884579843079" z="251.9352"/>
+  <entitiesExtentsMin x="30.195749694240877" y="301.2251079843079" z="120.18476"/>
+  <entitiesExtentsMax x="39.09954969424088" y="325.6884579843079" z="131.9352"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>didiersachs</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="34.647649694240876" y="313.4567829843079" z="126.05998"/>
+      <rotation x="0" y="0" z="-0.5735783764558386" w="0.8191506858095672"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>didiersachs</name>
+    <owner/>
+  </block>
+</CMapData>

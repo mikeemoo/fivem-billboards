@@ -4,8 +4,8 @@
   <parent>sludgie_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="423.56928404091764" y="-272.74914288932484" z="-45.67553000000001"/>
-  <streamingExtentsMax x="674.5243340409176" y="-19.696942889324873" z="199.95287000000002"/>
+  <streamingExtentsMin x="453.56928404091764" y="-242.74914288932487" z="-15.675530000000009"/>
+  <streamingExtentsMax x="644.5243340409176" y="-49.69694288932487" z="169.95287000000002"/>
   <entitiesExtentsMin x="543.5692840409176" y="-152.74914288932487" z="74.32446999999999"/>
   <entitiesExtentsMax x="554.5243340409176" y="-139.69694288932487" z="79.95287"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="90"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

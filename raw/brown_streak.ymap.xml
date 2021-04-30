@@ -4,8 +4,8 @@
   <parent>brown_streak_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-138.30185233477232" y="-279.6299542719927" z="-54.608000000000004"/>
-  <streamingExtentsMax x="104.07217166522767" y="-33.186654271992666" z="188.32022999999998"/>
+  <streamingExtentsMin x="-118.30185233477232" y="-259.6299542719927" z="-34.608000000000004"/>
+  <streamingExtentsMax x="84.07217166522767" y="-53.186654271992666" z="168.32022999999998"/>
   <entitiesExtentsMin x="-18.301852334772324" y="-159.6299542719927" z="65.392"/>
   <entitiesExtentsMax x="-15.927828334772325" y="-153.18665427199267" z="68.32023"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="100"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

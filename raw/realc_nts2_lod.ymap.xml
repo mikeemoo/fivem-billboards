@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>realc_nts2_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-542.5719163470609" y="-874.6979283513786" z="-877.2855"/>
+  <streamingExtentsMax x="1468.3831836529391" y="1138.3537716486214" z="1128.3429"/>
+  <entitiesExtentsMin x="457.4280836529391" y="125.30207164862148" z="122.7145"/>
+  <entitiesExtentsMax x="468.38318365293907" y="138.3537716486215" z="128.34290000000001"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>realc_nts2_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="462.90563365293906" y="131.8279216486215" z="125.5287"/>
+      <rotation x="0" y="0" z="-0.906340304577961" w="0.4225485206429303"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="85"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>realc_nts2_lod</name>
+    <owner/>
+  </block>
+</CMapData>

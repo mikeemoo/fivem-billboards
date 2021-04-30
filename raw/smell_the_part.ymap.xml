@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>smell_the_part</name>
+  <parent>smell_the_part_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-107.68854743197198" y="117.45366885392554" z="17.123000000000005"/>
+  <streamingExtentsMax x="100.49065256802803" y="329.33647885392554" z="223.8222"/>
+  <entitiesExtentsMin x="-7.688547431971976" y="217.45366885392554" z="117.123"/>
+  <entitiesExtentsMax x="0.49065256802802537" y="229.33647885392554" z="123.82220000000001"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>smell_the_part</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-3.598947431971979" y="223.39507385392554" z="120.4726"/>
+      <rotation x="0" y="0" z="-0.8851521166599816" w="0.4653017627006739"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="100"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>smell_the_part</name>
+    <owner/>
+  </block>
+</CMapData>

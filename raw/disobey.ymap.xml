@@ -4,8 +4,8 @@
   <parent>disobey_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="380.81840954482203" y="-6.475165731062646" z="17.76249999999999"/>
-  <streamingExtentsMax x="637.289559544822" y="237.95153426893734" z="263.43190000000004"/>
+  <streamingExtentsMin x="410.81840954482203" y="23.524834268937354" z="47.76249999999999"/>
+  <streamingExtentsMax x="607.289559544822" y="207.95153426893734" z="233.4319"/>
   <entitiesExtentsMin x="500.81840954482203" y="113.52483426893735" z="137.7625"/>
   <entitiesExtentsMax x="517.289559544822" y="117.95153426893735" z="143.4319"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="90"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

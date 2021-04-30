@@ -4,8 +4,8 @@
   <parent>implant_outsource2_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-136.60947804094965" y="-230.70669006929913" z="-46.2642"/>
-  <streamingExtentsMax x="110.79002195905036" y="21.134629930700868" z="199.4052"/>
+  <streamingExtentsMin x="-106.60947804094964" y="-200.70669006929913" z="-16.264200000000002"/>
+  <streamingExtentsMax x="80.79002195905036" y="-8.865370069299132" z="169.4052"/>
   <entitiesExtentsMin x="-16.609478040949643" y="-110.70669006929913" z="73.7358"/>
   <entitiesExtentsMax x="-9.209978040949643" y="-98.86537006929913" z="79.40520000000001"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="90"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

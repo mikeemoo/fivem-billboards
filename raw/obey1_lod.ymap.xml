@@ -4,22 +4,22 @@
   <parent/>
   <flags value="2"/>
   <contentFlags value="2"/>
-  <streamingExtentsMin x="-372.89824410141614" y="-802.6212387079383" z="-892.97416"/>
-  <streamingExtentsMax x="1632.0314558985838" y="1210.9065612920617" z="1113.7182"/>
-  <entitiesExtentsMin x="627.1017558985839" y="197.37876129206163" z="107.02584"/>
-  <entitiesExtentsMax x="632.0314558985838" y="210.9065612920616" z="113.7182"/>
+  <streamingExtentsMin x="-372.82424410141607" y="-802.6481387079384" z="-892.97406"/>
+  <streamingExtentsMax x="1632.1054558985838" y="1210.8796612920617" z="1113.7183"/>
+  <entitiesExtentsMin x="627.1757558985839" y="197.35186129206164" z="107.02594"/>
+  <entitiesExtentsMax x="632.1054558985838" y="210.87966129206163" z="113.7183"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>obey1_lod</archetypeName>
       <flags value="1572864"/>
       <guid value="0"/>
-      <position x="629.5666058985838" y="204.14266129206163" z="110.37202"/>
+      <position x="629.6406058985839" y="204.11576129206162" z="110.37212"/>
       <rotation x="0" y="0" z="-0.5734164806735192" w="0.8192640231891033"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="-1"/>
       <lodDist value="1000"/>
-      <childLodDist value="120"/>
+      <childLodDist value="150"/>
       <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
       <numChildren value="1"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>

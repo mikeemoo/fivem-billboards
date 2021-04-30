@@ -4,8 +4,8 @@
   <parent>loneliest_robot_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-190.85523114686578" y="-325.1583559166915" z="-67.32136"/>
-  <streamingExtentsMax x="62.63157885313421" y="-81.5440659166915" z="178.348077"/>
+  <streamingExtentsMin x="-170.85523114686578" y="-305.1583559166915" z="-47.321360000000006"/>
+  <streamingExtentsMax x="42.63157885313421" y="-101.5440659166915" z="158.348077"/>
   <entitiesExtentsMin x="-70.85523114686579" y="-205.1583559166915" z="52.678639999999994"/>
   <entitiesExtentsMax x="-57.36842114686579" y="-201.5440659166915" z="58.348076999999996"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="100"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

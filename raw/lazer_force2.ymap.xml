@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>lazer_force2</name>
+  <parent>lazer_force2_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-469.35338480682867" y="146.50692634658014" z="-16.40957300000001"/>
+  <streamingExtentsMax x="-236.39000480682864" y="393.3125663465801" z="219.25887999999998"/>
+  <entitiesExtentsMin x="-354.35338480682867" y="261.50692634658014" z="98.59042699999999"/>
+  <entitiesExtentsMax x="-351.39000480682864" y="278.3125663465801" z="104.25887999999999"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>lazer_force2</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-352.87169480682866" y="269.9097463465801" z="101.42465349999999"/>
+      <rotation x="0" y="0" z="0.6427855708103283" w="0.766046153934631"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="115"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>lazer_force2</name>
+    <owner/>
+  </block>
+</CMapData>

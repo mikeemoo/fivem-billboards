@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.06592569966833" y="-5.669440000000001" z="-0.00001"/>
+      <bbMax x="17.06592569966833" y="5.669440000000001" z="0.00001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.06592569966833"/>
+      <hdTextureDist value="1000"/>
+      <name>fame_or_shame_lod</name>
+      <textureDictionary>fame_or_shame_lod</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fame_or_shame_lod</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

@@ -4,8 +4,8 @@
   <parent>digitalden1_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="390.53622363411864" y="-208.6009548102319" z="-42.870850000000004"/>
-  <streamingExtentsMax x="644.7212836341187" y="33.90004518976809" z="203.96071"/>
+  <streamingExtentsMin x="330.53622363411864" y="-268.6009548102319" z="-102.87085"/>
+  <streamingExtentsMax x="704.7212836341187" y="93.9000451897681" z="263.96071"/>
   <entitiesExtentsMin x="510.53622363411864" y="-88.60095481023191" z="77.12915"/>
   <entitiesExtentsMax x="524.7212836341187" y="-86.0999548102319" z="83.96071"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="180"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

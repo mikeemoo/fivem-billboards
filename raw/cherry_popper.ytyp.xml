@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="120"/>
+      <lodDist value="150"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-12.836494161039456" y="-5.669420000000001" z="-0.00001"/>
       <bbMax x="12.836494161039456" y="5.669420000000001" z="0.00001"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="12.836494161039456"/>
-      <hdTextureDist value="120"/>
+      <hdTextureDist value="150"/>
       <name>cherry_popper</name>
       <textureDictionary>cherry_popper</textureDictionary>
       <clipDictionary/>

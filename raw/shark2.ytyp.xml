@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="80"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-20.0826919610121" y="-7.059080000000001" z="-0.00001"/>
+      <bbMax x="20.0826919610121" y="7.059080000000001" z="0.00001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="20.0826919610121"/>
+      <hdTextureDist value="80"/>
+      <name>shark2</name>
+      <textureDictionary>shark2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shark2</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

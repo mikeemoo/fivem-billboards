@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>underbelly_of_paradise</name>
+  <parent>underbelly_of_paradise_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-391.3544427910858" y="198.01120395847363" z="15.490719999999996"/>
+  <streamingExtentsMax x="-186.81145279108574" y="400.2143339584736" z="214.5273"/>
+  <entitiesExtentsMin x="-296.3544427910858" y="293.01120395847363" z="110.49072"/>
+  <entitiesExtentsMax x="-281.81145279108574" y="305.2143339584736" z="119.5273"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>underbelly_of_paradise</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-289.08294779108576" y="299.1127689584736" z="115.00900999999999"/>
+      <rotation x="0" y="0" z="0.34202227532053975" w="0.9396918448004967"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="95"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>underbelly_of_paradise</name>
+    <owner/>
+  </block>
+</CMapData>

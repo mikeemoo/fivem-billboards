@@ -4,8 +4,8 @@
   <parent>flying_bravo_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="82.00805592564924" y="-315.32855881970573" z="-47.551820000000006"/>
-  <streamingExtentsMax x="326.4250459256493" y="-58.84417281970573" z="198.11758"/>
+  <streamingExtentsMin x="114.00805592564924" y="-283.32855881970573" z="-15.551820000000006"/>
+  <streamingExtentsMax x="294.4250459256493" y="-90.84417281970573" z="166.11758"/>
   <entitiesExtentsMin x="202.00805592564924" y="-195.32855881970573" z="72.44818"/>
   <entitiesExtentsMax x="206.42504592564927" y="-178.84417281970573" z="78.11758"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="88"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

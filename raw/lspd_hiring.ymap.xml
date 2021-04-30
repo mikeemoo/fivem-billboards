@@ -4,8 +4,8 @@
   <parent>lspd_hiring_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="420.1707961954676" y="-198.58528285305326" z="-40.12425"/>
-  <streamingExtentsMax x="661.2894961954676" y="54.20281714694674" z="205.54519"/>
+  <streamingExtentsMin x="360.1707961954676" y="-258.5852828530533" z="-100.12425"/>
+  <streamingExtentsMax x="721.2894961954676" y="114.20281714694674" z="265.54519"/>
   <entitiesExtentsMin x="540.1707961954676" y="-78.58528285305326" z="79.87575"/>
   <entitiesExtentsMax x="541.2894961954676" y="-65.79718285305326" z="85.54519"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="180"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

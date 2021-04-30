@@ -4,8 +4,8 @@
   <parent>lotto_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="428.4278466687764" y="-271.0503011160135" z="-45.54903"/>
-  <streamingExtentsMax x="676.9288666687764" y="-16.282201116013482" z="200.07547"/>
+  <streamingExtentsMin x="493.4278466687764" y="-206.0503011160135" z="19.450969999999998"/>
+  <streamingExtentsMax x="611.9288666687764" y="-81.28220111601348" z="135.07547"/>
   <entitiesExtentsMin x="548.4278466687764" y="-151.0503011160135" z="74.45097"/>
   <entitiesExtentsMax x="556.9288666687764" y="-136.28220111601348" z="80.07547"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="55"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

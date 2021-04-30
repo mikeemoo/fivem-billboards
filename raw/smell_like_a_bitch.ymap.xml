@@ -4,8 +4,8 @@
   <parent>smell_like_a_bitch_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-648.5632794882227" y="-183.70409071481674" z="-69.6445"/>
-  <streamingExtentsMax x="-402.9270494882228" y="69.57468928518327" z="177.05472"/>
+  <streamingExtentsMin x="-608.5632794882227" y="-143.70409071481674" z="-29.6445"/>
+  <streamingExtentsMax x="-442.9270494882228" y="29.57468928518327" z="137.05472"/>
   <entitiesExtentsMin x="-528.5632794882227" y="-63.70409071481673" z="50.3555"/>
   <entitiesExtentsMax x="-522.9270494882228" y="-50.42531071481673" z="57.05472"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="80"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

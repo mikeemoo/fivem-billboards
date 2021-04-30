@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>lazer_force2_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-1354.4508806828649" y="-738.5102653419915" z="-901.409573"/>
+  <streamingExtentsMax x="648.5124993171353" y="1278.2953746580083" z="1104.25888"/>
+  <entitiesExtentsMin x="-354.4508806828648" y="261.48973465800844" z="98.59042699999999"/>
+  <entitiesExtentsMax x="-351.4875006828648" y="278.2953746580084" z="104.25887999999999"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>lazer_force2_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-352.9691906828648" y="269.8925546580084" z="101.42465349999999"/>
+      <rotation x="0" y="0" z="0.6427855708103283" w="0.766046153934631"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="115"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>lazer_force2_lod</name>
+    <owner/>
+  </block>
+</CMapData>

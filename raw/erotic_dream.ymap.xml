@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>erotic_dream</name>
+  <parent>erotic_dream_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="104.87038718956191" y="96.5105877221159" z="55.43373"/>
+  <streamingExtentsMax x="254.2630071895619" y="252.1385207221159" z="205.1207"/>
+  <entitiesExtentsMin x="176.8703871895619" y="168.5105877221159" z="127.43373"/>
+  <entitiesExtentsMax x="182.2630071895619" y="180.1385207221159" z="133.1207"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>erotic_dream</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="179.5666971895619" y="174.3245542221159" z="130.277215"/>
+      <rotation x="0" y="0" z="-0.8428291985608501" w="0.5381811424170073"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="72"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>erotic_dream</name>
+    <owner/>
+  </block>
+</CMapData>

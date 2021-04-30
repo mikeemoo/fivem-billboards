@@ -4,8 +4,8 @@
   <parent>behind_weazel_space_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="50.255917993836704" y="-293.3817586535751" z="-54.278850000000006"/>
-  <streamingExtentsMax x="300.43171799383674" y="-43.892468653575094" z="191.39058"/>
+  <streamingExtentsMin x="82.2559179938367" y="-261.3817586535751" z="-22.278850000000006"/>
+  <streamingExtentsMax x="268.43171799383674" y="-75.8924686535751" z="159.39058"/>
   <entitiesExtentsMin x="170.2559179938367" y="-173.3817586535751" z="65.72115"/>
   <entitiesExtentsMax x="180.4317179938367" y="-163.8924686535751" z="71.39058"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="88"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

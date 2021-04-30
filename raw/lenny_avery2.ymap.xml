@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>lenny_avery2</name>
+  <parent>lenny_avery2_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-486.2580941635653" y="176.00314774045881" z="11.965919999999997"/>
+  <streamingExtentsMax x="-317.2648941635653" y="353.96308774045883" z="179.02499799999998"/>
+  <entitiesExtentsMin x="-406.2580941635653" y="256.0031477404588" z="91.96592"/>
+  <entitiesExtentsMax x="-397.2648941635653" y="273.96308774045883" z="99.024998"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>lenny_avery2</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-401.7614941635653" y="264.98311774045885" z="95.495459"/>
+      <rotation x="0" y="0" z="0.8508056355015603" w="0.5254805140048354"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="80"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>lenny_avery2</name>
+    <owner/>
+  </block>
+</CMapData>

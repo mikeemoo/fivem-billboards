@@ -267,13 +267,22 @@ const generateManifest = (billboardNames) => builder.buildObject({
     itypDependencies_2: [""],
     Interiors: [""],
     imapDependencies_2: {
-      Item: billboardNames.map((name) => ({
-        imapName: `${name}_lod`,
-        manifestFlags: [""],
-        itypDepArray: [{
-          Item: `${name}_lod`
-        }]
-      }))
+      Item: [
+        ...billboardNames.map((name) => ({
+          imapName: `${name}_lod`,
+          manifestFlags: [""],
+          itypDepArray: [{
+            Item: `${name}_lod`
+          }]
+        })),
+        ...billboardNames.map((name) => ({
+          imapName: `${name}`,
+          manifestFlags: [""],
+          itypDepArray: [{
+            Item: name
+          }]
+        }))
+      ]
     }
   }
 });
@@ -283,7 +292,7 @@ const generateManifest = (billboardNames) => builder.buildObject({
   
   Object.keys(billboards).forEach(async (name) => {
 
-    const { bottomLeft, topRight, worldPosition, offset, lod = 120 } = billboards[name];
+    const { bottomLeft, topRight, worldPosition, lod = 80, lodOffset = 0.05, offset = 0.001 } = billboards[name];
 
     const [ , x, y, z ] = worldPosition.match(/X:([^/s]+)Y:([^/s]+)Z:([^/s]+)/);
 
@@ -297,14 +306,14 @@ const generateManifest = (billboardNames) => builder.buildObject({
     const yaw = Math.atan2(topRight.y - bottomLeft.y, topRight.x - bottomLeft.x);
     
     let offsetPositionLod = {
-      x: wX + (Math.sin(yaw) * offset),
-      y: wY + ((-1 * Math.cos(yaw)) * offset),
+      x: wX + (Math.sin(yaw) * lodOffset),
+      y: wY + ((-1 * Math.cos(yaw)) * lodOffset),
       z: wZ
     };
     
     let offsetPosition = {
-      x: wX + (Math.sin(yaw) * 0.001),
-      y: wY + ((-1 * Math.cos(yaw)) * 0.001),
+      x: wX + (Math.sin(yaw) * offset),
+      y: wY + ((-1 * Math.cos(yaw)) * offset),
       z: wZ
     };
    

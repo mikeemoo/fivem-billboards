@@ -19,7 +19,7 @@
       <scaleZ value="1"/>
       <parentIndex value="-1"/>
       <lodDist value="1000"/>
-      <childLodDist value="120"/>
+      <childLodDist value="88"/>
       <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
       <numChildren value="1"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>

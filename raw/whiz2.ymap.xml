@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>whiz2</name>
+  <parent>whiz2_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-388.17730829619336" y="203.93188006579322" z="23.01034999999999"/>
+  <streamingExtentsMax x="-237.80960829619335" y="350.86205806579324" z="176.06846"/>
+  <entitiesExtentsMin x="-315.17730829619336" y="276.9318800657932" z="96.01034999999999"/>
+  <entitiesExtentsMax x="-310.80960829619335" y="277.86205806579324" z="103.06845999999999"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>whiz2</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-312.99345829619335" y="277.39696906579326" z="99.53940499999999"/>
+      <rotation x="0" y="0" z="0.9945013306220957" w="0.10472393895801027"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="73"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>whiz2</name>
+    <owner/>
+  </block>
+</CMapData>

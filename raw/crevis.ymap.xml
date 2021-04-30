@@ -4,8 +4,8 @@
   <parent>crevis_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="76.34358368112262" y="-313.22877740552235" z="-47.551820000000006"/>
-  <streamingExtentsMax x="323.54036368112264" y="-57.79417540552234" z="198.11758"/>
+  <streamingExtentsMin x="108.34358368112262" y="-281.22877740552235" z="-15.551820000000006"/>
+  <streamingExtentsMax x="291.54036368112264" y="-89.79417540552234" z="166.11758"/>
   <entitiesExtentsMin x="196.34358368112262" y="-193.22877740552235" z="72.44818"/>
   <entitiesExtentsMax x="203.54036368112264" y="-177.79417540552234" z="78.11758"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="88"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

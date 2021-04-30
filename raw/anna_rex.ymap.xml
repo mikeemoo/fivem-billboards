@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>anna_rex</name>
+  <parent>anna_rex_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="46.10328030477939" y="115.79064201300025" z="4.158740999999992"/>
+  <streamingExtentsMax x="288.4592403047794" y="362.26374201300024" z="259.2867"/>
+  <entitiesExtentsMin x="166.1032803047794" y="235.79064201300025" z="124.15874099999999"/>
+  <entitiesExtentsMax x="168.4592403047794" y="242.26374201300024" z="139.2867"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>anna_rex</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="167.2812603047794" y="239.02719201300025" z="131.72272049999998"/>
+      <rotation x="0" y="0" z="0.8191498642672126" w="0.5735795497322121"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>anna_rex</name>
+    <owner/>
+  </block>
+</CMapData>

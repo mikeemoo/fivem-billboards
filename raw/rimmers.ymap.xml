@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>rimmers</name>
+  <parent>rimmers_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-27.648724695014764" y="125.9707143923761" z="44.43411999999999"/>
+  <streamingExtentsMax x="146.61056530498524" y="301.7719443923761" z="216.1206"/>
+  <entitiesExtentsMin x="55.351275304985236" y="208.9707143923761" z="127.43412"/>
+  <entitiesExtentsMax x="63.610565304985236" y="218.7719443923761" z="133.1206"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>rimmers</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="59.48092030498523" y="213.87132939237608" z="130.27736"/>
+      <rotation x="0" y="0" z="0.9067503449438098" w="0.42166789294927576"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="83"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>rimmers</name>
+    <owner/>
+  </block>
+</CMapData>

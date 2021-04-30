@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>shark2</name>
+  <parent>shark2_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-485.60179422922164" y="199.82831760931543" z="12.96835999999999"/>
+  <streamingExtentsMax x="-316.61259422922166" y="377.78684760931543" z="180.02744"/>
+  <entitiesExtentsMin x="-405.60179422922164" y="279.82831760931543" z="92.96835999999999"/>
+  <entitiesExtentsMax x="-396.61259422922166" y="297.78684760931543" z="100.02744"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>shark2</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-401.10719422922165" y="288.80758260931543" z="96.49789999999999"/>
+      <rotation x="0" y="0" z="0.8507670995628376" w="0.5255429024365535"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="80"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>shark2</name>
+    <owner/>
+  </block>
+</CMapData>

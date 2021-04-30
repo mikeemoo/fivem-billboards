@@ -4,22 +4,22 @@
   <parent/>
   <flags value="2"/>
   <contentFlags value="2"/>
-  <streamingExtentsMin x="-1071.6470171014569" y="-1203.0332400509785" z="-947.32136"/>
-  <streamingExtentsMax x="941.0077328985432" y="802.8680599490216" z="1058.348077"/>
-  <entitiesExtentsMin x="-71.64701710145684" y="-203.03324005097843" z="52.678639999999994"/>
-  <entitiesExtentsMax x="-58.99226710145685" y="-197.13194005097844" z="58.348076999999996"/>
+  <streamingExtentsMin x="-1071.668148876821" y="-1202.987925063723" z="-947.32136"/>
+  <streamingExtentsMax x="940.986601123179" y="802.9133749362769" z="1058.348077"/>
+  <entitiesExtentsMin x="-71.66814887682105" y="-202.98792506372305" z="52.678639999999994"/>
+  <entitiesExtentsMax x="-59.01339887682106" y="-197.08662506372306" z="58.348076999999996"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>loneliest_robot2_lod</archetypeName>
       <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-65.31964210145685" y="-200.08259005097844" z="55.513358499999995"/>
+      <position x="-65.34077387682106" y="-200.03727506372306" z="55.513358499999995"/>
       <rotation x="0" y="0" z="0.9762939478220369" w="0.21644890262152383"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="-1"/>
       <lodDist value="1000"/>
-      <childLodDist value="120"/>
+      <childLodDist value="100"/>
       <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
       <numChildren value="1"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>

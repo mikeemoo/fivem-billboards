@@ -4,8 +4,8 @@
   <parent>vinewood_sports2_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-56.31444804364516" y="-246.73027007361276" z="-52.34085"/>
-  <streamingExtentsMax x="191.08496195635485" y="5.1110399263872495" z="193.32909"/>
+  <streamingExtentsMin x="-21.314448043645157" y="-211.73027007361276" z="-17.340850000000003"/>
+  <streamingExtentsMax x="156.08496195635485" y="-29.88896007361275" z="158.32909"/>
   <entitiesExtentsMin x="63.68555195635484" y="-126.73027007361274" z="67.65915"/>
   <entitiesExtentsMax x="71.08496195635485" y="-114.88896007361275" z="73.32909"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="85"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

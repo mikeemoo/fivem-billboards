@@ -4,22 +4,22 @@
   <parent/>
   <flags value="2"/>
   <contentFlags value="2"/>
-  <streamingExtentsMin x="-923.2178001798503" y="-997.8676398895699" z="-922.80732"/>
-  <streamingExtentsMax x="1085.9296998201496" y="1011.1846091104301" z="1082.8797"/>
-  <entitiesExtentsMin x="76.78219982014969" y="2.132360110430115" z="77.19268"/>
-  <entitiesExtentsMax x="85.92969982014968" y="11.184609110430115" z="82.8797"/>
+  <streamingExtentsMin x="-923.1826303597006" y="-997.9031797791398" z="-922.80732"/>
+  <streamingExtentsMax x="1085.9648696402994" y="1011.1490692208603" z="1082.8797"/>
+  <entitiesExtentsMin x="76.81736964029935" y="2.096820220860227" z="77.19268"/>
+  <entitiesExtentsMax x="85.96486964029934" y="11.149069220860227" z="82.8797"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>swallow_lod</archetypeName>
       <flags value="1572864"/>
       <guid value="0"/>
-      <position x="81.35594982014968" y="6.658484610430115" z="80.03619"/>
+      <position x="81.39111964029934" y="6.622944720860227" z="80.03619"/>
       <rotation x="0" y="0" z="-0.38026451885645357" w="0.9248777733835265"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="-1"/>
       <lodDist value="1000"/>
-      <childLodDist value="120"/>
+      <childLodDist value="85"/>
       <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
       <numChildren value="1"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>

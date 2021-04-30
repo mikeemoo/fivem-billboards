@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>poppy_m</name>
+  <parent>poppy_m_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-277.43053443427794" y="165.86407867981504" z="31.522760000000005"/>
+  <streamingExtentsMax x="-130.28153443427794" y="313.60037867981504" z="175.36700000000002"/>
+  <entitiesExtentsMin x="-207.43053443427794" y="235.86407867981504" z="101.52276"/>
+  <entitiesExtentsMax x="-200.28153443427794" y="243.60037867981504" z="105.367"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>poppy_m</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-203.85603443427794" y="239.73222867981505" z="103.44488"/>
+      <rotation x="0" y="0" z="0.91615495824885" w="0.40082426632633894"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="70"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>poppy_m</name>
+    <owner/>
+  </block>
+</CMapData>

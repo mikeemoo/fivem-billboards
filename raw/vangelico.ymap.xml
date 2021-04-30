@@ -4,8 +4,8 @@
   <parent>vangelico_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-588.1151771578428" y="-203.5085793057185" z="-70.61833"/>
-  <streamingExtentsMax x="-339.03706715784284" y="47.70238569428149" z="176.08138"/>
+  <streamingExtentsMin x="-560.1151771578428" y="-175.5085793057185" z="-42.61833"/>
+  <streamingExtentsMax x="-367.03706715784284" y="19.70238569428149" z="148.08138"/>
   <entitiesExtentsMin x="-468.1151771578428" y="-83.50857930571851" z="49.38167"/>
   <entitiesExtentsMax x="-459.03706715784284" y="-72.29761430571851" z="56.081379999999996"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="92"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

@@ -4,8 +4,8 @@
   <parent>pervert_stare_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="421.810065229933" y="-348.25865624294204" z="-51.76193000000001"/>
-  <streamingExtentsMax x="672.805665229933" y="-95.18825624294203" z="193.86696999999998"/>
+  <streamingExtentsMin x="441.810065229933" y="-328.25865624294204" z="-31.761930000000007"/>
+  <streamingExtentsMax x="652.805665229933" y="-115.18825624294203" z="173.86696999999998"/>
   <entitiesExtentsMin x="541.810065229933" y="-228.25865624294204" z="68.23807"/>
   <entitiesExtentsMax x="552.805665229933" y="-215.18825624294203" z="73.86697"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="100"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

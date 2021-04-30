@@ -4,8 +4,8 @@
   <parent>channel991_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-161.00582968325895" y="-347.6098420458636" z="-60.648017"/>
-  <streamingExtentsMax x="83.77007031674104" y="-94.48928204586363" z="185.02141999999998"/>
+  <streamingExtentsMin x="-141.00582968325895" y="-327.6098420458636" z="-40.648017"/>
+  <streamingExtentsMax x="63.77007031674104" y="-114.48928204586363" z="165.02141999999998"/>
   <entitiesExtentsMin x="-41.00582968325896" y="-227.60984204586362" z="59.351983"/>
   <entitiesExtentsMax x="-36.22992968325896" y="-214.48928204586363" z="65.02141999999999"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="100"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

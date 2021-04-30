@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>tim_vapid</name>
+  <parent>tim_vapid_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="29.67603001386027" y="184.70023722937532" z="61.02289999999999"/>
+  <streamingExtentsMax x="179.68678001386027" y="349.1377572293753" z="217.6996"/>
+  <entitiesExtentsMin x="104.67603001386027" y="259.7002372293753" z="136.0229"/>
+  <entitiesExtentsMax x="104.68678001386027" y="274.1377572293753" z="142.6996"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>tim_vapid</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="104.68140501386027" y="266.91899722937535" z="139.36124999999998"/>
+      <rotation x="0" y="0" z="0.7073699836389447" w="0.7068434807272677"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="75"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>tim_vapid</name>
+    <owner/>
+  </block>
+</CMapData>

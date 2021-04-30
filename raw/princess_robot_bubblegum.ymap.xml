@@ -4,8 +4,8 @@
   <parent>princess_robot_bubblegum_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-123.5329307928388" y="-285.76055335099875" z="-55.56845"/>
-  <streamingExtentsMax x="118.9773692071612" y="-38.893843350998765" z="187.77433"/>
+  <streamingExtentsMin x="-103.5329307928388" y="-265.76055335099875" z="-35.56845"/>
+  <streamingExtentsMax x="98.9773692071612" y="-58.893843350998765" z="167.77433"/>
   <entitiesExtentsMin x="-3.532930792838801" y="-165.76055335099878" z="64.43155"/>
   <entitiesExtentsMax x="-1.0226307928388003" y="-158.89384335099876" z="67.77432999999999"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="100"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

@@ -4,8 +4,8 @@
   <parent>dragon62_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-349.215292956844" y="-157.38096152339514" z="-59.15887"/>
-  <streamingExtentsMax x="-107.56099295684402" y="96.48378847660484" z="186.51056"/>
+  <streamingExtentsMin x="-314.215292956844" y="-122.38096152339514" z="-24.15887"/>
+  <streamingExtentsMax x="-142.56099295684402" y="61.48378847660485" z="151.51056"/>
   <entitiesExtentsMin x="-229.21529295684402" y="-37.38096152339515" z="60.84113"/>
   <entitiesExtentsMax x="-227.56099295684402" y="-23.51621152339515" z="66.51056"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="85"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

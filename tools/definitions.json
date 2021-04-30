@@ -10,7 +10,8 @@
       "y": 4.81348,
       "z": 2.83496
     },
-    "offset": 0.1,
+    "lod": 120,
+    "lodOffset": 0.1,
     "worldPosition": "X:303.1858 Y:-220.4221 Z:75.0118"
   },
   "flying_bravo": {
@@ -24,7 +25,8 @@
       "y": -0.399414,
       "z": 20.6894
     },
-    "offset": 0.1,
+    "lod": 88,
+    "lodOffset": 0.1,
     "worldPosition": "X:199.6067 Y:-178.4445 Z:57.42818"
   },
   "crevis": {
@@ -38,7 +40,8 @@
       "y": -14.7847,
       "z": 20.6894
     },
-    "offset": 0.1,
+    "lod": 88,
+    "lodOffset": 0.1,
     "worldPosition": "X:199.6067 Y:-178.4445 Z:57.42818"
   },
   "weazel_space": {
@@ -52,7 +55,8 @@
       "y": 10.9145,
       "z": 13.9624
     },
-    "offset": 0.1,
+    "lod": 88,
+    "lodOffset": 0.1,
     "worldPosition": "X:199.6067 Y:-178.4445 Z:57.42818"
   },
   "behind_weazel_space": {
@@ -66,7 +70,8 @@
       "y": 5.06201,
       "z": 13.9624
     },
-    "offset": 0.1,
+    "lod": 88,
+    "lodOffset": 0.1,
     "worldPosition": "X:199.6067 Y:-178.4445 Z:57.42818"
   },
   "vinewood_sports1": {
@@ -80,7 +85,8 @@
       "y": 7.21826,
       "z": 14.7715
     },
-    "offset": 0.1,
+    "lod": 85,
+    "lodOffset": 0.1,
     "worldPosition": "X:60.91931 Y:-124.7391 Z:58.55759"
   },
   "vinewood_sports2": {
@@ -94,7 +100,8 @@
       "y": -1.9917,
       "z": 14.7715
     },
-    "offset": 0.1,
+    "lod": 85,
+    "lodOffset": 0.1,
     "worldPosition": "X:60.91931 Y:-124.7391 Z:58.55759"
   },
   "implant_outsource": {
@@ -108,7 +115,8 @@
       "y": -10.6543,
       "z": 19.1274
     },
-    "offset": 0.1,
+    "lod": 90,
+    "lodOffset": 0.1,
     "worldPosition": "X:-30.36933 Y:-90.87322 Z:60.2778"
   },
   "implant_outsource2": {
@@ -122,7 +130,8 @@
       "y": -19.834,
       "z": 19.1274
     },
-    "offset": 0.1,
+    "lod": 90,
+    "lodOffset": 0.1,
     "worldPosition": "X:-30.36933 Y:-90.87322 Z:60.2778"
   },
   "dragon6": {
@@ -136,7 +145,8 @@
       "y": 4.04785,
       "z": 9.32373
     },
-    "offset": 0.1,
+    "lod": 85,
+    "lodOffset": 0.1,
     "worldPosition": "X:-199.4267 Y:-28.46311 Z:57.18683"
   },
   "dragon62": {
@@ -150,7 +160,8 @@
       "y": -8.91797,
       "z": 9.32373
     },
-    "offset": 0.1,
+    "lod": 85,
+    "lodOffset": 0.1,
     "worldPosition": "X:-199.4267 Y:-28.46311 Z:57.18683"
   },
   "smell_like_a_bitch": {
@@ -164,7 +175,8 @@
       "y": -5.79102,
       "z": 9.23975
     },
-    "offset": 0.1,
+    "lod": 80,
+    "lodOffset": 0.1,
     "worldPosition": "X:-522.1184 Y:-44.6339 Z:47.81497"
   },
   "vangelico": {
@@ -178,7 +190,8 @@
       "y": -11.5845,
       "z": 9.30078
     },
-    "offset": 0.1,
+    "lod": 92,
+    "lodOffset": 0.1,
     "worldPosition": "X:-457.3068 Y:-71.92345 Z:46.7806"
   },
   "loneliest_robot": {
@@ -192,7 +205,8 @@
       "y": 11.7432,
       "z": -0.501953
     },
-    "offset": 0.1,
+    "lod": 100,
+    "lodOffset": 0.1,
     "worldPosition": "X:-52.08499 Y:-213.2863 Z:58.85003"
   },
   "loneliest_robot2": {
@@ -206,7 +220,8 @@
       "y": 10.0718,
       "z": -0.501953
     },
-    "offset": 0.2,
+    "lod": 100,
+    "lodOffset": 0.25,
     "worldPosition": "X:-52.08499 Y:-213.2863 Z:58.85003"
   },
   "channel991": {
@@ -220,7 +235,8 @@
       "y": -14.3232,
       "z": 6.17139
     },
-    "offset": 0.1,
+    "lod": 100,
+    "lodOffset": 0.1,
     "worldPosition": "X:-52.08499 Y:-213.2863 Z:58.85003"
   },
   "channel9912": {
@@ -234,7 +250,8 @@
       "y": -0.337402,
       "z": 6.17139
     },
-    "offset": 0.1,
+    "lod": 100,
+    "lodOffset": 0.1,
     "worldPosition": "X:-52.08499 Y:-213.2863 Z:58.85003"
   },
   "princess_robot_bubblegum": {
@@ -248,7 +265,8 @@
       "y": 13.1294,
       "z": 6.896
     },
-    "offset": 0.01,
+    "lod": 100,
+    "lodOffset": 0.01,
     "worldPosition": "X:-19.21107 Y:-172.0229 Z:60.87833"
   },
   "brown_streak": {
@@ -262,7 +280,8 @@
       "y": 12.3926,
       "z": 7.4419
     },
-    "offset": 0.01,
+    "lod": 100,
+    "lodOffset": 0.01,
     "worldPosition": "X:-19.21107 Y:-172.0229 Z:60.87833"
   },
   "cherry_popper": {
@@ -276,7 +295,8 @@
       "y": 5.75781,
       "z": 13.1118
     },
-    "offset": 0.01,
+    "lod": 150,
+    "lodOffset": 0.01,
     "worldPosition": "X:234.6586 Y:-32.78199 Z:79.91495"
   },
   "dusche_gold1": {
@@ -290,7 +310,9 @@
       "y": -11.46,
       "z": 12.6338
     },
-    "offset": 0.3,
+    "lod": 100,
+    "offset": 0.01,
+    "lodOffset": 0.3,
     "worldPosition": "X:168.1061 Y:-8.961159 Z:75.65614"
   },
   "dusche_gold2": {
@@ -304,7 +326,8 @@
       "y": 2.88184,
       "z": 12.6206
     },
-    "offset": 0.3,
+    "lod": 110,
+    "lodOffset": 0.3,
     "worldPosition": "X:168.1061 Y:-8.961159 Z:75.65614"
   },
   "swallow": {
@@ -318,7 +341,9 @@
       "y": 0.991699,
       "z": 8.19434
     },
-    "offset": 0.05,
+    "lod": 85,
+    "offset": 0.02,
+    "lodOffset": 0.1,
     "worldPosition": "X:99.76563 Y:10.22845 Z:74.68536"
   },
   "manhood": {
@@ -332,7 +357,8 @@
       "y": -41.8374,
       "z": 19.7261
     },
-    "offset": 0.18,
+    "lod": 70,
+    "lodOffset": 0.18,
     "worldPosition": "X:539.8469 Y:-188.4824 Z:54.14087"
   },
   "pervert_stare": {
@@ -346,7 +372,8 @@
       "y": -26.7065,
       "z": 19.7261
     },
-    "offset": 0.19,
+    "lod": 100,
+    "lodOffset": 0.19,
     "worldPosition": "X:539.8469 Y:-188.4824 Z:54.14087"
   },
   "sludgie": {
@@ -360,7 +387,8 @@
       "y": 35.7339,
       "z": 25.812
     },
-    "offset": 0.15,
+    "lod": 90,
+    "lodOffset": 0.15,
     "worldPosition": "X:539.8469 Y:-188.4824 Z:54.14087"
   },
   "lotto": {
@@ -374,7 +402,8 @@
       "y": 52.1997,
       "z": 25.9346
     },
-    "offset": 0.19,
+    "lod": 55,
+    "lodOffset": 0.19,
     "worldPosition": "X:539.8469 Y:-188.4824 Z:54.14087"
   },
   "digitalden1": {
@@ -388,7 +417,8 @@
       "y": -41.9492,
       "z": -7.52344
     },
-    "offset": 0.1,
+    "lod": 180,
+    "lodOffset": 0.1,
     "worldPosition": "X:519.9047 Y:-44.14977 Z:91.48415"
   },
   "lspd_hiring": {
@@ -402,7 +432,8 @@
       "y": -21.6475,
       "z": -5.93896
     },
-    "offset": 0.1,
+    "lod": 180,
+    "lodOffset": 0.1,
     "worldPosition": "X:519.9047 Y:-44.14977 Z:91.48415"
   },
   "ifruit": {
@@ -416,22 +447,39 @@
       "y": 28.4214,
       "z": 14.355
     },
-    "offset": 0.1,
+    "lod": 180,
+    "lodOffset": 0.1,
     "worldPosition": "X:519.9047 Y:-44.14977 Z:91.48415"
   },
   "obey1": {
     "bottomLeft": {
-      "x": 16.5112,
-      "y": 50.916,
-      "z": 6.49414
+      "x": 22.2978,
+      "y": 48.7051,
+      "z": 6.18604
     },
     "topRight": {
-      "x": 21.4409,
-      "y": 64.4438,
-      "z": 13.1865
+      "x": 27.2275,
+      "y": 62.2329,
+      "z": 12.8784
     },
-    "offset": 0.1,
-    "worldPosition": "X:610.4966 Y:146.497 Z:100.5317"
+    "lod": 150,
+    "lodOffset": 0.1,
+    "worldPosition": "X:604.784 Y:148.681 Z:100.8399"
+  },
+  "obey2": {
+    "bottomLeft": {
+      "x": -26.5019,
+      "y": -16.1431,
+      "z": -1.51172
+    },
+    "topRight": {
+      "x": -19.3062,
+      "y": -28.6172,
+      "z": 5.16162
+    },
+    "lod": 110,
+    "lodOffset": 1,
+    "worldPosition": "X:566.5563 Y:128.2435 Z:126.1316"
   },
   "disobey": {
     "bottomLeft": {
@@ -444,7 +492,433 @@
       "y": -23.1768,
       "z": 23.3706
     },
-    "offset": 0.2,
+    "lod": 90,
+    "lodOffset": 0.2,
     "worldPosition": "X:504.9329 Y:141.1293 Z:120.0613"
+  },
+  "disobey2": {
+    "bottomLeft": {
+      "x": 10.3628,
+      "y": -17.6802,
+      "z": 17.7329
+    },
+    "topRight": {
+      "x": -5.15967,
+      "y": -24.9287,
+      "z": 23.3652
+    },
+    "lod": 90,
+    "lodOffset": 0.2,
+    "worldPosition": "X:504.9329 Y:141.1293 Z:120.0613"
+  },
+  "realc_nts": {
+    "bottomLeft": {
+      "x": -25.8638,
+      "y": -19.4668,
+      "z": 18.7837
+    },
+    "topRight": {
+      "x": -17.3242,
+      "y": -34.2529,
+      "z": 24.4531
+    },
+    "lod": 55,
+    "lodOffset": 0.2,
+    "worldPosition": "X:480.6685 Y:155.9749 Z:103.8991"
+  },
+  "realc_nts2": {
+    "bottomLeft": {
+      "x": -12.5151,
+      "y": -30.8657,
+      "z": 18.8154
+    },
+    "topRight": {
+      "x": -23.4702,
+      "y": -17.814,
+      "z": 24.4438
+    },
+    "lod": 85,
+    "lodOffset": 0.3,
+    "worldPosition": "X:480.6685 Y:155.9749 Z:103.8991"
+  },
+  "upnatom_burger": {
+    "bottomLeft": {
+      "x": -17.583,
+      "y": 26.3096,
+      "z": 8.38135
+    },
+    "topRight": {
+      "x": -29.8071,
+      "y": 18.6973,
+      "z": 15.081
+    },
+    "lod": 75,
+    "offset": 0.01,
+    "lodOffset": 0.1,
+    "worldPosition": "X:393.5533 Y:82.39963 Z:110.9371"
+  },
+  "fugue": {
+    "bottomLeft": {
+      "x": 7.01465,
+      "y": 11.4766,
+      "z": 8.2793
+    },
+    "topRight": {
+      "x": 2.64746,
+      "y": 25.2056,
+      "z": 14.9785
+    },
+    "lod": 95,
+    "offset": 0.01,
+    "lodOffset": 0.1,
+    "worldPosition": "X:443.8177 Y:58.6551 Z:109.4762"
+  },
+  "erotic_dream": {
+    "bottomLeft": {
+      "x": 13.5601,
+      "y": 0.213867,
+      "z": 9.92773
+    },
+    "topRight": {
+      "x": 8.16748,
+      "y": 11.8418,
+      "z": 15.6147
+    },
+    "lod": 72,
+    "lodOffset": 0.15,
+    "worldPosition": "X:168.702 Y:168.2963 Z:117.506"
+  },
+  "crowex": {
+    "bottomLeft": {
+      "x": 22.2598,
+      "y": 15.2793,
+      "z": 7.0249
+    },
+    "topRight": {
+      "x": 14,
+      "y": 5.47803,
+      "z": 12.7114
+    },
+    "lod": 75,
+    "lodOffset": 0.1,
+    "worldPosition": "X:122.315 Y:186.0403 Z:115.6506"
+  },
+  "anna_rex": {
+    "bottomLeft": {
+      "x": -4.43652,
+      "y": -13.4307,
+      "z": 0.181641
+    },
+    "topRight": {
+      "x": -6.79248,
+      "y": -19.9038,
+      "z": 15.3096
+    },
+    "lod": 120,
+    "lodOffset": 0.1,
+    "worldPosition": "X:172.8967 Y:255.6941 Z:123.9771"
+  },
+  "rimmers": {
+    "bottomLeft": {
+      "x": -6.71631,
+      "y": 12.5234,
+      "z": 9.24072
+    },
+    "topRight": {
+      "x": -14.9756,
+      "y": 2.72217,
+      "z": 14.9272
+    },
+    "lod": 83,
+    "lodOffset": 0.3,
+    "worldPosition": "X:70.32764 Y:206.2479 Z:118.1934"
+  },
+  "tim_vapid": {
+    "bottomLeft": {
+      "x": 3.49268,
+      "y": -5.87988,
+      "z": 12.5757
+    },
+    "topRight": {
+      "x": 3.48193,
+      "y": -20.3174,
+      "z": 19.2524
+    },
+    "lod": 75,
+    "offset": 0.05,
+    "lodOffset": 0.8,
+    "worldPosition": "X:101.2441 Y:280.0176 Z:123.4472"
+  },
+  "didiersachs": {
+    "bottomLeft": {
+      "x": 3.1416,
+      "y": -2.41895,
+      "z": 4.36426
+    },
+    "topRight": {
+      "x": 12.0454,
+      "y": 22.0444,
+      "z": 16.1147
+    },
+    "lod": 120,
+    "lodOffset": 0.1,
+    "worldPosition": "X:27.05321 Y:303.6444 Z:115.8205"
+  },
+  "smell_the_part": {
+    "bottomLeft": {
+      "x": 42.604,
+      "y": -9.01953,
+      "z": 11.1777
+    },
+    "topRight": {
+      "x": 34.4248,
+      "y": 2.86328,
+      "z": 17.8769
+    },
+    "lod": 100,
+    "offset": 0.1,
+    "lodOffset": 0.4,
+    "worldPosition": "X:-42.19572 Y:226.4165 Z:105.9453"
+  },
+  "dusche_gold3": {
+    "bottomLeft": {
+      "x": -26.5386,
+      "y": 5.40869,
+      "z": 7.8999
+    },
+    "topRight": {
+      "x": -37.6631,
+      "y": -3.7749,
+      "z": 14.5991
+    },
+    "lod": 75,
+    "lodOffset": 0.1,
+    "worldPosition": "X:-42.19572 Y:226.4165 Z:105.9453"
+  },
+  "space_monkey": {
+    "bottomLeft": {
+      "x": 40.8047,
+      "y": -4.51367,
+      "z": 6.03223
+    },
+    "topRight": {
+      "x": 27.3521,
+      "y": -8.11865,
+      "z": 12.3276
+    },
+    "lod": 85,
+    "offset": 0.1,
+    "lodOffset": 0.3,
+    "worldPosition": "X:-163.7359 Y:225.463 Z:100.0501"
+  },
+  "capolavoro": {
+    "bottomLeft": {
+      "x": -2.50781,
+      "y": -2.84033,
+      "z": 5.21826
+    },
+    "topRight": {
+      "x": -1.02051,
+      "y": 14.1606,
+      "z": 10.8877
+    },
+    "lod": 100,
+    "lodOffset": 0.3,
+    "worldPosition": "X:-163.7359 Y:225.463 Z:100.0501"
+  },
+  "fame_or_shame": {
+    "bottomLeft": {
+      "x": -6.70508,
+      "y": 14.1616,
+      "z": 5.21826
+    },
+    "topRight": {
+      "x": -5.21729,
+      "y": -2.83935,
+      "z": 10.8877
+    },
+    "lod": 100,
+    "lodOffset": 0.2,
+    "worldPosition": "X:-163.7359 Y:225.463 Z:100.0501"
+  },
+  "poppy_m": {
+    "bottomLeft": {
+      "x": -36.5449,
+      "y": 18.1367,
+      "z": 1.47266
+    },
+    "topRight": {
+      "x": -43.6939,
+      "y": 10.4004,
+      "z": 5.3169
+    },
+    "lod": 70,
+    "lodOffset": 0.2,
+    "worldPosition": "X:-163.7359 Y:225.463 Z:100.0501"
+  },
+  "bitch_in_trunk": {
+    "bottomLeft": {
+      "x": -43.1719,
+      "y": 5.97412,
+      "z": 0.430664
+    },
+    "topRight": {
+      "x": -35.4356,
+      "y": -1.17481,
+      "z": 4.2749
+    },
+    "lod": 70,
+    "lodOffset": 0.1,
+    "worldPosition": "X:-163.7359 Y:225.463 Z:100.0501"
+  },
+  "underbelly_of_paradise": {
+    "bottomLeft": {
+      "x": -13.105,
+      "y": 14.3042,
+      "z": 7.08252
+    },
+    "topRight": {
+      "x": 1.43799,
+      "y": 2.10107,
+      "z": 16.1191
+    },
+    "lod": 95,
+    "lodOffset": 0.1,
+    "worldPosition": "X:-283.2488 Y:290.9109 Z:103.4082"
+  },
+  "whiz1": {
+    "bottomLeft": {
+      "x": 46.8452,
+      "y": -4.04688,
+      "z": -2.10205
+    },
+    "topRight": {
+      "x": 48.2256,
+      "y": 0.189941,
+      "z": 4.95606
+    },
+    "lod": 73,
+    "lodOffset": 0.2,
+    "worldPosition": "X:-358.0316 Y:276.6018 Z:98.1124"
+  },
+  "whiz2": {
+    "bottomLeft": {
+      "x": 47.2222,
+      "y": 1.25928,
+      "z": -2.10205
+    },
+    "topRight": {
+      "x": 42.8545,
+      "y": 0.329102,
+      "z": 4.95606
+    },
+    "lod": 73,
+    "lodOffset": 0.2,
+    "worldPosition": "X:-358.0316 Y:276.6018 Z:98.1124"
+  },
+  "whiz3": {
+    "bottomLeft": {
+      "x": 42.3848,
+      "y": -1.1001,
+      "z": -2.10205
+    },
+    "topRight": {
+      "x": 45.3716,
+      "y": -4.41748,
+      "z": 4.95606
+    },
+    "lod": 73,
+    "lodOffset": 0.2,
+    "worldPosition": "X:-358.0316 Y:276.6018 Z:98.1124"
+  },
+  "lazer_force": {
+    "bottomLeft": {
+      "x": 9.36182,
+      "y": -14.8565,
+      "z": 0.478027
+    },
+    "topRight": {
+      "x": 9.36524,
+      "y": 2.20801,
+      "z": 6.13867
+    },
+    "lod": 115,
+    "lodOffset": 0.1,
+    "worldPosition": "X:-358.0316 Y:276.6018 Z:98.1124"
+  },
+  "lazer_force2": {
+    "bottomLeft": {
+      "x": 3.6792,
+      "y": 1.71094,
+      "z": 0.478027
+    },
+    "topRight": {
+      "x": 6.64258,
+      "y": -15.0947,
+      "z": 6.14648
+    },
+    "lod": 115,
+    "lodOffset": 0.1,
+    "worldPosition": "X:-358.0316 Y:276.6018 Z:98.1124"
+  },
+  "lenny_avery": {
+    "bottomLeft": {
+      "x": -47.001,
+      "y": -21.1846,
+      "z": -6.14648
+    },
+    "topRight": {
+      "x": -38.0073,
+      "y": -3.22461,
+      "z": 0.912598
+    },
+    "lod": 115,
+    "lodOffset": 0.1,
+    "worldPosition": "X:-358.0316 Y:276.6018 Z:98.1124"
+  },
+  "lenny_avery2": {
+    "bottomLeft": {
+      "x": -39.2324,
+      "y": -2.63916,
+      "z": -6.14648
+    },
+    "topRight": {
+      "x": -48.2256,
+      "y": -20.5991,
+      "z": 0.912598
+    },
+    "lod": 80,
+    "lodOffset": 0.1,
+    "worldPosition": "X:-358.0316 Y:276.6018 Z:98.1124"
+  },
+  "shark": {
+    "bottomLeft": {
+      "x": -46.3643,
+      "y": 2.61865,
+      "z": -5.16309
+    },
+    "topRight": {
+      "x": -37.375,
+      "y": 20.5825,
+      "z": 1.896
+    },
+    "lod": 115,
+    "lodOffset": 0.1,
+    "worldPosition": "X:-358.0316 Y:276.6018 Z:98.1124"
+  },
+  "shark2": {
+    "bottomLeft": {
+      "x": -38.5801,
+      "y": 21.1846,
+      "z": -5.14404
+    },
+    "topRight": {
+      "x": -47.5693,
+      "y": 3.22607,
+      "z": 1.91504
+    },
+    "lod": 80,
+    "lodOffset": 0.1,
+    "worldPosition": "X:-358.0316 Y:276.6018 Z:98.1124"
   }
 }

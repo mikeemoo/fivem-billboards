@@ -4,8 +4,8 @@
   <parent>manhood_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="417.6690073285065" y="-350.32056614186115" z="-51.76193000000001"/>
-  <streamingExtentsMax x="670.7241573285064" y="-99.36936614186112" z="193.86696999999998"/>
+  <streamingExtentsMin x="467.6690073285065" y="-300.32056614186115" z="-1.7619300000000067"/>
+  <streamingExtentsMax x="620.7241573285064" y="-149.36936614186112" z="143.86696999999998"/>
   <entitiesExtentsMin x="537.6690073285065" y="-230.32056614186112" z="68.23807"/>
   <entitiesExtentsMax x="550.7241573285064" y="-219.36936614186112" z="73.86697"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="70"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

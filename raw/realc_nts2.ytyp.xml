@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="85"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.039985002927672" y="-5.628399999999999" z="-0.00001"/>
+      <bbMax x="17.039985002927672" y="5.628399999999999" z="0.00001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.039985002927672"/>
+      <hdTextureDist value="85"/>
+      <name>realc_nts2</name>
+      <textureDictionary>realc_nts2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>realc_nts2</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

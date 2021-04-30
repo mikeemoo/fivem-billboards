@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>bitch_in_trunk_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-1206.9756676230566" y="-775.7852537590313" z="-899.519236"/>
+  <streamingExtentsMax x="800.7606323769435" y="1231.3636762409687" z="1104.325"/>
+  <entitiesExtentsMin x="-206.9756676230565" y="224.21474624096862" z="100.480764"/>
+  <entitiesExtentsMax x="-199.2393676230565" y="231.36367624096863" z="104.325"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>bitch_in_trunk_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-203.1075176230565" y="227.78921124096863" z="102.402882"/>
+      <rotation x="0" y="0" z="0.3643915542972136" w="0.9312458296050838"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="70"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>bitch_in_trunk_lod</name>
+    <owner/>
+  </block>
+</CMapData>

@@ -4,8 +4,8 @@
   <parent>dusche_gold2_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="22.899173464313634" y="-135.850479769458" z="-37.37999000000001"/>
-  <streamingExtentsMax x="276.8590734643136" y="113.92150023054202" z="208.27674"/>
+  <streamingExtentsMin x="32.899173464313634" y="-125.85047976945798" z="-27.379990000000006"/>
+  <streamingExtentsMax x="266.8590734643136" y="103.92150023054202" z="198.27674"/>
   <entitiesExtentsMin x="142.89917346431363" y="-15.85047976945798" z="82.62001"/>
   <entitiesExtentsMax x="156.85907346431364" y="-6.078499769457979" z="88.27673999999999"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <lodDist value="110"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
