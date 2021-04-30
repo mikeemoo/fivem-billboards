@@ -4,8 +4,8 @@
   <parent>obey2_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="430.05353378747895" y="-10.374199675763208" z="14.619880000000009"/>
-  <streamingExtentsMax x="657.2492337874789" y="222.09990032423678" z="241.29322000000002"/>
+  <streamingExtentsMin x="440.05353378747895" y="-0.374199675763208" z="24.61988000000001"/>
+  <streamingExtentsMax x="647.2492337874789" y="212.09990032423678" z="231.29322000000002"/>
   <entitiesExtentsMin x="540.053533787479" y="99.62580032423679" z="124.61988000000001"/>
   <entitiesExtentsMax x="547.2492337874789" y="112.09990032423678" z="131.29322000000002"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="110"/>
+      <lodDist value="100"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

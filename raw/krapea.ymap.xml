@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>krapea</name>
+  <parent>krapea_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="270.79234274150974" y="124.85614608312324" z="26.23084"/>
+  <streamingExtentsMax x="471.8162427415097" y="324.1051660831232" z="222.869"/>
+  <entitiesExtentsMin x="365.79234274150974" y="219.85614608312324" z="121.23084"/>
+  <entitiesExtentsMax x="376.8162427415097" y="229.10516608312324" z="127.869"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>krapea</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="371.3042927415097" y="224.48065608312322" z="124.54992"/>
+      <rotation x="0" y="0" z="-0.9397029113635912" w="0.3419918688723324"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="95"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>krapea</name>
+    <owner/>
+  </block>
+</CMapData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>holla</name>
+  <parent>holla_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="113.6844234286335" y="267.6256520695193" z="46.15033000000001"/>
+  <streamingExtentsMax x="261.7600834286335" y="412.5865520695193" z="190.57172"/>
+  <entitiesExtentsMin x="183.6844234286335" y="337.6256520695193" z="116.15033000000001"/>
+  <entitiesExtentsMax x="191.7600834286335" y="342.5865520695193" z="120.57172"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>holla</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="187.72225342863348" y="340.1061020695193" z="118.36102500000001"/>
+      <rotation x="0" y="0" z="-0.9623069986415338" w="0.27196551319151285"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="70"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>holla</name>
+    <owner/>
+  </block>
+</CMapData>

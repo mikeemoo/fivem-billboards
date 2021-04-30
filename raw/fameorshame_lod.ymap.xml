@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>fameorshame_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-1453.1401851346109" y="-736.6452177849874" z="-901.749224"/>
+  <streamingExtentsMax x="562.595614865389" y="1275.8367022150126" z="1105.30986"/>
+  <entitiesExtentsMin x="-453.1401851346109" y="263.3547822150126" z="98.250776"/>
+  <entitiesExtentsMax x="-437.4043851346109" y="275.8367022150126" z="105.30986"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>fameorshame_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-445.27228513461085" y="269.5957422150126" z="101.78031800000001"/>
+      <rotation x="0" y="0" z="-0.32904864491938224" w="0.9443129721002028"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="250"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>fameorshame_lod</name>
+    <owner/>
+  </block>
+</CMapData>

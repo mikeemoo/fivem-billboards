@@ -113,27 +113,27 @@ const generateYdr = (name, textureName = "texture", width, height) => {
   ]);
 
   // bounding sphere radius
-  contentBuffer.writeFloatLE(Math.max(hWidth, hHeight) * 2, 0x02C);
+  contentBuffer.writeFloatLE(Math.max(hWidth, hHeight) * 1.4, 0x02C);
 
   // bounding box min
-  contentBuffer.writeFloatLE(-hWidth,   0x030); // x
-  contentBuffer.writeFloatLE(-hWidth,   0x3C0); // x
+  contentBuffer.writeFloatLE(-(hWidth * 1.4),   0x030); // x
+  contentBuffer.writeFloatLE(-(hWidth * 1.4),   0x3C0); // x
 
-  contentBuffer.writeFloatLE(-0.0001,   0x034); // y
-  contentBuffer.writeFloatLE(-0.0001,   0x3C4); // y
+  contentBuffer.writeFloatLE(-0.01,   0x034); // y
+  contentBuffer.writeFloatLE(-0.01,   0x3C4); // y
 
-  contentBuffer.writeFloatLE(-hHeight,   0x038); // z
-  contentBuffer.writeFloatLE(-hHeight,   0x3C8); // z
+  contentBuffer.writeFloatLE(-(hHeight * 1.4),   0x038); // z
+  contentBuffer.writeFloatLE(-(hHeight * 1.4),   0x3C8); // z
 
   // bounding box max
-  contentBuffer.writeFloatLE(hWidth,    0x040); // x
-  contentBuffer.writeFloatLE(hWidth,    0x3D0); // x
+  contentBuffer.writeFloatLE((hWidth * 1.4),    0x040); // x
+  contentBuffer.writeFloatLE((hWidth * 1.4),    0x3D0); // x
 
-  contentBuffer.writeFloatLE(0.0001,    0x044); // y
-  contentBuffer.writeFloatLE(0.0001,    0x3D4); // y
+  contentBuffer.writeFloatLE(0.01,    0x044); // y
+  contentBuffer.writeFloatLE(0.01,    0x3D4); // y
 
-  contentBuffer.writeFloatLE(hHeight,   0x048); // z
-  contentBuffer.writeFloatLE(hHeight,   0x3D8); // z
+  contentBuffer.writeFloatLE((hHeight * 1.4),   0x048); // z
+  contentBuffer.writeFloatLE((hHeight * 1.4),   0x3D8); // z
 
   // object name
   contentBuffer.write(name, 0x140, 'ascii');
