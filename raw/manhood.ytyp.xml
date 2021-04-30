@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="1000"/>
-      <flags value="32"/>
+      <lodDist value="120"/>
+      <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-17.040120978517145" y="-5.628899999999998" z="-0.00001"/>
       <bbMax x="17.040120978517145" y="5.628899999999998" z="0.00001"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="17.040120978517145"/>
-      <hdTextureDist value="1000"/>
+      <hdTextureDist value="120"/>
       <name>manhood</name>
       <textureDictionary>manhood</textureDictionary>
       <clipDictionary/>

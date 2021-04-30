@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>brown_streak</name>
-  <parent/>
+  <parent>brown_streak_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-818.3102973477232" y="-959.6268427199268" z="-734.608"/>
-  <streamingExtentsMax x="784.0637266522767" y="646.8164572800731" z="868.32023"/>
-  <entitiesExtentsMin x="-18.310297347723267" y="-159.62684271992686" z="65.392"/>
-  <entitiesExtentsMax x="-15.936273347723269" y="-153.18354271992683" z="68.32023"/>
+  <streamingExtentsMin x="-138.30185233477232" y="-279.6299542719927" z="-54.608000000000004"/>
+  <streamingExtentsMax x="104.07217166522767" y="-33.186654271992666" z="188.32022999999998"/>
+  <entitiesExtentsMin x="-18.301852334772324" y="-159.6299542719927" z="65.392"/>
+  <entitiesExtentsMax x="-15.927828334772325" y="-153.18665427199267" z="68.32023"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>brown_streak</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="-17.123285347723268" y="-156.40519271992684" z="66.856115"/>
+      <position x="-17.114840334772325" y="-156.40830427199268" z="66.856115"/>
       <rotation x="0" y="0" z="0.820282880266265" w="0.5719580372213335"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

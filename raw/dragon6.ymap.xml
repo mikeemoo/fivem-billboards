@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>dragon6</name>
-  <parent/>
+  <parent>dragon6_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-1027.2015712280318" y="-837.8103837029355" z="-739.15887"/>
-  <streamingExtentsMax x="576.8355287719683" y="775.5558262970645" z="866.5105599999999"/>
-  <entitiesExtentsMin x="-227.2015712280317" y="-37.81038370293548" z="60.84113"/>
-  <entitiesExtentsMax x="-223.1644712280317" y="-24.44417370293548" z="66.51056"/>
+  <streamingExtentsMin x="-347.2963427122803" y="-157.78175913702935" z="-59.15887"/>
+  <streamingExtentsMax x="-103.25924271228035" y="95.58445086297064" z="186.51056"/>
+  <entitiesExtentsMin x="-227.29634271228034" y="-37.781759137029354" z="60.84113"/>
+  <entitiesExtentsMax x="-223.25924271228035" y="-24.415549137029355" z="66.51056"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>dragon6</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="-225.1830212280317" y="-31.12727870293548" z="63.675845"/>
+      <position x="-225.27779271228033" y="-31.098654137029357" z="63.675845"/>
       <rotation x="0" y="0" z="-0.5961807488695069" w="0.8028502442407264"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

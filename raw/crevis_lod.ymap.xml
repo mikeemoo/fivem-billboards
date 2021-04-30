@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>crevis_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-803.7461418877353" y="-1193.1869405522334" z="-927.55182"/>
+  <streamingExtentsMax x="1203.4506381122646" y="822.2476614477665" z="1078.11758"/>
+  <entitiesExtentsMin x="196.25385811226465" y="-193.18694055223352" z="72.44818"/>
+  <entitiesExtentsMax x="203.45063811226467" y="-177.7523385522335" z="78.11758"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>crevis_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="199.85224811226468" y="-185.4696395522335" z="75.28288"/>
+      <rotation x="0" y="0" z="0.8433843956539337" w="0.5373106747194298"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>crevis_lod</name>
+    <owner/>
+  </block>
+</CMapData>

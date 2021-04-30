@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>crevis</name>
-  <parent/>
+  <parent>crevis_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-603.7461418877353" y="-993.1869405522335" z="-727.55182"/>
-  <streamingExtentsMax x="1003.4506381122646" y="622.2476614477665" z="878.11758"/>
-  <entitiesExtentsMin x="196.25385811226465" y="-193.18694055223352" z="72.44818"/>
-  <entitiesExtentsMax x="203.45063811226467" y="-177.7523385522335" z="78.11758"/>
+  <streamingExtentsMin x="76.34358368112262" y="-313.22877740552235" z="-47.551820000000006"/>
+  <streamingExtentsMax x="323.54036368112264" y="-57.79417540552234" z="198.11758"/>
+  <entitiesExtentsMin x="196.34358368112262" y="-193.22877740552235" z="72.44818"/>
+  <entitiesExtentsMax x="203.54036368112264" y="-177.79417540552234" z="78.11758"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>crevis</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="199.85224811226468" y="-185.4696395522335" z="75.28288"/>
+      <position x="199.94197368112265" y="-185.51147640552233" z="75.28288"/>
       <rotation x="0" y="0" z="0.8433843956539337" w="0.5373106747194298"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

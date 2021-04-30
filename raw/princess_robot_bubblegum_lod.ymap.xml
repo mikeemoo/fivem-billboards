@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>princess_robot_bubblegum_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-1003.524477928388" y="-1165.7636435099876" z="-935.56845"/>
+  <streamingExtentsMax x="998.985822071612" y="841.1030664900123" z="1067.77433"/>
+  <entitiesExtentsMin x="-3.524477928388027" y="-165.76364350998767" z="64.43155"/>
+  <entitiesExtentsMax x="-1.0141779283880261" y="-158.89693350998766" z="67.77432999999999"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>princess_robot_bubblegum_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-2.2693279283880265" y="-162.33028850998767" z="66.10294"/>
+      <rotation x="0" y="0" z="-0.5729960738222569" w="0.8195581122679945"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>princess_robot_bubblegum_lod</name>
+    <owner/>
+  </block>
+</CMapData>

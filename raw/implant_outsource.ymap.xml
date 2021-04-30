@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>implant_outsource</name>
-  <parent/>
+  <parent>implant_outsource_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-814.9469164342454" y="-911.9709340788238" z="-726.2642"/>
-  <streamingExtentsMax x="794.3963835657546" y="698.4055659211763" z="879.4052"/>
-  <entitiesExtentsMin x="-14.946916434245393" y="-111.97093407882379" z="73.7358"/>
-  <entitiesExtentsMax x="-5.603616434245392" y="-101.59443407882378" z="79.40520000000001"/>
+  <streamingExtentsMin x="-135.02048686434244" y="-231.90468914078824" z="-46.2642"/>
+  <streamingExtentsMax x="114.32281313565755" y="18.471810859211757" z="199.4052"/>
+  <entitiesExtentsMin x="-15.020486864342454" y="-111.90468914078824" z="73.7358"/>
+  <entitiesExtentsMax x="-5.677186864342453" y="-101.52818914078824" z="79.40520000000001"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>implant_outsource</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="-10.275266434245392" y="-106.78268407882379" z="76.5705"/>
+      <position x="-10.348836864342452" y="-106.71643914078824" z="76.5705"/>
       <rotation x="0" y="0" z="-0.4067303847526901" w="0.9135482440018856"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

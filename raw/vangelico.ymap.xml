@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>vangelico</name>
-  <parent/>
+  <parent>vangelico_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-1268.192115784282" y="-883.5708805718507" z="-750.61833"/>
-  <streamingExtentsMax x="340.8859942157181" y="727.6400844281494" z="856.08138"/>
-  <entitiesExtentsMin x="-468.1921157842819" y="-83.57088057185064" z="49.38167"/>
-  <entitiesExtentsMax x="-459.1140057842819" y="-72.35991557185064" z="56.081379999999996"/>
+  <streamingExtentsMin x="-588.1151771578428" y="-203.5085793057185" z="-70.61833"/>
+  <streamingExtentsMax x="-339.03706715784284" y="47.70238569428149" z="176.08138"/>
+  <entitiesExtentsMin x="-468.1151771578428" y="-83.50857930571851" z="49.38167"/>
+  <entitiesExtentsMax x="-459.03706715784284" y="-72.29761430571851" z="56.081379999999996"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>vangelico</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="-463.65306078428193" y="-77.96539807185063" z="52.731525"/>
+      <position x="-463.57612215784286" y="-77.9030968057185" z="52.731525"/>
       <rotation x="0" y="0" z="0.43051961714517833" w="0.9025812203082718"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

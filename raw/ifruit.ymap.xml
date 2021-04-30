@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>ifruit</name>
-  <parent/>
+  <parent>ifruit_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-301.5735177575287" y="-815.7627131917675" z="-700.9924100000001"/>
-  <streamingExtentsMax x="1304.2877822424712" y="800.2660868082326" z="905.83915"/>
-  <entitiesExtentsMin x="498.4264822424713" y="-15.762713191767503" z="99.00759"/>
-  <entitiesExtentsMax x="504.2877822424713" y="0.26608680823250097" z="105.83915"/>
+  <streamingExtentsMin x="378.5194608224247" y="-135.72871343191767" z="-20.992410000000007"/>
+  <streamingExtentsMax x="624.3807608224247" y="120.30008656808232" z="225.83915000000002"/>
+  <entitiesExtentsMin x="498.5194608224247" y="-15.728713431917676" z="99.00759"/>
+  <entitiesExtentsMax x="504.3807608224247" y="0.30008656808232814" z="105.83915"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>ifruit</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="501.3571322424713" y="-7.748313191767501" z="102.42337"/>
+      <position x="501.45011082242473" y="-7.714313431917674" z="102.42337"/>
       <rotation x="0" y="0" z="0.5729607675595888" w="0.8195827955963491"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

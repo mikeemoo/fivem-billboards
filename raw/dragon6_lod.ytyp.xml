@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-13.9625837929124" y="-5.669429999999999" z="-0.00001"/>
+      <bbMax x="13.9625837929124" y="5.669429999999999" z="0.00001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="13.9625837929124"/>
+      <hdTextureDist value="1000"/>
+      <name>dragon6_lod</name>
+      <textureDictionary>dragon6_lod</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dragon6_lod</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>dragon6_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-1227.2015712280318" y="-1037.8103837029355" z="-939.15887"/>
+  <streamingExtentsMax x="776.8355287719683" y="975.5558262970645" z="1066.51056"/>
+  <entitiesExtentsMin x="-227.2015712280317" y="-37.81038370293548" z="60.84113"/>
+  <entitiesExtentsMax x="-223.1644712280317" y="-24.44417370293548" z="66.51056"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>dragon6_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-225.1830212280317" y="-31.12727870293548" z="63.675845"/>
+      <rotation x="0" y="0" z="-0.5961807488695069" w="0.8028502442407264"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>dragon6_lod</name>
+    <owner/>
+  </block>
+</CMapData>

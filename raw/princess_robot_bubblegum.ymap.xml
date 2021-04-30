@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>princess_robot_bubblegum</name>
-  <parent/>
+  <parent>princess_robot_bubblegum_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-803.524477928388" y="-965.7636435099877" z="-735.56845"/>
-  <streamingExtentsMax x="798.985822071612" y="641.1030664900123" z="867.77433"/>
-  <entitiesExtentsMin x="-3.524477928388027" y="-165.76364350998767" z="64.43155"/>
-  <entitiesExtentsMax x="-1.0141779283880261" y="-158.89693350998766" z="67.77432999999999"/>
+  <streamingExtentsMin x="-123.5329307928388" y="-285.76055335099875" z="-55.56845"/>
+  <streamingExtentsMax x="118.9773692071612" y="-38.893843350998765" z="187.77433"/>
+  <entitiesExtentsMin x="-3.532930792838801" y="-165.76055335099878" z="64.43155"/>
+  <entitiesExtentsMax x="-1.0226307928388003" y="-158.89384335099876" z="67.77432999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>princess_robot_bubblegum</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="-2.2693279283880265" y="-162.33028850998767" z="66.10294"/>
+      <position x="-2.2777807928388007" y="-162.32719835099877" z="66.10294"/>
       <rotation x="0" y="0" z="-0.5729960738222569" w="0.8195581122679945"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

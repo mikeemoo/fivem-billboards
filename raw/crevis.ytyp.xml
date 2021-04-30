@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="1000"/>
-      <flags value="32"/>
+      <lodDist value="120"/>
+      <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-17.02999064200577" y="-5.6693999999999996" z="-0.00001"/>
       <bbMax x="17.02999064200577" y="5.6693999999999996" z="0.00001"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="17.02999064200577"/>
-      <hdTextureDist value="1000"/>
+      <hdTextureDist value="120"/>
       <name>crevis</name>
       <textureDictionary>crevis</textureDictionary>
       <clipDictionary/>

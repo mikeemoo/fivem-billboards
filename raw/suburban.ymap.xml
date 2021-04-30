@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>suburban</name>
-  <parent/>
+  <parent>suburban_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-503.65844315637776" y="-1025.5233630981365" z="-727.82316"/>
-  <streamingExtentsMax x="1110.2902968436222" y="584.3096469018634" z="877.84676"/>
-  <entitiesExtentsMin x="296.34155684362224" y="-225.5233630981366" z="72.17684"/>
-  <entitiesExtentsMax x="310.29029684362223" y="-215.6903530981366" z="77.84675999999999"/>
+  <streamingExtentsMin x="176.2845161684362" y="-345.4424473309814" z="-47.82316"/>
+  <streamingExtentsMax x="430.2332561684362" y="-95.60943733098136" z="197.84676"/>
+  <entitiesExtentsMin x="296.2845161684362" y="-225.44244733098137" z="72.17684"/>
+  <entitiesExtentsMax x="310.2332561684362" y="-215.60943733098136" z="77.84675999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>suburban</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="303.31592684362226" y="-220.6068580981366" z="75.0118"/>
+      <position x="303.2588861684362" y="-220.52594233098137" z="75.0118"/>
       <rotation x="0" y="0" z="-0.30221599778483416" w="0.9532394718447811"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

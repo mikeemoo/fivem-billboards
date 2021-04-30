@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>manhood</name>
-  <parent/>
+  <parent>manhood_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-262.4460308688439" y="-1030.4577055349996" z="-731.76193"/>
-  <streamingExtentsMax x="1350.6091191311561" y="580.4934944650004" z="873.86697"/>
-  <entitiesExtentsMin x="537.5539691311561" y="-230.4577055349996" z="68.23807"/>
-  <entitiesExtentsMax x="550.609119131156" y="-219.5065055349996" z="73.86697"/>
+  <streamingExtentsMin x="417.6690073285065" y="-350.32056614186115" z="-51.76193000000001"/>
+  <streamingExtentsMax x="670.7241573285064" y="-99.36936614186112" z="193.86696999999998"/>
+  <entitiesExtentsMin x="537.6690073285065" y="-230.32056614186112" z="68.23807"/>
+  <entitiesExtentsMax x="550.7241573285064" y="-219.36936614186112" z="73.86697"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>manhood</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="544.0815441311561" y="-224.98210553499962" z="71.05252"/>
+      <position x="544.1965823285065" y="-224.8449661418611" z="71.05252"/>
       <rotation x="0" y="0" z="0.3419489281246642" w="0.9397185379433531"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

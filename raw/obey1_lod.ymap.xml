@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>obey1_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-372.89824410141614" y="-802.6212387079383" z="-892.97416"/>
+  <streamingExtentsMax x="1632.0314558985838" y="1210.9065612920617" z="1113.7182"/>
+  <entitiesExtentsMin x="627.1017558985839" y="197.37876129206163" z="107.02584"/>
+  <entitiesExtentsMax x="632.0314558985838" y="210.9065612920616" z="113.7182"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>obey1_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="629.5666058985838" y="204.14266129206163" z="110.37202"/>
+      <rotation x="0" y="0" z="-0.5734164806735192" w="0.8192640231891033"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>obey1_lod</name>
+    <owner/>
+  </block>
+</CMapData>

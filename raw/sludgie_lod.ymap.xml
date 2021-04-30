@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>sludgie_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-456.5448438623656" y="-1152.8449333987305" z="-925.67553"/>
+  <streamingExtentsMax x="1554.4102061376343" y="860.2072666012696" z="1079.95287"/>
+  <entitiesExtentsMin x="543.4551561376344" y="-152.8449333987304" z="74.32446999999999"/>
+  <entitiesExtentsMax x="554.4102061376343" y="-139.7927333987304" z="79.95287"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>sludgie_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="548.9326811376344" y="-146.31883339873042" z="77.13866999999999"/>
+      <rotation x="0" y="0" z="0.4225580878001295" w="0.9063358441740557"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>sludgie_lod</name>
+    <owner/>
+  </block>
+</CMapData>

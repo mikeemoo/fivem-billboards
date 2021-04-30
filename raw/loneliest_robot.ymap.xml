@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>loneliest_robot</name>
-  <parent/>
+  <parent>loneliest_robot_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-870.8296046865796" y="-1005.2539816691498" z="-747.32136"/>
-  <streamingExtentsMax x="742.6572053134204" y="598.3603083308503" z="858.348077"/>
-  <entitiesExtentsMin x="-70.82960468657961" y="-205.25398166914974" z="52.678639999999994"/>
-  <entitiesExtentsMax x="-57.342794686579616" y="-201.63969166914973" z="58.348076999999996"/>
+  <streamingExtentsMin x="-190.85523114686578" y="-325.1583559166915" z="-67.32136"/>
+  <streamingExtentsMax x="62.63157885313421" y="-81.5440659166915" z="178.348077"/>
+  <entitiesExtentsMin x="-70.85523114686579" y="-205.1583559166915" z="52.678639999999994"/>
+  <entitiesExtentsMax x="-57.36842114686579" y="-201.5440659166915" z="58.348076999999996"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>loneliest_robot</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="-64.08619968657962" y="-203.44683666914972" z="55.513358499999995"/>
+      <position x="-64.1118261468658" y="-203.35121091669149" z="55.513358499999995"/>
       <rotation x="0" y="0" z="-0.13054368713732997" w="0.9914425579672232"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

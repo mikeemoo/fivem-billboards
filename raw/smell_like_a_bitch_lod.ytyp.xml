@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-14.425431948517176" y="-6.69922" z="-0.00001"/>
+      <bbMax x="14.425431948517176" y="6.69922" z="0.00001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="14.425431948517176"/>
+      <hdTextureDist value="1000"/>
+      <name>smell_like_a_bitch_lod</name>
+      <textureDictionary>smell_like_a_bitch_lod</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>smell_like_a_bitch_lod</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

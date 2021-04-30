@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="1000"/>
-      <flags value="32"/>
+      <lodDist value="120"/>
+      <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-13.963146478942345" y="-5.669400000000001" z="-0.00001"/>
       <bbMax x="13.963146478942345" y="5.669400000000001" z="0.00001"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="13.963146478942345"/>
-      <hdTextureDist value="1000"/>
+      <hdTextureDist value="120"/>
       <name>implant_outsource2</name>
       <textureDictionary>implant_outsource2</textureDictionary>
       <clipDictionary/>

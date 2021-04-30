@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>channel9912_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-1039.0623874859646" y="-1225.6659999543726" z="-940.648017"/>
+  <streamingExtentsMax x="967.9191125140355" y="786.4262980456273" z="1065.02142"/>
+  <entitiesExtentsMin x="-39.0623874859645" y="-225.66599995437272" z="59.351983"/>
+  <entitiesExtentsMax x="-32.080887485964496" y="-213.57370195437272" z="65.02141999999999"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>channel9912_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-35.5716374859645" y="-219.61985095437274" z="62.1867015"/>
+      <rotation x="0" y="0" z="-0.866025535499079" w="0.4999997718634813"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>channel9912_lod</name>
+    <owner/>
+  </block>
+</CMapData>

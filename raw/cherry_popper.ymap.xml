@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>cherry_popper</name>
-  <parent/>
+  <parent>cherry_popper_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-609.2118724231333" y="-835.9239717042892" z="-712.64267"/>
-  <streamingExtentsMax x="1000.0454275768667" y="772.9686082957107" z="893.02675"/>
-  <entitiesExtentsMin x="190.78812757686674" y="-35.923971704289244" z="87.35733"/>
-  <entitiesExtentsMax x="200.04542757686673" y="-27.03139170428924" z="93.02675"/>
+  <streamingExtentsMin x="70.78189275768668" y="-155.9174811704289" z="-32.642669999999995"/>
+  <streamingExtentsMax x="320.0391927576867" y="92.97509882957107" z="213.02675"/>
+  <entitiesExtentsMin x="190.78189275768668" y="-35.91748117042893" z="87.35733"/>
+  <entitiesExtentsMax x="200.03919275768666" y="-27.024901170428926" z="93.02675"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>cherry_popper</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="195.41677757686674" y="-31.47768170428924" z="90.19204"/>
+      <position x="195.41054275768667" y="-31.471191170428924" z="90.19204"/>
       <rotation x="0" y="0" z="-0.37338289400813834" w="0.9276773223821456"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

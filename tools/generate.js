@@ -151,20 +151,20 @@ const generateYdr = (name, textureName = "texture", width, height) => {
   });
 };
 
-const generateYtyp = (name, width, height) => builder.buildObject({
+const generateYtyp = (name, width, height, lod) => builder.buildObject({
   CMapTypes: {
     extensions:[""],
     archetypes: [
       {Item:[
         {$:{type:"CBaseArchetypeDef"},
-        lodDist: [{ $: { value: 1000.000000 }}],
-        flags: [{ $: { value: 32 }}],
+        lodDist: [{ $: { value: lod }}],
+        flags: [{ $: { value: 0 }}],
         specialAttribute: [{ $: { value: 0 }}],
         bbMin: [{ $: { x: -width, y: -height, z:-0.00001 }}],
         bbMax: [{ $: { x: width, y: height, z: 0.00001 }}],
         bsCentre: [{ $: { x: 0.00000000, y: 0.00000000, z: 0.00000000 }}],
         bsRadius: [{ $: { value: Math.max(width, height) }}],
-        hdTextureDist: [{ $: { value: 1000.000000 }}],
+        hdTextureDist: [{ $: { value: lod }}],
         name: [ name ],
         textureDictionary: [ name ],
         clipDictionary: [""],
@@ -181,12 +181,12 @@ const generateYtyp = (name, width, height) => builder.buildObject({
   }
 });
 
-const generateYmap = (name, worldPosition, quaternion, p1, p2, lod = 800 ) => builder.buildObject({ 
+const generateYmap = (name, worldPosition, quaternion, p1, p2, lod = 800, childLod = 0 ) => builder.buildObject({ 
   CMapData: {
     name: [ name ],
-    parent: [""],
-    flags: [{ $: { value: 0 }}],
-    contentFlags: [{ $: { value: 1 }}],
+    parent: [ childLod > 0 ? "" : `${name}_lod` ],
+    flags: [{ $: { value: childLod > 0 ? 2 : 0 }}],
+    contentFlags: [{ $: { value: childLod > 0 ? 2 : 1 }}],
     streamingExtentsMin: [{ $: {
       x: worldPosition.x + Math.min(p1.x, p2.x) - lod,
       y: worldPosition.y + Math.min(p1.y, p2.y) - lod,
@@ -211,7 +211,7 @@ const generateYmap = (name, worldPosition, quaternion, p1, p2, lod = 800 ) => bu
       { Item: [{
         $: { type: "CEntityDef" },
         archetypeName: [ name ],
-        flags: [{ $: { value: 32 }}],
+        flags: [{ $: { value: childLod > 0 ? 1572864 : 1572872 }}],
         guid: [{ $: { value: 0 }}],
         position: [{ $: {
           x: worldPosition.x + (p1.x + (p2.x - p1.x) / 2),
@@ -221,11 +221,11 @@ const generateYmap = (name, worldPosition, quaternion, p1, p2, lod = 800 ) => bu
         rotation: [{ $: quaternion }],
         scaleXY: [ { $: { value: 1.00000000 }}],
         scaleZ: [ { $: { value: 1.00000000 }}],
-        parentIndex: [ { $: { value: -1 }}],
-        lodDist: [{ $: { value: 1000.00000000 }}],
-        childLodDist: [ { $: { value: 0.00000000 }}],
-        lodLevel: [ "LODTYPES_DEPTH_ORPHANHD" ],
-        numChildren: [{ $: { value: 0 }}],
+        parentIndex: [ { $: { value: childLod ? -1 : 0 }}],
+        lodDist: [{ $: { value: lod }}],
+        childLodDist: [ { $: { value: childLod }}],
+        lodLevel: [ childLod > 0 ? "LODTYPES_DEPTH_SLOD1": "LODTYPES_DEPTH_HD" ],
+        numChildren: [{ $: { value: childLod ? 1 : 0 }}],
         priorityLevel: ["PRI_REQUIRED"],
         extensions: [""],
         ambientOcclusionMultiplier: [{ $: { value: 255 }}],
@@ -268,10 +268,10 @@ const generateManifest = (billboardNames) => builder.buildObject({
     Interiors: [""],
     imapDependencies_2: {
       Item: billboardNames.map((name) => ({
-        imapName: name,
+        imapName: `${name}_lod`,
         manifestFlags: [""],
         itypDepArray: [{
-          Item: name
+          Item: `${name}_lod`
         }]
       }))
     }
@@ -283,7 +283,7 @@ const generateManifest = (billboardNames) => builder.buildObject({
   
   Object.keys(billboards).forEach(async (name) => {
 
-    const { bottomLeft, topRight, worldPosition, offset } = billboards[name];
+    const { bottomLeft, topRight, worldPosition, offset, lod = 120 } = billboards[name];
 
     const [ , x, y, z ] = worldPosition.match(/X:([^/s]+)Y:([^/s]+)Z:([^/s]+)/);
 
@@ -296,22 +296,35 @@ const generateManifest = (billboardNames) => builder.buildObject({
 
     const yaw = Math.atan2(topRight.y - bottomLeft.y, topRight.x - bottomLeft.x);
     
-    let offsetPosition = {
+    let offsetPositionLod = {
       x: wX + (Math.sin(yaw) * offset),
       y: wY + ((-1 * Math.cos(yaw)) * offset),
       z: wZ
     };
+    
+    let offsetPosition = {
+      x: wX + (Math.sin(yaw) * 0.001),
+      y: wY + ((-1 * Math.cos(yaw)) * 0.001),
+      z: wZ
+    };
    
-    const ydRBuffer = await generateYdr(name, "texture", width, height);
-    fs.writeFileSync(path.join(__dirname, "..", "raw", `${name}.ydr`), ydRBuffer);
+    const ydrLodBuffer = await generateYdr(name, "texture", width, height);
+    const ydrBuffer = await generateYdr(name, "texture", width, height);
+    fs.writeFileSync(path.join(__dirname, "..", "raw", `${name}.ydr`), ydrBuffer);
+    fs.writeFileSync(path.join(__dirname, "..", "raw", `${name}_lod.ydr`), ydrLodBuffer);
 
-    const ytyp = generateYtyp(name, width, height);
+    const ytyp = generateYtyp(name, width, height, lod);
+    const ytypLod = generateYtyp(`${name}_lod`, width, height, 1000);
     fs.writeFileSync(path.join(__dirname, "..", "raw", `${name}.ytyp.xml`), ytyp);
+    fs.writeFileSync(path.join(__dirname, "..", "raw", `${name}_lod.ytyp.xml`), ytypLod);
     
     fs.copyFileSync(path.join(__dirname, "template.ytd"), path.join(__dirname, "..", "raw", `${name}.ytd`))
+    fs.copyFileSync(path.join(__dirname, "template.ytd"), path.join(__dirname, "..", "raw", `${name}_lod.ytd`))
 
     const quaternion = Quaternion.fromEuler(0, 0, -yaw);
-    const ymap = generateYmap(name, offsetPosition, { x: 0, y: 0, z: quaternion.y, w: quaternion.w }, bottomLeft, topRight);
+    const ymapLod = generateYmap(`${name}_lod`, offsetPositionLod, { x: 0, y: 0, z: quaternion.y, w: quaternion.w }, bottomLeft, topRight, 1000, lod);
+    const ymap = generateYmap(name, offsetPosition, { x: 0, y: 0, z: quaternion.y, w: quaternion.w }, bottomLeft, topRight, lod);
+    fs.writeFileSync(path.join(__dirname, "..", "raw", `${name}_lod.ymap.xml`), ymapLod);
     fs.writeFileSync(path.join(__dirname, "..", "raw", `${name}.ymap.xml`), ymap);
   });
 

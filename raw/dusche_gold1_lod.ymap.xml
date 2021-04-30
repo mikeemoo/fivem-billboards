@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>dusche_gold1_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-859.2326481717441" y="-1020.6331748333504" z="-917.38878"/>
+  <streamingExtentsMax x="1152.7981518282559" y="991.4108091666495" z="1088.2899400000001"/>
+  <entitiesExtentsMin x="140.76735182825587" y="-20.63317483335043" z="82.61121999999999"/>
+  <entitiesExtentsMax x="152.79815182825587" y="-8.589190833350429" z="88.28994"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>dusche_gold1_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="146.78275182825587" y="-14.611182833350428" z="85.45057999999999"/>
+      <rotation x="0" y="0" z="0.3829363886460608" w="0.9237747140134942"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>dusche_gold1_lod</name>
+    <owner/>
+  </block>
+</CMapData>

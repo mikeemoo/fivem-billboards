@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>flying_bravo_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-797.8963174350724" y="-1195.3541819705727" z="-927.55182"/>
+  <streamingExtentsMax x="1206.5206725649275" y="821.1302040294274" z="1078.11758"/>
+  <entitiesExtentsMin x="202.1036825649275" y="-195.3541819705726" z="72.44818"/>
+  <entitiesExtentsMax x="206.5206725649275" y="-178.8697959705726" z="78.11758"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>flying_bravo_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="204.3121775649275" y="-187.11198897057258" z="75.28288"/>
+      <rotation x="0" y="0" z="-0.6087611577105069" w="0.7933535484656027"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>flying_bravo_lod</name>
+    <owner/>
+  </block>
+</CMapData>

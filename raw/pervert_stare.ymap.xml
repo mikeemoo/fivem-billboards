@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>pervert_stare</name>
-  <parent/>
+  <parent>pervert_stare_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-258.04530631273906" y="-1028.1369861589817" z="-731.76193"/>
-  <streamingExtentsMax x="1352.950293687261" y="584.9334138410184" z="873.86697"/>
-  <entitiesExtentsMin x="541.9546936872609" y="-228.13698615898164" z="68.23807"/>
-  <entitiesExtentsMax x="552.9502936872609" y="-215.06658615898166" z="73.86697"/>
+  <streamingExtentsMin x="421.810065229933" y="-348.25865624294204" z="-51.76193000000001"/>
+  <streamingExtentsMax x="672.805665229933" y="-95.18825624294203" z="193.86696999999998"/>
+  <entitiesExtentsMin x="541.810065229933" y="-228.25865624294204" z="68.23807"/>
+  <entitiesExtentsMax x="552.805665229933" y="-215.18825624294203" z="73.86697"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>pervert_stare</archetypeName>
-      <flags value="32"/>
+      <flags value="1572872"/>
       <guid value="0"/>
-      <position x="547.4524936872609" y="-221.60178615898167" z="71.05252"/>
+      <position x="547.307865229933" y="-221.723456242942" z="71.05252"/>
       <rotation x="0" y="0" z="-0.9065751645592887" w="0.4220443945893592"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="-1"/>
-      <lodDist value="1000"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
       <childLodDist value="0"/>
-      <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>
       <priorityLevel>PRI_REQUIRED</priorityLevel>
       <extensions/>

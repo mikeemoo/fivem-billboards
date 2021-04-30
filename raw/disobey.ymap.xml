@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>disobey</name>
+  <parent>disobey_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="380.81840954482203" y="-6.475165731062646" z="17.76249999999999"/>
+  <streamingExtentsMax x="637.289559544822" y="237.95153426893734" z="263.43190000000004"/>
+  <entitiesExtentsMin x="500.81840954482203" y="113.52483426893735" z="137.7625"/>
+  <entitiesExtentsMax x="517.289559544822" y="117.95153426893735" z="143.4319"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>disobey</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="509.0539845448221" y="115.73818426893735" z="140.5972"/>
+      <rotation x="0" y="0" z="-0.13089869622994682" w="0.9913957490958392"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>disobey</name>
+    <owner/>
+  </block>
+</CMapData>
