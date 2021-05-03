@@ -13,7 +13,7 @@ const generateOdr = (name, width, height, depth) => {
 	{
 		default.sps
 		{
-			DiffuseSampler ${name}\\texture.otx
+			DiffuseSampler texture.otx
 			HardAlphaBlend 1.0000000
 			UseTessellation 0.0000000
 		}
@@ -23,11 +23,11 @@ const generateOdr = (name, width, height, depth) => {
 	{
 		High 80.0
 		{
-			${name}\\high.mesh 0
+			${name}_high.mesh 0
 		}
 		Med 9998.0
 		{
-			${name}\\low.mesh 0
+			${name}_low.mesh 0
 		}
 		Low 9998.0
 		Vlow 9998.0
@@ -101,29 +101,31 @@ const generateOtx = () => `Version 13 30
 }`
 
 
-const generateYtyp = (name, width, height, lod) => builder.buildObject({
+const getArchetype = (name, width, height, lod) => ({
+  $:{type:"CBaseArchetypeDef"},
+  lodDist: [{ $: { value: lod }}],
+  flags: [{ $: { value: 0 }}],
+  specialAttribute: [{ $: { value: 0 }}],
+  bbMin: [{ $: { x: -width, y: -0.0001, z: -height}}],
+  bbMax: [{ $: { x: width, y: 0.0001, z: height }}],
+  bsCentre: [{ $: { x: 0.00000000, y: 0.00000000, z: 0.00000000 }}],
+  bsRadius: [{ $: { value: Math.max(width, height) }}],
+  hdTextureDist: [{ $: { value: lod }}],
+  name: [ name ],
+  textureDictionary: [ name ],
+  clipDictionary: [""],
+  drawableDictionary: [""],
+  physicsDictionary: [""],
+  assetType: [ "ASSET_TYPE_DRAWABLE" ],
+  assetName: [ name ],
+  extensions :[""]
+});
+
+const generateYtyp = (parts) => builder.buildObject({
   CMapTypes: {
     extensions:[""],
     archetypes: [
-      {Item:[
-        {$:{type:"CBaseArchetypeDef"},
-        lodDist: [{ $: { value: lod }}],
-        flags: [{ $: { value: 0 }}],
-        specialAttribute: [{ $: { value: 0 }}],
-        bbMin: [{ $: { x: -width, y: -0.0001, z: -height}}],
-        bbMax: [{ $: { x: width, y: 0.0001, z: height }}],
-        bsCentre: [{ $: { x: 0.00000000, y: 0.00000000, z: 0.00000000 }}],
-        bsRadius: [{ $: { value: Math.max(width, height) }}],
-        hdTextureDist: [{ $: { value: lod }}],
-        name: [ name ],
-        textureDictionary: [ name ],
-        clipDictionary: [""],
-        drawableDictionary: [""],
-        physicsDictionary: [""],
-        assetType: [ "ASSET_TYPE_DRAWABLE" ],
-        assetName: [ name ],
-        extensions :[""]
-      }]}
+      { Item: parts }
     ],
     name: [""],
     dependencies: [""],
@@ -232,6 +234,12 @@ const generateManifest = (billboardNames) => builder.buildObject({
   const billboards = JSON.parse(fs.readFileSync(path.join(__dirname, "definitions.json"), "utf8"));
   
   const outDir = path.join(__dirname, "..", "raw");
+    
+  fs.copyFileSync(path.join(__dirname, "texture.dds"), path.join(outDir, "texture.dds"));
+
+  fs.writeFileSync(path.join(outDir, "texture.otx"), generateOtx());
+
+  const archetypes = [];
 
   Object.keys(billboards).forEach(async (name) => {
 
@@ -252,35 +260,23 @@ const generateManifest = (billboardNames) => builder.buildObject({
     //   z: wZ
     // };
 
-    const meshDir = path.join(outDir, name);
-
     const odr = generateOdr(name, width, height, lodOffset);
     fs.writeFileSync(path.join(outDir, `${name}.odr`), odr);
     
-    
-    if (!fs.existsSync(meshDir)) {
-      fs.mkdirSync(meshDir);
-    }
-
     const meshLow = generateMesh(width, height, lodOffset);
     const meshHigh = generateMesh(width, height, offset);
 
-    fs.writeFileSync(path.join(meshDir, "low.mesh"), meshLow);
-    fs.writeFileSync(path.join(meshDir, "high.mesh"), meshHigh);
+    fs.writeFileSync(path.join(outDir, `${name}_low.mesh`), meshLow);
+    fs.writeFileSync(path.join(outDir, `${name}_high.mesh`), meshHigh);
     
-    fs.copyFileSync(path.join(__dirname, "texture.dds"), path.join(meshDir, "texture.dds"));
-    
-    const otx = generateOtx();
-    fs.writeFileSync(path.join(meshDir, "texture.otx"), otx);
-
-    const ytyp = generateYtyp(name, width, height, 1000);
-
-    fs.writeFileSync(path.join(outDir, `${name}.ytyp.xml`), ytyp);
+    archetypes.push(getArchetype(name, width, height, 1000));
 
     const quaternion = Quaternion.fromEuler(0, 0, -yaw);
     const ymap = generateYmap(name, worldPos, { x: 0, y: 0, z: quaternion.y, w: quaternion.w }, bottomLeft, topRight, 1000);
     fs.writeFileSync(path.join(outDir, `${name}.ymap.xml`), ymap);
   });
+
+  fs.writeFileSync(path.join(outDir, `_types_billboards.ytyp.xml`), generateYtyp(archetypes));
 
   const manifest = generateManifest(Object.keys(billboards));
   fs.writeFileSync(path.join(outDir, "_manifest_billboards.ymf.xml"), manifest);

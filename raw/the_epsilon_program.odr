@@ -4,7 +4,7 @@ Version 165 32
 	{
 		default.sps
 		{
-			DiffuseSampler the_epsilon_program\texture.otx
+			DiffuseSampler texture.otx
 			HardAlphaBlend 1.0000000
 			UseTessellation 0.0000000
 		}
@@ -14,11 +14,11 @@ Version 165 32
 	{
 		High 80.0
 		{
-			the_epsilon_program\high.mesh 0
+			the_epsilon_program_high.mesh 0
 		}
 		Med 9998.0
 		{
-			the_epsilon_program\low.mesh 0
+			the_epsilon_program_low.mesh 0
 		}
 		Low 9998.0
 		Vlow 9998.0
