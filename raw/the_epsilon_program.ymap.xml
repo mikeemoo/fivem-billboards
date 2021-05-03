@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>the_epsilon_program</name>
+  <parent>the_epsilon_program_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="1103.7974339408263" y="-523.602157229946" z="-43.80908000000001"/>
+  <streamingExtentsMax x="1351.5108339408262" y="-274.4092572299459" z="200.110356"/>
+  <entitiesExtentsMin x="1223.7974339408263" y="-403.60215722994593" z="76.19091999999999"/>
+  <entitiesExtentsMax x="1231.5108339408262" y="-394.4092572299459" z="80.110356"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>the_epsilon_program</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="1227.6541339408263" y="-399.0057072299459" z="78.150638"/>
+      <rotation x="0" y="0" z="0.906302944408405" w="0.4226286466351466"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>the_epsilon_program</name>
+    <owner/>
+  </block>
+</CMapData>

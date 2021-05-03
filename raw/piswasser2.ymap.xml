@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>piswasser2</name>
+  <parent>piswasser2_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="900.42843244768" y="-285.8887451065748" z="14.307159999999996"/>
+  <streamingExtentsMax x="1059.31513244768" y="-121.34919510657474" z="169.93606"/>
+  <entitiesExtentsMin x="975.42843244768" y="-210.88874510657476" z="89.30716"/>
+  <entitiesExtentsMax x="984.3151324476801" y="-196.34919510657474" z="94.93606"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>piswasser2</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="979.8717824476801" y="-203.61897010657475" z="92.12161"/>
+      <rotation x="0" y="0" z="-0.4891264368876838" w="0.8722128918661766"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="75"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>piswasser2</name>
+    <owner/>
+  </block>
+</CMapData>

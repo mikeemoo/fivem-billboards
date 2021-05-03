@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>x_marks_the_spot</name>
+  <parent>x_marks_the_spot_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-695.1471999920446" y="137.50170601118774" z="3.8746300000000105"/>
+  <streamingExtentsMax x="-515.1095999920447" y="326.92799601118776" z="209.18564"/>
+  <entitiesExtentsMin x="-605.1471999920446" y="227.50170601118774" z="93.87463000000001"/>
+  <entitiesExtentsMax x="-605.1095999920447" y="236.92799601118776" z="119.18564"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>x_marks_the_spot</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-605.1283999920446" y="232.21485101118776" z="106.530135"/>
+      <rotation x="0" y="0" z="0.7056951139711036" w="0.708515635760645"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="90"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>x_marks_the_spot</name>
+    <owner/>
+  </block>
+</CMapData>

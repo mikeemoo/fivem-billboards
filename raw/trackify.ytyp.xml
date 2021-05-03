@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-12.836871681874053" y="-0.0001" z="-5.66944"/>
+      <bbMax x="12.836871681874053" y="0.0001" z="5.66944"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.836871681874053"/>
+      <hdTextureDist value="75"/>
+      <name>trackify</name>
+      <textureDictionary>trackify</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>trackify</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

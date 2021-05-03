@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="250"/>
+      <lodDist value="100"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-20.084369224105497" y="-0.0001" z="-7.059084"/>
       <bbMax x="20.084369224105497" y="0.0001" z="7.059084"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="20.084369224105497"/>
-      <hdTextureDist value="250"/>
+      <hdTextureDist value="100"/>
       <name>fameorshame2</name>
       <textureDictionary>fameorshame2</textureDictionary>
       <clipDictionary/>

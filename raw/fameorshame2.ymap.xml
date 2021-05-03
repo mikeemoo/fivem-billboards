@@ -4,8 +4,8 @@
   <parent>fameorshame2_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-704.4151213794349" y="14.9561835097943" z="-151.749224"/>
-  <streamingExtentsMax x="-188.67882137943496" y="527.4361975097943" z="355.30986"/>
+  <streamingExtentsMin x="-554.4151213794349" y="164.9561835097943" z="-1.7492239999999981"/>
+  <streamingExtentsMax x="-338.67882137943496" y="377.4361975097943" z="205.30986000000001"/>
   <entitiesExtentsMin x="-454.41512137943494" y="264.9561835097943" z="98.250776"/>
   <entitiesExtentsMax x="-438.67882137943496" y="277.4361975097943" z="105.30986"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="250"/>
+      <lodDist value="100"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

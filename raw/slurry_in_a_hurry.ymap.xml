@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>slurry_in_a_hurry</name>
+  <parent>slurry_in_a_hurry_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="912.683683973717" y="-502.70938000152273" z="-83.37907"/>
+  <streamingExtentsMax x="1239.896583973717" y="-170.21622000152274" z="243.32015"/>
+  <entitiesExtentsMin x="1072.683683973717" y="-342.70938000152273" z="76.62093"/>
+  <entitiesExtentsMax x="1079.896583973717" y="-330.21622000152274" z="83.32015"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>slurry_in_a_hurry</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="1076.290133973717" y="-336.46280000152274" z="79.97054"/>
+      <rotation x="0" y="0" z="0.8660249642076858" w="0.5000007613684967"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="160"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>slurry_in_a_hurry</name>
+    <owner/>
+  </block>
+</CMapData>

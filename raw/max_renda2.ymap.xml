@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>max_renda2</name>
+  <parent>max_renda2_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="1044.857980838742" y="-581.3284735632774" z="2.589359999999999"/>
+  <streamingExtentsMax x="1202.8666808387418" y="-419.8904735632774" z="158.25878999999998"/>
+  <entitiesExtentsMin x="1119.857980838742" y="-506.32847356327744" z="77.58936"/>
+  <entitiesExtentsMax x="1127.8666808387418" y="-494.8904735632774" z="83.25878999999999"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>max_renda2</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="1123.8623308387419" y="-500.60947356327745" z="80.424075"/>
+      <rotation x="0" y="0" z="0.4617557376672333" w="0.8870071243971996"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="75"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>max_renda2</name>
+    <owner/>
+  </block>
+</CMapData>

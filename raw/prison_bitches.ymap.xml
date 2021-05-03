@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>prison_bitches</name>
+  <parent>prison_bitches_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-756.2375659243809" y="99.39461882443925" z="-26.20657"/>
+  <streamingExtentsMax x="-512.6867659243809" y="352.6460888244393" z="220.19332"/>
+  <entitiesExtentsMin x="-636.2375659243809" y="219.39461882443925" z="93.79343"/>
+  <entitiesExtentsMax x="-632.6867659243809" y="232.64608882443926" z="100.19332"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>prison_bitches</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-634.4621659243809" y="226.02035382443924" z="96.993375"/>
+      <rotation x="0" y="0" z="0.7933550400777559" w="0.608759213797395"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>prison_bitches</name>
+    <owner/>
+  </block>
+</CMapData>

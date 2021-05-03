@@ -4,8 +4,8 @@
   <parent>space_monkey_lod</parent>
   <flags value="0"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-221.40968436105314" y="132.44094192436674" z="21.08233"/>
-  <streamingExtentsMax x="-37.95708436105315" y="306.0459219243668" z="197.3777"/>
+  <streamingExtentsMin x="-211.40968436105314" y="142.44094192436674" z="31.08233"/>
+  <streamingExtentsMax x="-47.95708436105315" y="296.0459219243668" z="187.3777"/>
   <entitiesExtentsMin x="-136.40968436105314" y="217.44094192436674" z="106.08233"/>
   <entitiesExtentsMax x="-122.95708436105315" y="221.04592192436675" z="112.3777"/>
   <entities>
@@ -18,7 +18,7 @@
       <scaleXY value="1"/>
       <scaleZ value="1"/>
       <parentIndex value="0"/>
-      <lodDist value="85"/>
+      <lodDist value="75"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

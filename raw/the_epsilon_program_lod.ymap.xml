@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>the_epsilon_program_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="223.49177633053046" y="-1403.3456919783653" z="-923.80908"/>
+  <streamingExtentsMax x="2231.2051763305303" y="605.8472080216347" z="1080.110356"/>
+  <entitiesExtentsMin x="1223.4917763305305" y="-403.3456919783653" z="76.19091999999999"/>
+  <entitiesExtentsMax x="1231.2051763305303" y="-394.1527919783653" z="80.110356"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>the_epsilon_program_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="1227.3484763305305" y="-398.7492419783653" z="78.150638"/>
+      <rotation x="0" y="0" z="0.906302944408405" w="0.4226286466351466"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>the_epsilon_program_lod</name>
+    <owner/>
+  </block>
+</CMapData>

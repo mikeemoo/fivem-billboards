@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>destroy_the_ring_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="-1601.0101601072067" y="-772.4292329186023" z="-906.12537"/>
+  <streamingExtentsMax x="398.9995998927933" y="1236.9970070813977" z="1119.18564"/>
+  <entitiesExtentsMin x="-601.0101601072067" y="227.57076708139763" z="93.87463000000001"/>
+  <entitiesExtentsMax x="-601.0004001072067" y="236.9970070813976" z="119.18564"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>destroy_the_ring_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-601.0052801072068" y="232.2838870813976" z="106.530135"/>
+      <rotation x="0" y="0" z="-0.7074727581286028" w="0.7067406147278558"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="90"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>destroy_the_ring_lod</name>
+    <owner/>
+  </block>
+</CMapData>

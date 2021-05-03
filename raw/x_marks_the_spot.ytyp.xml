@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="90"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-9.426364989968299" y="-0.0001" z="-25.31101"/>
+      <bbMax x="9.426364989968299" y="0.0001" z="25.31101"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="25.31101"/>
+      <hdTextureDist value="90"/>
+      <name>x_marks_the_spot</name>
+      <textureDictionary>x_marks_the_spot</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>x_marks_the_spot</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

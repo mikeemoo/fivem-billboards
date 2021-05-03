@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>junk2</name>
+  <parent>junk2_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="1156.1289808421068" y="-441.1716735680831" z="-17.62939"/>
+  <streamingExtentsMax x="1364.1377808421068" y="-229.73367356808313" z="188.04003999999998"/>
+  <entitiesExtentsMin x="1256.1289808421068" y="-341.1716735680831" z="82.37061"/>
+  <entitiesExtentsMax x="1264.1377808421068" y="-329.73367356808313" z="88.04003999999999"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>junk2</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="1260.1333808421068" y="-335.4526735680831" z="85.205325"/>
+      <rotation x="0" y="0" z="0.46175313580452565" w="0.8870084788629066"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="100"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>junk2</name>
+    <owner/>
+  </block>
+</CMapData>

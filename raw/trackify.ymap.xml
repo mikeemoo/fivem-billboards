@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>trackify</name>
+  <parent>trackify_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-483.3846014802424" y="120.69162439019857" z="14.910969999999992"/>
+  <streamingExtentsMax x="-332.6864014802424" y="283.5094943901986" z="170.58041"/>
+  <entitiesExtentsMin x="-408.3846014802424" y="195.69162439019857" z="89.91096999999999"/>
+  <entitiesExtentsMax x="-407.6864014802424" y="208.50949439019857" z="95.58041"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>trackify</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-408.0355014802424" y="202.10055939019858" z="92.74569"/>
+      <rotation x="0" y="0" z="-0.7260820196733941" w="0.6876081011062951"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="75"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>trackify</name>
+    <owner/>
+  </block>
+</CMapData>

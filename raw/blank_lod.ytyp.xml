@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-12.0002479128558" y="-0.0001" z="-3.91943"/>
+      <bbMax x="12.0002479128558" y="0.0001" z="3.91943"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.0002479128558"/>
+      <hdTextureDist value="1000"/>
+      <name>blank_lod</name>
+      <textureDictionary>blank_lod</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>blank_lod</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>hammerstein_and_faust</name>
+  <parent>hammerstein_and_faust_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-668.4895963230125" y="208.16119211031793" z="20.213099999999997"/>
+  <streamingExtentsMax x="-517.6814963230125" y="358.9453721103179" z="164.63449"/>
+  <entitiesExtentsMin x="-598.4895963230125" y="278.1611921103179" z="90.2131"/>
+  <entitiesExtentsMax x="-587.6814963230125" y="288.9453721103179" z="94.63449"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>hammerstein_and_faust</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="-593.0855463230125" y="283.5532821103179" z="92.423795"/>
+      <rotation x="0" y="0" z="0.3821716354776279" w="0.9240913596806082"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="70"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>hammerstein_and_faust</name>
+    <owner/>
+  </block>
+</CMapData>

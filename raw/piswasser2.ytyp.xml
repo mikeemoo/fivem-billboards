@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.040303726533164" y="-0.0001" z="-5.6289"/>
+      <bbMax x="17.040303726533164" y="0.0001" z="5.6289"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.040303726533164"/>
+      <hdTextureDist value="75"/>
+      <name>piswasser2</name>
+      <textureDictionary>piswasser2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>piswasser2</assetName>
+      <extensions/>
+    </Item>
+  </archetypes>
+  <name/>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

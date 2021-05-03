@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>pro_you</name>
+  <parent>pro_you_lod</parent>
+  <flags value="0"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="1008.2730588043087" y="-537.8518170702253" z="-42.49316"/>
+  <streamingExtentsMax x="1262.2071588043086" y="-294.11841407022524" z="204.20655"/>
+  <entitiesExtentsMin x="1128.2730588043087" y="-417.85181707022525" z="77.50684"/>
+  <entitiesExtentsMax x="1142.2071588043086" y="-414.11841407022524" z="84.20655"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>pro_you</archetypeName>
+      <flags value="1572872"/>
+      <guid value="0"/>
+      <position x="1135.2401088043086" y="-415.9851155702252" z="80.856695"/>
+      <rotation x="0" y="0" z="-0.9914458570079252" w="0.13051862940523387"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="0"/>
+      <lodDist value="120"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>pro_you</name>
+    <owner/>
+  </block>
+</CMapData>

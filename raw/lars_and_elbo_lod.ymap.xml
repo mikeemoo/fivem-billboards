@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>lars_and_elbo_lod</name>
+  <parent/>
+  <flags value="2"/>
+  <contentFlags value="2"/>
+  <streamingExtentsMin x="231.7366998028749" y="-1448.2034874119179" z="-916.58056"/>
+  <streamingExtentsMax x="2243.828999802875" y="558.778012588082" z="1089.08887"/>
+  <entitiesExtentsMin x="1231.736699802875" y="-448.20348741191793" z="83.41944"/>
+  <entitiesExtentsMax x="1243.828999802875" y="-441.22198741191795" z="89.08887"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>lars_and_elbo_lod</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="1237.7828498028748" y="-444.71273741191794" z="86.254155"/>
+      <rotation x="0" y="0" z="0.96592576737656" w="0.258819264966895"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="120"/>
+      <lodLevel>LODTYPES_DEPTH_SLOD1</lodLevel>
+      <numChildren value="1"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>lars_and_elbo_lod</name>
+    <owner/>
+  </block>
+</CMapData>
