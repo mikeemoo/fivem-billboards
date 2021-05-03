@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>fame_or_shame</name>
-  <parent>fame_or_shame_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-270.4419761926648" y="122.62356282101973" z="5.268360000000001"/>
-  <streamingExtentsMax x="-68.95418619266476" y="339.6245128210197" z="210.93779999999998"/>
-  <entitiesExtentsMin x="-170.44197619266478" y="222.62356282101973" z="105.26836"/>
-  <entitiesExtentsMax x="-168.95418619266476" y="239.62451282101972" z="110.9378"/>
+  <streamingExtentsMin x="-1170.44098" y="-777.37635" z="-894.73164"/>
+  <streamingExtentsMax x="831.04681" y="1239.6246" z="1110.9378"/>
+  <entitiesExtentsMin x="-170.44098" y="222.62365" z="105.26836"/>
+  <entitiesExtentsMax x="-168.95318999999998" y="239.6246" z="110.9378"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>fame_or_shame</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-169.69808119266477" y="231.12403782101973" z="108.10308"/>
+      <position x="-169.697085" y="231.124125" z="108.10308"/>
       <rotation x="0" y="0" z="0.6755816085869404" w="0.7372852162759552"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="100"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

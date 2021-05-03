@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler lenny_avery\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			lenny_avery\high.mesh 0
+		}
+		Med 9998.0
+		{
+			lenny_avery\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -12.051607236233512 -0.11000000000000001 -4.2354468
+		AABBMax 32.1376192966227 0.11000000000000001 11.294524800000001
+		Radius 32.1376192966227
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>dusche_gold2</name>
-  <parent>dusche_gold2_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="32.899173464313634" y="-125.85047976945798" z="-27.379990000000006"/>
-  <streamingExtentsMax x="266.8590734643136" y="103.92150023054202" z="198.27674"/>
-  <entitiesExtentsMin x="142.89917346431363" y="-15.85047976945798" z="82.62001"/>
-  <entitiesExtentsMax x="156.85907346431364" y="-6.078499769457979" z="88.27673999999999"/>
+  <streamingExtentsMin x="-857.1014" y="-1015.851299" z="-917.37999"/>
+  <streamingExtentsMax x="1156.8585" y="993.920681" z="1088.27674"/>
+  <entitiesExtentsMin x="142.8986" y="-15.851299000000001" z="82.62001"/>
+  <entitiesExtentsMax x="156.8585" y="-6.079319" z="88.27673999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>dusche_gold2</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="149.87912346431364" y="-10.96448976945798" z="85.448375"/>
+      <position x="149.87855" y="-10.965309000000001" z="85.448375"/>
       <rotation x="0" y="0" z="-0.9537375273156596" w="0.30064053118269246"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="110"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

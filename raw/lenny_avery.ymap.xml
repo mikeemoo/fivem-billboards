@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>lenny_avery</name>
-  <parent>lenny_avery_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-520.0317058459018" y="140.41675224063533" z="-23.034080000000003"/>
-  <streamingExtentsMax x="-281.0380058459018" y="388.37674224063534" z="214.02499799999998"/>
-  <entitiesExtentsMin x="-405.0317058459018" y="255.41675224063533" z="91.96592"/>
-  <entitiesExtentsMax x="-396.0380058459018" y="273.37674224063534" z="99.024998"/>
+  <streamingExtentsMin x="-1405.0326" y="-744.5827999999999" z="-908.03408"/>
+  <streamingExtentsMax x="603.9611" y="1273.3771900000002" z="1099.024998"/>
+  <entitiesExtentsMin x="-405.0326" y="255.41720000000004" z="91.96592"/>
+  <entitiesExtentsMax x="-396.0389" y="273.37719000000004" z="99.024998"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>lenny_avery</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-400.5348558459018" y="264.3967472406353" z="95.495459"/>
+      <position x="-400.53575" y="264.397195" z="95.495459"/>
       <rotation x="0" y="0" z="-0.5254715193404509" w="0.8508111907832655"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="115"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

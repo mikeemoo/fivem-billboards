@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler suburban\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			suburban\high.mesh 0
+		}
+		Med 9998.0
+		{
+			suburban\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -10.239719504863402 -0.11000000000000001 -3.401952
+		AABBMax 27.305918679635738 0.11000000000000001 9.071872
+		Radius 27.305918679635738
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler logger_light\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			logger_light\high.mesh 0
+		}
+		Med 9998.0
+		{
+			logger_light\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.65548 -0.66 -4.0195314
+		AABBMax 23.081280000000003 0.66 10.718750400000001
+		Radius 23.081280000000003
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler loneliest_robot2\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			loneliest_robot2\high.mesh 0
+		}
+		Med 9998.0
+		{
+			loneliest_robot2\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.377857371124193 -0.275 -3.4016621999999996
+		AABBMax 22.34095298966452 0.275 9.071099199999999
+		Radius 22.34095298966452
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

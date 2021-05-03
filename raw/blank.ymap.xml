@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>blank</name>
-  <parent>blank_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="775.5951427700542" y="-184.0932660591737" z="28.911370000000005"/>
-  <streamingExtentsMax x="904.7880427700542" y="-56.37986605917368" z="152.8308"/>
-  <entitiesExtentsMin x="835.5951427700542" y="-124.09326605917367" z="88.91137"/>
-  <entitiesExtentsMax x="844.7880427700542" y="-116.37986605917368" z="92.8308"/>
+  <streamingExtentsMin x="-164.40549999999996" y="-1124.0925" z="-911.08863"/>
+  <streamingExtentsMax x="1844.7874000000002" y="883.6209" z="1092.8308"/>
+  <entitiesExtentsMin x="835.5945" y="-124.0925" z="88.91137"/>
+  <entitiesExtentsMax x="844.7874" y="-116.37910000000001" z="92.8308"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>blank</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="840.1915927700542" y="-120.23656605917367" z="90.871085"/>
+      <position x="840.19095" y="-120.23580000000001" z="90.871085"/>
       <rotation x="0" y="0" z="-0.34200937584111263" w="0.9396965397599231"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="60"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

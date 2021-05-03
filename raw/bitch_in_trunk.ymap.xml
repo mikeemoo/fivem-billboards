@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>bitch_in_trunk</name>
-  <parent>bitch_in_trunk_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-276.9084786762305" y="154.28745556240966" z="30.480763999999994"/>
-  <streamingExtentsMax x="-129.17217867623054" y="301.43638556240967" z="174.325"/>
-  <entitiesExtentsMin x="-206.90847867623054" y="224.28745556240966" z="100.480764"/>
-  <entitiesExtentsMax x="-199.17217867623054" y="231.43638556240967" z="104.325"/>
+  <streamingExtentsMin x="-1206.9078" y="-775.71181" z="-899.519236"/>
+  <streamingExtentsMax x="800.8285000000001" y="1231.43712" z="1104.325"/>
+  <entitiesExtentsMin x="-206.90779999999998" y="224.28819" z="100.480764"/>
+  <entitiesExtentsMax x="-199.17149999999998" y="231.43712" z="104.325"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>bitch_in_trunk</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-203.04032867623056" y="227.86192056240967" z="102.402882"/>
+      <position x="-203.03965" y="227.862655" z="102.402882"/>
       <rotation x="0" y="0" z="0.3643915542972136" w="0.9312458296050838"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="70"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

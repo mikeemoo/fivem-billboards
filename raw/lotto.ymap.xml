@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>lotto</name>
-  <parent>lotto_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="493.4278466687764" y="-206.0503011160135" z="19.450969999999998"/>
-  <streamingExtentsMax x="611.9288666687764" y="-81.28220111601348" z="135.07547"/>
-  <entitiesExtentsMin x="548.4278466687764" y="-151.0503011160135" z="74.45097"/>
-  <entitiesExtentsMax x="556.9288666687764" y="-136.28220111601348" z="80.07547"/>
+  <streamingExtentsMin x="-451.57302000000004" y="-1151.0508" z="-925.54903"/>
+  <streamingExtentsMax x="1556.9279999999999" y="863.7173" z="1080.07547"/>
+  <entitiesExtentsMin x="548.42698" y="-151.0508" z="74.45097"/>
+  <entitiesExtentsMax x="556.928" y="-136.2827" z="80.07547"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>lotto</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="552.6783566687765" y="-143.66625111601348" z="77.26321999999999"/>
+      <position x="552.67749" y="-143.66675" z="77.26321999999999"/>
       <rotation x="0" y="0" z="-0.8657031785009501" w="0.5005576957088484"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="55"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

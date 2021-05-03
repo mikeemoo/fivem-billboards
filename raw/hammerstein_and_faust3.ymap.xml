@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>hammerstein_and_faust3</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-253.7048400000001" y="-1945.3751000000002" z="-957.52654"/>
+  <streamingExtentsMax x="1763.0852" y="57.16339999999991" z="1048.39338"/>
+  <entitiesExtentsMin x="746.2951599999999" y="-945.3751000000001" z="42.47346"/>
+  <entitiesExtentsMax x="763.0852" y="-942.8366000000001" z="48.39338"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>hammerstein_and_faust3</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="754.6901799999999" y="-944.10585" z="45.433420000000005"/>
+      <rotation x="0" y="0" z="0.07495681319561874" w="0.9971867809771433"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>hammerstein_and_faust3</name>
+    <owner/>
+  </block>
+</CMapData>

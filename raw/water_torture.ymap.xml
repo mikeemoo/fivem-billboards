@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>water_torture</name>
-  <parent>water_torture_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-614.970092110318" y="220.51788367698748" z="37.60795999999999"/>
-  <streamingExtentsMax x="-494.185912110318" y="341.3259836769875" z="152.02934"/>
-  <entitiesExtentsMin x="-559.970092110318" y="275.5178836769875" z="92.60795999999999"/>
-  <entitiesExtentsMax x="-549.185912110318" y="286.3259836769875" z="97.02933999999999"/>
+  <streamingExtentsMin x="-1559.9708" y="-724.48141" z="-907.39204"/>
+  <streamingExtentsMax x="450.81337999999994" y="1286.32669" z="1097.02934"/>
+  <entitiesExtentsMin x="-559.9708" y="275.51859" z="92.60795999999999"/>
+  <entitiesExtentsMax x="-549.1866200000001" y="286.32669000000004" z="97.02933999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>water_torture</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-554.5780021103179" y="280.92193367698746" z="94.81864999999999"/>
+      <position x="-554.57871" y="280.92264" z="94.81864999999999"/>
       <rotation x="0" y="0" z="-0.383195111842671" w="0.923667421889439"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="55"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

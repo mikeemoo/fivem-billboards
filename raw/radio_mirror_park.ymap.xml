@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>radio_mirror_park</name>
-  <parent>radio_mirror_park_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="1060.3823172077496" y="-401.76680004054913" z="15.97460000000001"/>
-  <streamingExtentsMax x="1189.5746572077496" y="-274.0534160405491" z="139.89352000000002"/>
-  <entitiesExtentsMin x="1120.3823172077496" y="-341.76680004054913" z="75.97460000000001"/>
-  <entitiesExtentsMax x="1129.5746572077496" y="-334.0534160405491" z="79.89352000000001"/>
+  <streamingExtentsMin x="120.38295999999991" y="-1341.766034" z="-924.0254"/>
+  <streamingExtentsMax x="2129.5753" y="665.9473499999999" z="1079.89352"/>
+  <entitiesExtentsMin x="1120.38296" y="-341.76603400000005" z="75.97460000000001"/>
+  <entitiesExtentsMax x="1129.5753" y="-334.05265" z="79.89352000000001"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>radio_mirror_park</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="1124.9784872077496" y="-337.9101080405491" z="77.93406"/>
+      <position x="1124.97913" y="-337.90934200000004" z="77.93406"/>
       <rotation x="0" y="0" z="0.3420229896521134" w="0.9396915848029237"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="60"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

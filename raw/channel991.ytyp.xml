@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="100"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-13.962747420318108" y="-0.0001" z="-5.669436999999999"/>
       <bbMax x="13.962747420318108" y="0.0001" z="5.669436999999999"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="13.962747420318108"/>
-      <hdTextureDist value="100"/>
+      <hdTextureDist value="1000"/>
       <name>channel991</name>
       <textureDictionary>channel991</textureDictionary>
       <clipDictionary/>

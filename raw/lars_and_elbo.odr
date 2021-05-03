@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler lars_and_elbo\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			lars_and_elbo\high.mesh 0
+		}
+		Med 9998.0
+		{
+			lars_and_elbo\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.377793394110405 -0.55 -3.401658
+		AABBMax 22.340782384294418 0.55 9.071088000000001
+		Radius 22.340782384294418
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

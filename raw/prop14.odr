@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler prop14\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			prop14\high.mesh 0
+		}
+		Med 9998.0
+		{
+			prop14\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.655226446814433 -0.11000000000000001 -4.0195302
+		AABBMax 23.080603858171823 0.11000000000000001 10.718747200000001
+		Radius 23.080603858171823
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

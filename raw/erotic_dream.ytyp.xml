@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="72"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-12.81753394053977" y="-0.0001" z="-5.686969999999999"/>
       <bbMax x="12.81753394053977" y="0.0001" z="5.686969999999999"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="12.81753394053977"/>
-      <hdTextureDist value="72"/>
+      <hdTextureDist value="1000"/>
       <name>erotic_dream</name>
       <textureDictionary>erotic_dream</textureDictionary>
       <clipDictionary/>

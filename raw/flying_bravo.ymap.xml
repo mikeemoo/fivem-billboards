@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>flying_bravo</name>
-  <parent>flying_bravo_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="114.00805592564924" y="-283.32855881970573" z="-15.551820000000006"/>
-  <streamingExtentsMax x="294.4250459256493" y="-90.84417281970573" z="166.11758"/>
-  <entitiesExtentsMin x="202.00805592564924" y="-195.32855881970573" z="72.44818"/>
-  <entitiesExtentsMax x="206.42504592564927" y="-178.84417281970573" z="78.11758"/>
+  <streamingExtentsMin x="-797.99291" y="-1195.3283000000001" z="-927.55182"/>
+  <streamingExtentsMax x="1206.42408" y="821.156086" z="1078.11758"/>
+  <entitiesExtentsMin x="202.00708999999998" y="-195.3283" z="72.44818"/>
+  <entitiesExtentsMax x="206.42408" y="-178.843914" z="78.11758"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>flying_bravo</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="204.21655092564924" y="-187.08636581970572" z="75.28288"/>
+      <position x="204.21558499999998" y="-187.086107" z="75.28288"/>
       <rotation x="0" y="0" z="-0.6087611577105069" w="0.7933535484656027"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="88"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

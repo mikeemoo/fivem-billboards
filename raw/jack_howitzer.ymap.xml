@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>jack_howitzer</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-74.13686599999994" y="-1873.3843000000002" z="-947.743766"/>
+  <streamingExtentsMax x="1933.85483" y="138.8866999999999" z="1059.15907"/>
+  <entitiesExtentsMin x="925.8631340000001" y="-873.3843" z="52.256234"/>
+  <entitiesExtentsMax x="933.85483" y="-861.1133000000001" z="59.15907"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>jack_howitzer</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="929.8589820000001" y="-867.2488000000001" z="55.707651999999996"/>
+      <rotation x="0" y="0" z="-0.8791286671202302" w="0.47658450105664113"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>jack_howitzer</name>
+    <owner/>
+  </block>
+</CMapData>

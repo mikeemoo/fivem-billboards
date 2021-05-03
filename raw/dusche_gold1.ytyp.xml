@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="100"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-17.02344557462607" y="-0.0001" z="-5.678720000000001"/>
       <bbMax x="17.02344557462607" y="0.0001" z="5.678720000000001"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="17.02344557462607"/>
-      <hdTextureDist value="100"/>
+      <hdTextureDist value="1000"/>
       <name>dusche_gold1</name>
       <textureDictionary>dusche_gold1</textureDictionary>
       <clipDictionary/>

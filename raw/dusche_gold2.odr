@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler dusche_gold2\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			dusche_gold2\high.mesh 0
+		}
+		Med 9998.0
+		{
+			dusche_gold2\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -10.224154948304724 -0.33 -3.3940379999999997
+		AABBMax 27.264413195479268 0.33 9.050768
+		Radius 27.264413195479268
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

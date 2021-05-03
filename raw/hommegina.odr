@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler hommegina\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			hommegina\high.mesh 0
+		}
+		Med 9998.0
+		{
+			hommegina\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -3.103662134069886 -0.33 -1.448142
+		AABBMax 8.276432357519695 0.33 3.8617120000000003
+		Radius 8.276432357519695
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

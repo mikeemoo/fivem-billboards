@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>serious_cougar</name>
-  <parent>serious_cougar_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-750.8989587906165" y="114.40216593344326" z="-26.20657"/>
-  <streamingExtentsMax x="-497.6474987906165" y="357.95246593344325" z="220.19332"/>
-  <entitiesExtentsMin x="-630.8989587906165" y="234.40216593344326" z="93.79343"/>
-  <entitiesExtentsMax x="-617.6474987906165" y="237.95246593344325" z="100.19332"/>
+  <streamingExtentsMin x="-1630.8987" y="-765.5988" z="-906.20657"/>
+  <streamingExtentsMax x="382.35276" y="1237.9515000000001" z="1100.19332"/>
+  <entitiesExtentsMin x="-630.8987" y="234.40120000000002" z="93.79343"/>
+  <entitiesExtentsMax x="-617.64724" y="237.9515" z="100.19332"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>serious_cougar</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-624.2732287906165" y="236.17731593344325" z="96.993375"/>
+      <position x="-624.27297" y="236.17635" z="96.993375"/>
       <rotation x="0" y="0" z="0.9914467820434975" w="0.13051160245584964"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

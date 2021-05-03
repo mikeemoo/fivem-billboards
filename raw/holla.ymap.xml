@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>holla</name>
-  <parent>holla_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="113.6844234286335" y="267.6256520695193" z="46.15033000000001"/>
-  <streamingExtentsMax x="261.7600834286335" y="412.5865520695193" z="190.57172"/>
-  <entitiesExtentsMin x="183.6844234286335" y="337.6256520695193" z="116.15033000000001"/>
-  <entitiesExtentsMax x="191.7600834286335" y="342.5865520695193" z="120.57172"/>
+  <streamingExtentsMin x="-816.3161" y="-662.3752" z="-883.84967"/>
+  <streamingExtentsMax x="1191.75956" y="1342.5857" z="1120.57172"/>
+  <entitiesExtentsMin x="183.68390000000002" y="337.6248" z="116.15033000000001"/>
+  <entitiesExtentsMax x="191.75956000000002" y="342.58570000000003" z="120.57172"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>holla</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="187.72225342863348" y="340.1061020695193" z="118.36102500000001"/>
+      <position x="187.72173" y="340.10525" z="118.36102500000001"/>
       <rotation x="0" y="0" z="-0.9623069986415338" w="0.27196551319151285"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="70"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>broiler_bites</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-215.69690000000003" y="-1802.2923" z="-963.2271"/>
+  <streamingExtentsMax x="1799.162" y="199.00750000000005" z="1042.63475"/>
+  <entitiesExtentsMin x="784.3031" y="-802.2923" z="36.7729"/>
+  <entitiesExtentsMax x="799.162" y="-800.9925" z="42.634750000000004"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>broiler_bites</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="791.73255" y="-801.6424" z="39.703825"/>
+      <rotation x="0" y="0" z="-0.9990484914814625" w="0.04361320520913687"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>broiler_bites</name>
+    <owner/>
+  </block>
+</CMapData>

@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler jack_howitzer\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			jack_howitzer\high.mesh 0
+		}
+		Med 9998.0
+		{
+			jack_howitzer\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.786357182832358 -0.11000000000000001 -4.141701599999999
+		AABBMax 23.43028582088629 0.11000000000000001 11.0445376
+		Radius 23.43028582088629
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

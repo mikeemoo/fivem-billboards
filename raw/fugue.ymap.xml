@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>fugue</name>
-  <parent>fugue_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="351.47468948403116" y="-24.865268674530853" z="22.755500000000012"/>
-  <streamingExtentsMax x="545.8418794840311" y="178.86373132546913" z="219.4547"/>
-  <entitiesExtentsMin x="446.47468948403116" y="70.13473132546915" z="117.75550000000001"/>
-  <entitiesExtentsMax x="450.84187948403115" y="83.86373132546915" z="124.4547"/>
+  <streamingExtentsMin x="-553.53484" y="-929.8683" z="-882.2445"/>
+  <streamingExtentsMax x="1450.8323500000001" y="1083.8607" z="1124.4547"/>
+  <entitiesExtentsMin x="446.46516" y="70.1317" z="117.75550000000001"/>
+  <entitiesExtentsMax x="450.83235" y="83.8607" z="124.4547"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>fugue</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="448.6582844840311" y="76.99923132546915" z="121.10510000000001"/>
+      <position x="448.648755" y="76.9962" z="121.10510000000001"/>
       <rotation x="0" y="0" z="-0.8071965519362247" w="0.5902827513507994"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="95"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

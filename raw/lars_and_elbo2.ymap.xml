@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>lars_and_elbo2</name>
-  <parent>lars_and_elbo2_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="1114.5015427843537" y="-572.2270660471753" z="-36.580560000000006"/>
-  <streamingExtentsMax x="1365.1977427843535" y="-323.2519660471753" z="209.08887"/>
-  <entitiesExtentsMin x="1234.5015427843537" y="-452.2270660471753" z="83.41944"/>
-  <entitiesExtentsMax x="1245.1977427843535" y="-443.2519660471753" z="89.08887"/>
+  <streamingExtentsMin x="234.5009" y="-1452.2263" z="-916.58056"/>
+  <streamingExtentsMax x="2245.1971" y="556.7488000000001" z="1089.08887"/>
+  <entitiesExtentsMin x="1234.5009" y="-452.2263" z="83.41944"/>
+  <entitiesExtentsMax x="1245.1970999999999" y="-443.2512" z="89.08887"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>lars_and_elbo2</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="1239.8496427843536" y="-447.7395160471753" z="86.254155"/>
+      <position x="1239.849" y="-447.73875" z="86.254155"/>
       <rotation x="0" y="0" z="-0.34201814623615157" w="0.9396933476646445"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

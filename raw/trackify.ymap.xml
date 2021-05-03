@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>trackify</name>
-  <parent>trackify_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-483.3846014802424" y="120.69162439019857" z="14.910969999999992"/>
-  <streamingExtentsMax x="-332.6864014802424" y="283.5094943901986" z="170.58041"/>
-  <entitiesExtentsMin x="-408.3846014802424" y="195.69162439019857" z="89.91096999999999"/>
-  <entitiesExtentsMax x="-407.6864014802424" y="208.50949439019857" z="95.58041"/>
+  <streamingExtentsMin x="-1408.3856" y="-804.30843" z="-910.08903"/>
+  <streamingExtentsMax x="592.3126" y="1208.50944" z="1095.58041"/>
+  <entitiesExtentsMin x="-408.3856" y="195.69156999999998" z="89.91096999999999"/>
+  <entitiesExtentsMax x="-407.6874" y="208.50943999999998" z="95.58041"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>trackify</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-408.0355014802424" y="202.10055939019858" z="92.74569"/>
+      <position x="-408.0365" y="202.100505" z="92.74569"/>
       <rotation x="0" y="0" z="-0.7260820196733941" w="0.6876081011062951"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="75"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

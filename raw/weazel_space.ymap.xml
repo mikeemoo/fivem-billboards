@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>weazel_space</name>
-  <parent>weazel_space_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="83.7024446283834" y="-263.0888886774851" z="-22.278850000000006"/>
-  <streamingExtentsMax x="271.3411446283834" y="-79.53083867748506" z="159.39058"/>
-  <entitiesExtentsMin x="171.7024446283834" y="-175.08888867748507" z="65.72115"/>
-  <entitiesExtentsMax x="183.3411446283834" y="-167.53083867748506" z="71.39058"/>
+  <streamingExtentsMin x="-828.2981" y="-1175.08805" z="-934.27885"/>
+  <streamingExtentsMax x="1183.3406" y="832.47" z="1071.39058"/>
+  <entitiesExtentsMin x="171.7019" y="-175.08805" z="65.72115"/>
+  <entitiesExtentsMax x="183.3406" y="-167.53" z="71.39058"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>weazel_space</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="177.5217946283834" y="-171.30986367748505" z="68.555865"/>
+      <position x="177.52124999999998" y="-171.30902500000002" z="68.555865"/>
       <rotation x="0" y="0" z="-0.2840092559431757" w="0.958821538420265"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="88"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

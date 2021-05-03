@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="95"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-14.406866053937616" y="-0.0001" z="-6.699200000000001"/>
       <bbMax x="14.406866053937616" y="0.0001" z="6.699200000000001"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="14.406866053937616"/>
-      <hdTextureDist value="95"/>
+      <hdTextureDist value="1000"/>
       <name>fugue</name>
       <textureDictionary>fugue</textureDictionary>
       <clipDictionary/>

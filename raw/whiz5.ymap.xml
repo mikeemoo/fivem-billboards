@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>whiz5</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-231.17203000000006" y="-2108.7825199999997" z="-967.43969"/>
+  <streamingExtentsMax x="1769.02182" y="-104.33282000000008" z="1039.61402"/>
+  <entitiesExtentsMin x="768.8279699999999" y="-1108.78252" z="32.56031"/>
+  <entitiesExtentsMax x="769.0218199999999" y="-1104.33282" z="39.614020000000004"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>whiz5</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="768.924895" y="-1106.55767" z="36.087165"/>
+      <rotation x="0" y="0" z="0.6915477376868218" w="0.7223307597633086"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>whiz5</name>
+    <owner/>
+  </block>
+</CMapData>

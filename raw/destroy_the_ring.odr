@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler destroy_the_ring\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			destroy_the_ring\high.mesh 0
+		}
+		Med 9998.0
+		{
+			destroy_the_ring\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -5.655747031672473 -0.22000000000000003 -15.186606
+		AABBMax 15.08199208445993 0.22000000000000003 40.497616
+		Radius 40.497616
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

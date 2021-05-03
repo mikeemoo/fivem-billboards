@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>die_already_4</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="220.7636" y="-2333.01586" z="-952.37475"/>
+  <streamingExtentsMax x="2233.5663" y="-331.226312" z="1053.28884"/>
+  <entitiesExtentsMin x="1220.7636" y="-1333.01586" z="47.62525"/>
+  <entitiesExtentsMax x="1233.5663" y="-1331.226312" z="53.28884"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>die_already_4</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="1227.1649499999999" y="-1332.1210859999999" z="50.457045"/>
+      <rotation x="0" y="0" z="-0.9975900417682219" w="0.06938377738980082"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>die_already_4</name>
+    <owner/>
+  </block>
+</CMapData>

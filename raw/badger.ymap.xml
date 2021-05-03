@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>badger</name>
-  <parent>badger_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="260.80886592682634" y="198.44730881531268" z="32.9384"/>
-  <streamingExtentsMax x="441.22576592682634" y="390.9316588153127" z="214.6078"/>
-  <entitiesExtentsMin x="348.80886592682634" y="286.4473088153127" z="120.9384"/>
-  <entitiesExtentsMax x="353.22576592682634" y="302.9316588153127" z="126.6078"/>
+  <streamingExtentsMin x="-651.1921" y="-713.55295" z="-879.0616"/>
+  <streamingExtentsMax x="1353.2248" y="1302.9314" z="1126.6078"/>
+  <entitiesExtentsMin x="348.80789999999996" y="286.44705" z="120.9384"/>
+  <entitiesExtentsMax x="353.22479999999996" y="302.9314" z="126.6078"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>badger</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="351.01731592682637" y="294.6894838153127" z="123.7731"/>
+      <position x="351.01635" y="294.689225" z="123.7731"/>
       <rotation x="0" y="0" z="-0.7933521641340566" w="0.6087629618035322"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="88"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

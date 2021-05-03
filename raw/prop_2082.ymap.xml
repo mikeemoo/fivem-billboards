@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>prop_2082</name>
-  <parent>prop_2082_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="1102.3847539677256" y="-605.6960999880997" z="-26.357910000000004"/>
-  <streamingExtentsMax x="1308.3847339677254" y="-395.3034999880997" z="177.56153"/>
-  <entitiesExtentsMin x="1202.3847539677256" y="-505.6960999880997" z="73.64209"/>
-  <entitiesExtentsMax x="1208.3847339677254" y="-495.3034999880997" z="77.56152999999999"/>
+  <streamingExtentsMin x="202.38562000000002" y="-1505.6956" z="-926.35791"/>
+  <streamingExtentsMax x="2208.3855999999996" y="504.697" z="1077.56153"/>
+  <entitiesExtentsMin x="1202.38562" y="-505.6956" z="73.64209"/>
+  <entitiesExtentsMax x="1208.3855999999998" y="-495.303" z="77.56152999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>prop_2082</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="1205.3847439677256" y="-500.49979998809965" z="75.60181"/>
+      <position x="1205.38561" y="-500.49929999999995" z="75.60181"/>
       <rotation x="0" y="0" z="0.5000059501032919" w="0.8660219684634475"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="100"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

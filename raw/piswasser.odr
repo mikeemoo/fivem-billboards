@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler piswasser\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			piswasser\high.mesh 0
+		}
+		Med 9998.0
+		{
+			piswasser\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -10.2141526492061 -0.275 -3.4072200000000006
+		AABBMax 27.237740397882938 0.275 9.085920000000002
+		Radius 27.237740397882938
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

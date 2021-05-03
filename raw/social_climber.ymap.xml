@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>social_climber</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-315.75519999999995" y="-1661.3715" z="-961.38644"/>
+  <streamingExtentsMax x="1690.6633000000002" y="349.74570000000006" z="1044.28739"/>
+  <entitiesExtentsMin x="684.2448" y="-661.3715" z="38.61356"/>
+  <entitiesExtentsMax x="690.6633" y="-650.2543" z="44.28739"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>social_climber</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="687.45405" y="-655.8128999999999" z="41.450475000000004"/>
+      <rotation x="0" y="0" z="0.8660250932410123" w="0.5000005378766066"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>social_climber</name>
+    <owner/>
+  </block>
+</CMapData>

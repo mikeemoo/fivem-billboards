@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler smell_the_part\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			smell_the_part\high.mesh 0
+		}
+		Med 9998.0
+		{
+			smell_the_part\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.65541304670066 -0.44000000000000006 -4.019519999999999
+		AABBMax 23.081101457868428 0.44000000000000006 10.71872
+		Radius 23.081101457868428
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

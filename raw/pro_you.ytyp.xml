@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="120"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-14.425582857216169" y="-0.0001" z="-6.69971"/>
       <bbMax x="14.425582857216169" y="0.0001" z="6.69971"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="14.425582857216169"/>
-      <hdTextureDist value="120"/>
+      <hdTextureDist value="1000"/>
       <name>pro_you</name>
       <textureDictionary>pro_you</textureDictionary>
       <clipDictionary/>

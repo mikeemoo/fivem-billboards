@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>vinewood_sports2</name>
-  <parent>vinewood_sports2_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-21.314448043645157" y="-211.73027007361276" z="-17.340850000000003"/>
-  <streamingExtentsMax x="156.08496195635485" y="-29.88896007361275" z="158.32909"/>
-  <entitiesExtentsMin x="63.68555195635484" y="-126.73027007361274" z="67.65915"/>
-  <entitiesExtentsMax x="71.08496195635485" y="-114.88896007361275" z="73.32909"/>
+  <streamingExtentsMin x="-936.3136" y="-1126.7308" z="-932.34085"/>
+  <streamingExtentsMax x="1071.08581" y="885.11051" z="1073.32909"/>
+  <entitiesExtentsMin x="63.686400000000006" y="-126.73079999999999" z="67.65915"/>
+  <entitiesExtentsMax x="71.08581000000001" y="-114.88949" z="73.32909"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>vinewood_sports2</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="67.38525695635484" y="-120.80961507361275" z="70.49412"/>
+      <position x="67.386105" y="-120.81014499999999" z="70.49412"/>
       <rotation x="0" y="0" z="0.874621743166556" w="0.48480594713791925"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="85"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler sludgie\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			sludgie\high.mesh 0
+		}
+		Med 9998.0
+		{
+			sludgie\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -10.22420150052316 -0.165 -3.3770400000000014
+		AABBMax 27.264537334728427 0.165 9.005440000000005
+		Radius 27.264537334728427
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

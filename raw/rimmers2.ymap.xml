@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>rimmers2</name>
-  <parent>rimmers2_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="170.591033574341" y="266.0751016161976" z="45.94770000000001"/>
-  <streamingExtentsMax x="292.445033574341" y="390.9046916161976" z="168.36127"/>
-  <entitiesExtentsMin x="230.591033574341" y="326.0751016161976" z="105.94770000000001"/>
-  <entitiesExtentsMax x="232.445033574341" y="330.9046916161976" z="108.36127"/>
+  <streamingExtentsMin x="-769.4099" y="-673.92454" z="-894.0523"/>
+  <streamingExtentsMax x="1232.4441" y="1330.90505" z="1108.36127"/>
+  <entitiesExtentsMin x="230.5901" y="326.07546" z="105.94770000000001"/>
+  <entitiesExtentsMax x="232.44410000000002" y="330.90505" z="108.36127"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>rimmers2</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="231.51803357434102" y="328.4898966161976" z="107.15448500000001"/>
+      <position x="231.51710000000003" y="328.490255" z="107.15448500000001"/>
       <rotation x="0" y="0" z="-0.566399239760596" w="0.8241309975960247"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="60"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

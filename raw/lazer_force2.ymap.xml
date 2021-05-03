@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>lazer_force2</name>
-  <parent>lazer_force2_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-469.35338480682867" y="146.50692634658014" z="-16.40957300000001"/>
-  <streamingExtentsMax x="-236.39000480682864" y="393.3125663465801" z="219.25887999999998"/>
-  <entitiesExtentsMin x="-354.35338480682867" y="261.50692634658014" z="98.59042699999999"/>
-  <entitiesExtentsMax x="-351.39000480682864" y="278.3125663465801" z="104.25887999999999"/>
+  <streamingExtentsMin x="-1354.3524" y="-738.4929" z="-901.409573"/>
+  <streamingExtentsMax x="648.6109799999999" y="1278.31274" z="1104.25888"/>
+  <entitiesExtentsMin x="-354.35240000000005" y="261.50710000000004" z="98.59042699999999"/>
+  <entitiesExtentsMax x="-351.38902" y="278.31274" z="104.25887999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>lazer_force2</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-352.87169480682866" y="269.9097463465801" z="101.42465349999999"/>
+      <position x="-352.87071000000003" y="269.90992" z="101.42465349999999"/>
       <rotation x="0" y="0" z="0.6427855708103283" w="0.766046153934631"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="115"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

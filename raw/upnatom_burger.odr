@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler upnatom_burger\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			upnatom_burger\high.mesh 0
+		}
+		Med 9998.0
+		{
+			upnatom_burger\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.64032774586705 -0.11000000000000001 -4.0197899999999995
+		AABBMax 23.040873988978806 0.11000000000000001 10.71944
+		Radius 23.040873988978806
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

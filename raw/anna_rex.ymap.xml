@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>anna_rex</name>
-  <parent>anna_rex_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="46.10328030477939" y="115.79064201300025" z="4.158740999999992"/>
-  <streamingExtentsMax x="288.4592403047794" y="362.26374201300024" z="259.2867"/>
-  <entitiesExtentsMin x="166.1032803047794" y="235.79064201300025" z="124.15874099999999"/>
-  <entitiesExtentsMax x="168.4592403047794" y="242.26374201300024" z="139.2867"/>
+  <streamingExtentsMin x="-833.8957800000001" y="-764.2097" z="-875.841259"/>
+  <streamingExtentsMax x="1168.46018" y="1242.2634" z="1139.2867"/>
+  <entitiesExtentsMin x="166.10422" y="235.7903" z="124.15874099999999"/>
+  <entitiesExtentsMax x="168.46018" y="242.2634" z="139.2867"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>anna_rex</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="167.2812603047794" y="239.02719201300025" z="131.72272049999998"/>
+      <position x="167.28220000000002" y="239.02685" z="131.72272049999998"/>
       <rotation x="0" y="0" z="0.8191498642672126" w="0.5735795497322121"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

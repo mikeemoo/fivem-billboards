@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>josh_bernstein</name>
-  <parent>josh_bernstein_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-729.9439509043985" y="24.959836025084428" z="-159.98701999999997"/>
-  <streamingExtentsMax x="-217.9971709043985" y="526.0262360250845" z="343.94218"/>
-  <entitiesExtentsMin x="-479.94395090439855" y="274.9598360250844" z="90.01298000000001"/>
-  <entitiesExtentsMax x="-467.9971709043985" y="276.0262360250844" z="93.94218000000001"/>
+  <streamingExtentsMin x="-1479.93506" y="-724.94056" z="-909.98702"/>
+  <streamingExtentsMax x="532.01172" y="1276.12584" z="1093.94218"/>
+  <entitiesExtentsMin x="-479.93506" y="275.05944" z="90.01298000000001"/>
+  <entitiesExtentsMax x="-467.98828" y="276.12584" z="93.94218000000001"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>josh_bernstein</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-473.9705609043985" y="275.49303602508445" z="91.97758"/>
+      <position x="-473.96166999999997" y="275.59264" z="91.97758"/>
       <rotation x="0" y="0" z="0.0444986002282158" w="0.9990094466909357"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="250"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

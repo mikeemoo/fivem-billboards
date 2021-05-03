@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler didiersachs\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			didiersachs\high.mesh 0
+		}
+		Med 9998.0
+		{
+			didiersachs\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -15.619985056282863 -0.11000000000000001 -7.050263999999999
+		AABBMax 41.653293483420974 0.11000000000000001 18.800704
+		Radius 41.653293483420974
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

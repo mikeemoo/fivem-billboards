@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler chatterbot\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			chatterbot\high.mesh 0
+		}
+		Med 9998.0
+		{
+			chatterbot\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -12.053318321618486 -0.44000000000000006 -4.244532
+		AABBMax 32.14218219098263 0.44000000000000006 11.318752000000002
+		Radius 32.14218219098263
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

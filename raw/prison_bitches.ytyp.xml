@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="120"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-13.718951774858748" y="-0.0001" z="-6.39989"/>
       <bbMax x="13.718951774858748" y="0.0001" z="6.39989"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="13.718951774858748"/>
-      <hdTextureDist value="120"/>
+      <hdTextureDist value="1000"/>
       <name>prison_bitches</name>
       <textureDictionary>prison_bitches</textureDictionary>
       <clipDictionary/>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>space_monkey</name>
-  <parent>space_monkey_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-211.40968436105314" y="142.44094192436674" z="31.08233"/>
-  <streamingExtentsMax x="-47.95708436105315" y="296.0459219243668" z="187.3777"/>
-  <entitiesExtentsMin x="-136.40968436105314" y="217.44094192436674" z="106.08233"/>
-  <entitiesExtentsMax x="-122.95708436105315" y="221.04592192436675" z="112.3777"/>
+  <streamingExtentsMin x="-1136.3838" y="-782.65565" z="-893.91767"/>
+  <streamingExtentsMax x="877.0688" y="1220.94933" z="1112.3777"/>
+  <entitiesExtentsMin x="-136.38379999999998" y="217.34435" z="106.08233"/>
+  <entitiesExtentsMax x="-122.93119999999999" y="220.94933" z="112.3777"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>space_monkey</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-129.68338436105313" y="219.24343192436675" z="109.23001500000001"/>
+      <position x="-129.65749999999997" y="219.14684" z="109.23001500000001"/>
       <rotation x="0" y="0" z="0.9914432015167097" w="0.1305387994670428"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="75"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

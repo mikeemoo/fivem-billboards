@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="95"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-18.984597439424412" y="-0.0001" z="-9.03658"/>
       <bbMax x="18.984597439424412" y="0.0001" z="9.03658"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="18.984597439424412"/>
-      <hdTextureDist value="95"/>
+      <hdTextureDist value="1000"/>
       <name>underbelly_of_paradise</name>
       <textureDictionary>underbelly_of_paradise</textureDictionary>
       <clipDictionary/>

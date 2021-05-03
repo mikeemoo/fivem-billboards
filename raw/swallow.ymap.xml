@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>swallow</name>
-  <parent>swallow_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-8.238902071940117" y="-82.84631595582795" z="-7.807320000000004"/>
-  <streamingExtentsMax x="170.90859792805986" y="96.20593304417204" z="167.8797"/>
-  <entitiesExtentsMin x="76.76109792805988" y="2.1536840441720457" z="77.19268"/>
-  <entitiesExtentsMax x="85.90859792805988" y="11.205933044172045" z="82.8797"/>
+  <streamingExtentsMin x="-923.25297" y="-997.8321" z="-922.80732"/>
+  <streamingExtentsMax x="1085.89453" y="1011.220149" z="1082.8797"/>
+  <entitiesExtentsMin x="76.74703" y="2.1679000000000013" z="77.19268"/>
+  <entitiesExtentsMax x="85.89453" y="11.220149000000001" z="82.8797"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>swallow</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="81.33484792805987" y="6.679808544172046" z="80.03619"/>
+      <position x="81.32078" y="6.694024500000001" z="80.03619"/>
       <rotation x="0" y="0" z="-0.38026451885645357" w="0.9248777733835265"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="85"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

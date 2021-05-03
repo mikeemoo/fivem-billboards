@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>chatterbot</name>
-  <parent>chatterbot_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-761.5936738485104" y="27.68420167010595" z="-153.60518"/>
-  <streamingExtentsMax x="-245.8519738485105" y="540.164639670106" z="353.46904"/>
-  <entitiesExtentsMin x="-511.5936738485105" y="277.68420167010595" z="96.39482000000001"/>
-  <entitiesExtentsMax x="-495.8519738485105" y="290.16463967010594" z="103.46904"/>
+  <streamingExtentsMin x="-1511.6558" y="-722.237438" z="-903.60518"/>
+  <streamingExtentsMax x="504.0859" y="1290.243" z="1103.46904"/>
+  <entitiesExtentsMin x="-511.6558" y="277.762562" z="96.39482000000001"/>
+  <entitiesExtentsMax x="-495.9141" y="290.243" z="103.46904"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>chatterbot</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-503.7228238485105" y="283.924420670106" z="99.93193000000001"/>
+      <position x="-503.78495" y="284.002781" z="99.93193000000001"/>
       <rotation x="0" y="0" z="-0.32893517678983336" w="0.944352502760617"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="250"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

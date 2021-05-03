@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>junk</name>
-  <parent>junk_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="169.62423547795848" y="264.42032661495614" z="50.15326"/>
-  <streamingExtentsMax x="292.5192354779585" y="392.0839466149562" z="174.57465000000002"/>
-  <entitiesExtentsMin x="229.62423547795848" y="324.42032661495614" z="110.15326"/>
-  <entitiesExtentsMax x="232.5192354779585" y="332.0839466149562" z="114.57465"/>
+  <streamingExtentsMin x="-770.3767" y="-675.57932" z="-889.84674"/>
+  <streamingExtentsMax x="1232.5183" y="1332.0843" z="1114.57465"/>
+  <entitiesExtentsMin x="229.6233" y="324.42068" z="110.15326"/>
+  <entitiesExtentsMax x="232.5183" y="332.08430000000004" z="114.57465"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>junk</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="231.0717354779585" y="328.25213661495616" z="112.363955"/>
+      <position x="231.07080000000002" y="328.25249" z="112.363955"/>
       <rotation x="0" y="0" z="-0.5686013349208844" w="0.8226132274199025"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="60"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

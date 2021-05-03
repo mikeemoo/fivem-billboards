@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler shark2\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			shark2\high.mesh 0
+		}
+		Med 9998.0
+		{
+			shark2\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -12.04961517660726 -0.11000000000000001 -4.235448
+		AABBMax 32.13230713761936 0.11000000000000001 11.294528000000001
+		Radius 32.13230713761936
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

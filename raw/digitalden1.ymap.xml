@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>digitalden1</name>
-  <parent>digitalden1_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="330.53622363411864" y="-268.6009548102319" z="-102.87085"/>
-  <streamingExtentsMax x="704.7212836341187" y="93.9000451897681" z="263.96071"/>
-  <entitiesExtentsMin x="510.53622363411864" y="-88.60095481023191" z="77.12915"/>
-  <entitiesExtentsMax x="524.7212836341187" y="-86.0999548102319" z="83.96071"/>
+  <streamingExtentsMin x="-489.46394999999995" y="-1088.59997" z="-922.87085"/>
+  <streamingExtentsMax x="1524.72111" y="913.90103" z="1083.96071"/>
+  <entitiesExtentsMin x="510.53605000000005" y="-88.59997" z="77.12915"/>
+  <entitiesExtentsMax x="524.7211100000001" y="-86.09897" z="83.96071"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>digitalden1</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="517.6287536341187" y="-87.3504548102319" z="80.54493"/>
+      <position x="517.62858" y="-87.34947" z="80.54493"/>
       <rotation x="0" y="0" z="-0.08714863192727662" w="0.9961953201823446"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="180"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

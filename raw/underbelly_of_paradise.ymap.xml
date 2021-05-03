@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>underbelly_of_paradise</name>
-  <parent>underbelly_of_paradise_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-391.3544427910858" y="198.01120395847363" z="15.490719999999996"/>
-  <streamingExtentsMax x="-186.81145279108574" y="400.2143339584736" z="214.5273"/>
-  <entitiesExtentsMin x="-296.3544427910858" y="293.01120395847363" z="110.49072"/>
-  <entitiesExtentsMax x="-281.81145279108574" y="305.2143339584736" z="119.5273"/>
+  <streamingExtentsMin x="-1296.3538" y="-706.98803" z="-889.50928"/>
+  <streamingExtentsMax x="718.18919" y="1305.2151" z="1119.5273"/>
+  <entitiesExtentsMin x="-296.35380000000004" y="293.01197" z="110.49072"/>
+  <entitiesExtentsMax x="-281.81081" y="305.2151" z="119.5273"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>underbelly_of_paradise</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-289.08294779108576" y="299.1127689584736" z="115.00900999999999"/>
+      <position x="-289.082305" y="299.113535" z="115.00900999999999"/>
       <rotation x="0" y="0" z="0.34202227532053975" w="0.9396918448004967"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="95"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

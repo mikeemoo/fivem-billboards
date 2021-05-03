@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler whiz4\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			whiz4\high.mesh 0
+		}
+		Med 9998.0
+		{
+			whiz4\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -2.673035549161859 -0.33 -4.227539999999999
+		AABBMax 7.128094797764958 0.33 11.27344
+		Radius 11.27344
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

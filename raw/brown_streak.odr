@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler brown_streak\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			brown_streak\high.mesh 0
+		}
+		Med 9998.0
+		{
+			brown_streak\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -4.120043415223601 -0.011000000000000001 -1.756938
+		AABBMax 10.98678244059627 0.011000000000000001 4.685168
+		Radius 10.98678244059627
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

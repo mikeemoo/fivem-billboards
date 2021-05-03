@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler capolavoro\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			capolavoro\high.mesh 0
+		}
+		Med 9998.0
+		{
+			capolavoro\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -10.239517839027577 -0.33 -3.4016640000000002
+		AABBMax 27.305380904073544 0.33 9.071104000000002
+		Radius 27.305380904073544
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>capolavoro</name>
-  <parent>capolavoro_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-266.24271380485095" y="122.62258284941205" z="5.268360000000001"/>
-  <streamingExtentsMax x="-64.75541380485092" y="339.623512849412" z="210.93779999999998"/>
-  <entitiesExtentsMin x="-166.24271380485092" y="222.62258284941205" z="105.26836"/>
-  <entitiesExtentsMax x="-164.75541380485092" y="239.62351284941204" z="110.9378"/>
+  <streamingExtentsMin x="-1166.24371" y="-777.37733" z="-894.73164"/>
+  <streamingExtentsMax x="835.24359" y="1239.6236" z="1110.9378"/>
+  <entitiesExtentsMin x="-166.24371" y="222.62267" z="105.26836"/>
+  <entitiesExtentsMax x="-164.75641" y="239.62359999999998" z="110.9378"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>capolavoro</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-165.49906380485092" y="231.12304784941205" z="108.10308"/>
+      <position x="-165.50006" y="231.123135" z="108.10308"/>
       <rotation x="0" y="0" z="-0.6755921151292348" w="0.7372755888914312"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="100"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

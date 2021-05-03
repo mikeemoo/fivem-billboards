@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler bitch_in_trunk\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			bitch_in_trunk\high.mesh 0
+		}
+		Med 9998.0
+		{
+			bitch_in_trunk\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -6.320183036951065 -0.11000000000000001 -2.3065415999999996
+		AABBMax 16.85382143186951 0.11000000000000001 6.1507776
+		Radius 16.85382143186951
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler prison_bitches3\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			prison_bitches3\high.mesh 0
+		}
+		Med 9998.0
+		{
+			prison_bitches3\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -10.23953362870497 -0.55 -3.401952
+		AABBMax 27.305423009879924 0.55 9.071872
+		Radius 27.305423009879924
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

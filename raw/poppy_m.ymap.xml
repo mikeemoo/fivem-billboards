@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>poppy_m</name>
-  <parent>poppy_m_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-277.43053443427794" y="165.86407867981504" z="31.522760000000005"/>
-  <streamingExtentsMax x="-130.28153443427794" y="313.60037867981504" z="175.36700000000002"/>
-  <entitiesExtentsMin x="-207.43053443427794" y="235.86407867981504" z="101.52276"/>
-  <entitiesExtentsMax x="-200.28153443427794" y="243.60037867981504" z="105.367"/>
+  <streamingExtentsMin x="-1207.4298" y="-764.1366" z="-898.4772399999999"/>
+  <streamingExtentsMax x="799.7192" y="1243.5997" z="1105.367"/>
+  <entitiesExtentsMin x="-207.4298" y="235.86339999999998" z="101.52276"/>
+  <entitiesExtentsMax x="-200.2808" y="243.59969999999998" z="105.367"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>poppy_m</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-203.85603443427794" y="239.73222867981505" z="103.44488"/>
+      <position x="-203.8553" y="239.73155" z="103.44488"/>
       <rotation x="0" y="0" z="0.91615495824885" w="0.40082426632633894"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="70"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

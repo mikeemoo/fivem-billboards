@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler serious_cougar\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			serious_cougar\high.mesh 0
+		}
+		Med 9998.0
+		{
+			serious_cougar\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.231287627083383 -0.22000000000000003 -3.839934
+		AABBMax 21.950100338889023 0.22000000000000003 10.239824
+		Radius 21.950100338889023
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

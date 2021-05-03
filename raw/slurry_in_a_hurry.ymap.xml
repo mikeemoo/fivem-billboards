@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>slurry_in_a_hurry</name>
-  <parent>slurry_in_a_hurry_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="912.683683973717" y="-502.70938000152273" z="-83.37907"/>
-  <streamingExtentsMax x="1239.896583973717" y="-170.21622000152274" z="243.32015"/>
-  <entitiesExtentsMin x="1072.683683973717" y="-342.70938000152273" z="76.62093"/>
-  <entitiesExtentsMax x="1079.896583973717" y="-330.21622000152274" z="83.32015"/>
+  <streamingExtentsMin x="72.68454999999994" y="-1342.7098799999999" z="-923.37907"/>
+  <streamingExtentsMax x="2079.89745" y="669.78328" z="1083.32015"/>
+  <entitiesExtentsMin x="1072.68455" y="-342.70988" z="76.62093"/>
+  <entitiesExtentsMax x="1079.89745" y="-330.21672" z="83.32015"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>slurry_in_a_hurry</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="1076.290133973717" y="-336.46280000152274" z="79.97054"/>
+      <position x="1076.291" y="-336.4633" z="79.97054"/>
       <rotation x="0" y="0" z="0.8660249642076858" w="0.5000007613684967"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="160"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

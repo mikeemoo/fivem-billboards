@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler radio_mirror_park\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			radio_mirror_park\high.mesh 0
+		}
+		Med 9998.0
+		{
+			radio_mirror_park\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -7.199885184260938 -0.33 -2.351352
+		AABBMax 19.19969382469584 0.33 6.270272
+		Radius 19.19969382469584
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>tim_vapid</name>
-  <parent>tim_vapid_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="29.67603001386027" y="184.70023722937532" z="61.02289999999999"/>
-  <streamingExtentsMax x="179.68678001386027" y="349.1377572293753" z="217.6996"/>
-  <entitiesExtentsMin x="104.67603001386027" y="259.7002372293753" z="136.0229"/>
-  <entitiesExtentsMax x="104.68678001386027" y="274.1377572293753" z="142.6996"/>
+  <streamingExtentsMin x="-895.27397" y="-740.2998" z="-863.9771000000001"/>
+  <streamingExtentsMax x="1104.73678" y="1274.13772" z="1142.6996"/>
+  <entitiesExtentsMin x="104.72603000000001" y="259.7002" z="136.0229"/>
+  <entitiesExtentsMax x="104.73678000000001" y="274.13772" z="142.6996"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>tim_vapid</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="104.68140501386027" y="266.91899722937535" z="139.36124999999998"/>
+      <position x="104.73140500000001" y="266.91896" z="139.36124999999998"/>
       <rotation x="0" y="0" z="0.7073699836389447" w="0.7068434807272677"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="75"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler space_monkey_big\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			space_monkey_big\high.mesh 0
+		}
+		Med 9998.0
+		{
+			space_monkey_big\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -14.456495501406142 -0.22000000000000003 -23.463240000000003
+		AABBMax 38.55065467041638 0.22000000000000003 62.56864000000001
+		Radius 62.56864000000001
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

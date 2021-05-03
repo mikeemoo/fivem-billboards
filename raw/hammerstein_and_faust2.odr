@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler hammerstein_and_faust2\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			hammerstein_and_faust2\high.mesh 0
+		}
+		Med 9998.0
+		{
+			hammerstein_and_faust2\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -10.288341700667607 -0.33 -3.2510760000000003
+		AABBMax 27.435577868446952 0.33 8.669536
+		Radius 27.435577868446952
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

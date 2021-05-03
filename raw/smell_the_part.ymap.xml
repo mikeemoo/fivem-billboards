@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>smell_the_part</name>
-  <parent>smell_the_part_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-107.68854743197198" y="117.45366885392554" z="17.123000000000005"/>
-  <streamingExtentsMax x="100.49065256802803" y="329.33647885392554" z="223.8222"/>
-  <entitiesExtentsMin x="-7.688547431971976" y="217.45366885392554" z="117.123"/>
-  <entitiesExtentsMax x="0.49065256802802537" y="229.33647885392554" z="123.82220000000001"/>
+  <streamingExtentsMin x="-1007.77092" y="-782.60303" z="-882.877"/>
+  <streamingExtentsMax x="1000.40828" y="1229.27978" z="1123.8222"/>
+  <entitiesExtentsMin x="-7.770920000000004" y="217.39697" z="117.123"/>
+  <entitiesExtentsMax x="0.40827999999999776" y="229.27978000000002" z="123.82220000000001"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>smell_the_part</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-3.598947431971979" y="223.39507385392554" z="120.4726"/>
+      <position x="-3.6813200000000066" y="223.338375" z="120.4726"/>
       <rotation x="0" y="0" z="-0.8851521166599816" w="0.4653017627006739"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="100"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

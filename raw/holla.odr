@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler holla\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			holla\high.mesh 0
+		}
+		Med 9998.0
+		{
+			holla\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -5.68662050504656 -0.22000000000000003 -2.6528340000000004
+		AABBMax 15.164321346790826 0.22000000000000003 7.074224000000001
+		Radius 15.164321346790826
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

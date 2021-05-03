@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>realc_nts</name>
-  <parent>realc_nts_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="399.80383404665633" y="66.72149987520892" z="67.6828"/>
-  <streamingExtentsMax x="518.3434340466563" y="191.5075998752089" z="183.3522"/>
-  <entitiesExtentsMin x="454.80383404665633" y="121.72149987520892" z="122.6828"/>
-  <entitiesExtentsMax x="463.34343404665634" y="136.5075998752089" z="128.3522"/>
+  <streamingExtentsMin x="-545.1953000000001" y="-878.278" z="-877.3172"/>
+  <streamingExtentsMax x="1463.3443" y="1136.5081" z="1128.3522"/>
+  <entitiesExtentsMin x="454.80469999999997" y="121.722" z="122.6828"/>
+  <entitiesExtentsMax x="463.3443" y="136.50809999999998" z="128.3522"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>realc_nts</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="459.07363404665637" y="129.11454987520892" z="125.51750000000001"/>
+      <position x="459.0745" y="129.11505" z="125.51750000000001"/>
       <rotation x="0" y="0" z="0.49993760056908554" w="0.8660614271154359"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="55"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

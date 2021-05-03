@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>prison_bitches2</name>
-  <parent>prison_bitches2_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="1005.132100003957" y="-945.1355639768807" z="-85.70763"/>
-  <streamingExtentsMax x="1339.9118800039569" y="-616.6023639768807" z="239.96229"/>
-  <entitiesExtentsMin x="1165.132100003957" y="-785.1355639768807" z="74.29237"/>
-  <entitiesExtentsMax x="1179.9118800039569" y="-776.6023639768807" z="79.96229"/>
+  <streamingExtentsMin x="165.13160000000016" y="-1785.13643" z="-925.70763"/>
+  <streamingExtentsMax x="2179.91138" y="223.39676999999995" z="1079.96229"/>
+  <entitiesExtentsMin x="1165.1316000000002" y="-785.13643" z="74.29237"/>
+  <entitiesExtentsMax x="1179.91138" y="-776.60323" z="79.96229"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>prison_bitches2</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="1172.521990003957" y="-780.8689639768807" z="77.12733"/>
+      <position x="1172.52149" y="-780.86983" z="77.12733"/>
       <rotation x="0" y="0" z="-0.9659252350158887" w="0.25882125175398624"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="160"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

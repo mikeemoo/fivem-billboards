@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>x_marks_the_spot</name>
-  <parent>x_marks_the_spot_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-695.1471999920446" y="137.50170601118774" z="3.8746300000000105"/>
-  <streamingExtentsMax x="-515.1095999920447" y="326.92799601118776" z="209.18564"/>
-  <entitiesExtentsMin x="-605.1471999920446" y="227.50170601118774" z="93.87463000000001"/>
-  <entitiesExtentsMax x="-605.1095999920447" y="236.92799601118776" z="119.18564"/>
+  <streamingExtentsMin x="-1605.1462000000001" y="-772.49829" z="-906.12537"/>
+  <streamingExtentsMax x="394.8914" y="1236.9279999999999" z="1119.18564"/>
+  <entitiesExtentsMin x="-605.1462" y="227.50170999999997" z="93.87463000000001"/>
+  <entitiesExtentsMax x="-605.1086" y="236.928" z="119.18564"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>x_marks_the_spot</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-605.1283999920446" y="232.21485101118776" z="106.530135"/>
+      <position x="-605.1274" y="232.214855" z="106.530135"/>
       <rotation x="0" y="0" z="0.7056951139711036" w="0.708515635760645"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="90"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

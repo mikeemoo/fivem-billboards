@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler obey1\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			obey1\high.mesh 0
+		}
+		Med 9998.0
+		{
+			obey1\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.638818980323641 -0.11000000000000001 -4.015415999999999
+		AABBMax 23.03685061419638 0.11000000000000001 10.707775999999999
+		Radius 23.03685061419638
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

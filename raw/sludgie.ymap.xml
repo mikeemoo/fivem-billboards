@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>sludgie</name>
-  <parent>sludgie_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="453.56928404091764" y="-242.74914288932487" z="-15.675530000000009"/>
-  <streamingExtentsMax x="644.5243340409176" y="-49.69694288932487" z="169.95287000000002"/>
-  <entitiesExtentsMin x="543.5692840409176" y="-152.74914288932487" z="74.32446999999999"/>
-  <entitiesExtentsMax x="554.5243340409176" y="-139.69694288932487" z="79.95287"/>
+  <streamingExtentsMin x="-456.42994999999996" y="-1152.7485" z="-925.67553"/>
+  <streamingExtentsMax x="1554.5250999999998" y="860.3036999999999" z="1079.95287"/>
+  <entitiesExtentsMin x="543.57005" y="-152.7485" z="74.32446999999999"/>
+  <entitiesExtentsMax x="554.5251" y="-139.6963" z="79.95287"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>sludgie</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="549.0468090409177" y="-146.2230428893249" z="77.13866999999999"/>
+      <position x="549.047575" y="-146.22240000000002" z="77.13866999999999"/>
       <rotation x="0" y="0" z="0.4225580878001295" w="0.9063358441740557"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="90"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

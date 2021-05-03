@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>burgershot</name>
-  <parent>burgershot_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="134.80156571356417" y="236.76321960992277" z="32.95209"/>
-  <streamingExtentsMax x="314.5324657135642" y="426.6416596099228" z="215.6289"/>
-  <entitiesExtentsMin x="222.80156571356417" y="324.76321960992277" z="120.95209"/>
-  <entitiesExtentsMax x="226.5324657135642" y="338.6416596099228" z="127.6289"/>
+  <streamingExtentsMin x="-777.1994" y="-675.23704" z="-879.04791"/>
+  <streamingExtentsMax x="1226.5315" y="1338.6414" z="1127.6289"/>
+  <entitiesExtentsMin x="222.8006" y="324.76296" z="120.95209"/>
+  <entitiesExtentsMax x="226.53150000000002" y="338.64140000000003" z="127.6289"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>burgershot</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="224.66701571356418" y="331.70243960992275" z="124.290495"/>
+      <position x="224.66605" y="331.70218" z="124.290495"/>
       <rotation x="0" y="0" z="-0.7936025210288372" w="0.6084365526631959"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="88"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

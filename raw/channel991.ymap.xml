@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>channel991</name>
-  <parent>channel991_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-141.00582968325895" y="-327.6098420458636" z="-40.648017"/>
-  <streamingExtentsMax x="63.77007031674104" y="-114.48928204586363" z="165.02141999999998"/>
-  <entitiesExtentsMin x="-41.00582968325896" y="-227.60984204586362" z="59.351983"/>
-  <entitiesExtentsMax x="-36.22992968325896" y="-214.48928204586363" z="65.02141999999999"/>
+  <streamingExtentsMin x="-1041.00489" y="-1227.6095" z="-940.648017"/>
+  <streamingExtentsMax x="963.77101" y="785.51106" z="1065.02142"/>
+  <entitiesExtentsMin x="-41.004889999999996" y="-227.60950000000003" z="59.351983"/>
+  <entitiesExtentsMax x="-36.228989999999996" y="-214.48894" z="65.02141999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>channel991</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-38.61787968325896" y="-221.04956204586364" z="62.1867015"/>
+      <position x="-38.61694" y="-221.04922000000002" z="62.1867015"/>
       <rotation x="0" y="0" z="0.5735652257468924" w="0.819159893924206"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="100"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

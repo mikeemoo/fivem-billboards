@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>pick_your_ring</name>
-  <parent>pick_your_ring_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="1087.625103807534" y="-406.484212818746" z="22.370620000000002"/>
-  <streamingExtentsMax x="1208.842403807534" y="-272.57451281874603" z="148.04002"/>
-  <entitiesExtentsMin x="1147.625103807534" y="-346.484212818746" z="82.37062"/>
-  <entitiesExtentsMax x="1148.842403807534" y="-332.57451281874603" z="88.04002"/>
+  <streamingExtentsMin x="147.62609999999995" y="-1346.4843" z="-917.62938"/>
+  <streamingExtentsMax x="2148.8433999999997" y="667.4254" z="1088.04002"/>
+  <entitiesExtentsMin x="1147.6261" y="-346.4843" z="82.37062"/>
+  <entitiesExtentsMax x="1148.8434" y="-332.57460000000003" z="88.04002"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>pick_your_ring</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="1148.2337538075342" y="-339.529362818746" z="85.20532"/>
+      <position x="1148.23475" y="-339.52945" z="85.20532"/>
       <rotation x="0" y="0" z="0.7372859872502384" w="0.6755807671954859"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="60"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

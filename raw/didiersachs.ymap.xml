@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>didiersachs</name>
-  <parent>didiersachs_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-89.80425030575913" y="181.2251079843079" z="0.18475999999999715"/>
-  <streamingExtentsMax x="159.09954969424086" y="445.6884579843079" z="251.9352"/>
-  <entitiesExtentsMin x="30.195749694240877" y="301.2251079843079" z="120.18476"/>
-  <entitiesExtentsMax x="39.09954969424088" y="325.6884579843079" z="131.9352"/>
+  <streamingExtentsMin x="-969.80519" y="-698.77455" z="-879.81524"/>
+  <streamingExtentsMax x="1039.09861" y="1325.6888" z="1131.9352"/>
+  <entitiesExtentsMin x="30.19481" y="301.22545" z="120.18476"/>
+  <entitiesExtentsMax x="39.09861" y="325.6888" z="131.9352"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>didiersachs</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="34.647649694240876" y="313.4567829843079" z="126.05998"/>
+      <position x="34.64671" y="313.457125" z="126.05998"/>
       <rotation x="0" y="0" z="-0.5735783764558386" w="0.8191506858095672"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

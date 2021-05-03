@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>smell_like_a_bitch</name>
-  <parent>smell_like_a_bitch_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-608.5632794882227" y="-143.70409071481674" z="-29.6445"/>
-  <streamingExtentsMax x="-442.9270494882228" y="29.57468928518327" z="137.05472"/>
-  <entitiesExtentsMin x="-528.5632794882227" y="-63.70409071481673" z="50.3555"/>
-  <entitiesExtentsMax x="-522.9270494882228" y="-50.42531071481673" z="57.05472"/>
+  <streamingExtentsMin x="-1528.5641999999998" y="-1063.7037" z="-949.6445"/>
+  <streamingExtentsMax x="477.07203000000004" y="949.57508" z="1057.05472"/>
+  <entitiesExtentsMin x="-528.5641999999999" y="-63.7037" z="50.3555"/>
+  <entitiesExtentsMax x="-522.92797" y="-50.42492" z="57.05472"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>smell_like_a_bitch</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-525.7451644882228" y="-57.06470071481673" z="53.705110000000005"/>
+      <position x="-525.746085" y="-57.06431" z="53.705110000000005"/>
       <rotation x="0" y="0" z="-0.5519443736786831" w="0.8338809317669078"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="80"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

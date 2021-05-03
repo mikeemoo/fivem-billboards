@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>upnatom_burger</name>
-  <parent>upnatom_burger_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="288.7409138810768" y="26.105418636329233" z="44.31845"/>
-  <streamingExtentsMax x="450.96501388107674" y="183.71771863632924" z="201.0181"/>
-  <entitiesExtentsMin x="363.7409138810768" y="101.10541863632923" z="119.31845"/>
-  <entitiesExtentsMax x="375.96501388107674" y="108.71771863632924" z="126.0181"/>
+  <streamingExtentsMin x="-636.2538" y="-898.90307" z="-880.68155"/>
+  <streamingExtentsMax x="1375.9703" y="1108.70923" z="1126.0181"/>
+  <entitiesExtentsMin x="363.7462" y="101.09693" z="119.31845"/>
+  <entitiesExtentsMax x="375.97029999999995" y="108.70923" z="126.0181"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>upnatom_burger</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="369.8529638810768" y="104.91156863632924" z="122.668275"/>
+      <position x="369.85825" y="104.90308" z="122.668275"/>
       <rotation x="0" y="0" z="0.9614737731531622" w="0.27489667793304"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="75"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

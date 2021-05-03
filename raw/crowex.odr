@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler crowex\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			crowex\high.mesh 0
+		}
+		Med 9998.0
+		{
+			crowex\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -7.6905206764590375 -0.11000000000000001 -3.4118999999999997
+		AABBMax 20.508055137224105 0.11000000000000001 9.0984
+		Radius 20.508055137224105
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

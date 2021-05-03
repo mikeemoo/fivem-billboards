@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>obey2</name>
-  <parent>obey2_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="440.05353378747895" y="-0.374199675763208" z="24.61988000000001"/>
-  <streamingExtentsMax x="647.2492337874789" y="212.09990032423678" z="231.29322000000002"/>
-  <entitiesExtentsMin x="540.053533787479" y="99.62580032423679" z="124.61988000000001"/>
-  <entitiesExtentsMax x="547.2492337874789" y="112.09990032423678" z="131.29322000000002"/>
+  <streamingExtentsMin x="-459.9456" y="-900.3737" z="-875.38012"/>
+  <streamingExtentsMax x="1547.2501" y="1112.1004" z="1131.29322"/>
+  <entitiesExtentsMin x="540.0544" y="99.62630000000001" z="124.61988000000001"/>
+  <entitiesExtentsMax x="547.2501" y="112.10040000000001" z="131.29322000000002"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>obey2</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="543.651383787479" y="105.86285032423679" z="127.95655000000001"/>
+      <position x="543.65225" y="105.86335000000001" z="127.95655000000001"/>
       <rotation x="0" y="0" z="0.5001620921207207" w="0.8659317996270974"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="100"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

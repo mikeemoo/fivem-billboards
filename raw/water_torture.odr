@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler water_torture\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			water_torture\high.mesh 0
+		}
+		Med 9998.0
+		{
+			water_torture\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -9.16083418677928 -0.22000000000000003 -2.6528280000000004
+		AABBMax 24.428891164744748 0.22000000000000003 7.074208000000002
+		Radius 24.428891164744748
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

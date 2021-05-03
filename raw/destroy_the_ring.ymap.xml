@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>destroy_the_ring</name>
-  <parent>destroy_the_ring_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-691.1901600107207" y="137.57058070813977" z="3.8746300000000105"/>
-  <streamingExtentsMax x="-511.18040001072063" y="326.99682070813975" z="209.18564"/>
-  <entitiesExtentsMin x="-601.1901600107207" y="227.57058070813977" z="93.87463000000001"/>
-  <entitiesExtentsMax x="-601.1804000107206" y="236.99682070813975" z="119.18564"/>
+  <streamingExtentsMin x="-1601.21016" y="-772.42944" z="-906.12537"/>
+  <streamingExtentsMax x="398.79960000000005" y="1236.9968" z="1119.18564"/>
+  <entitiesExtentsMin x="-601.21016" y="227.57056" z="93.87463000000001"/>
+  <entitiesExtentsMax x="-601.2004" y="236.99679999999998" z="119.18564"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>destroy_the_ring</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-601.1852800107207" y="232.28370070813975" z="106.530135"/>
+      <position x="-601.20528" y="232.28367999999998" z="106.530135"/>
       <rotation x="0" y="0" z="-0.7074727581286028" w="0.7067406147278558"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="90"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>space</name>
-  <parent>space_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="264.343965926114" y="185.87204118202862" z="25.27234"/>
-  <streamingExtentsMax x="444.204365926114" y="376.27931418202866" z="207.1342"/>
-  <entitiesExtentsMin x="352.343965926114" y="273.8720411820286" z="113.27234"/>
-  <entitiesExtentsMax x="356.204365926114" y="288.27931418202866" z="119.13419999999999"/>
+  <streamingExtentsMin x="-647.657" y="-726.1277" z="-886.72766"/>
+  <streamingExtentsMax x="1356.2033999999999" y="1288.279573" z="1119.1342"/>
+  <entitiesExtentsMin x="352.34299999999996" y="273.8723" z="113.27234"/>
+  <entitiesExtentsMax x="356.2034" y="288.279573" z="119.13419999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>space</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="354.274165926114" y="281.07567768202864" z="116.20327"/>
+      <position x="354.2732" y="281.0759365" z="116.20327"/>
       <rotation x="0" y="0" z="-0.6087618699680525" w="0.7933530019310445"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="88"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

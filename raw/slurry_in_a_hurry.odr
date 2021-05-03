@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler slurry_in_a_hurry\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			slurry_in_a_hurry\high.mesh 0
+		}
+		Med 9998.0
+		{
+			slurry_in_a_hurry\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.655506360139539 -0.33 -4.019532
+		AABBMax 23.081350293705437 0.33 10.718752000000002
+		Radius 23.081350293705437
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

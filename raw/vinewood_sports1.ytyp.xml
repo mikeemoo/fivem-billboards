@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="85"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-13.96308047762026" y="-0.0001" z="-5.66994"/>
       <bbMax x="13.96308047762026" y="0.0001" z="5.66994"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="13.96308047762026"/>
-      <hdTextureDist value="85"/>
+      <hdTextureDist value="1000"/>
       <name>vinewood_sports1</name>
       <textureDictionary>vinewood_sports1</textureDictionary>
       <clipDictionary/>

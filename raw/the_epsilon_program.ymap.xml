@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>the_epsilon_program</name>
-  <parent>the_epsilon_program_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="1103.7974339408263" y="-523.602157229946" z="-43.80908000000001"/>
-  <streamingExtentsMax x="1351.5108339408262" y="-274.4092572299459" z="200.110356"/>
-  <entitiesExtentsMin x="1223.7974339408263" y="-403.60215722994593" z="76.19091999999999"/>
-  <entitiesExtentsMax x="1231.5108339408262" y="-394.4092572299459" z="80.110356"/>
+  <streamingExtentsMin x="223.79819999999995" y="-1403.6028000000001" z="-923.80908"/>
+  <streamingExtentsMax x="2231.5116" y="605.5901" z="1080.110356"/>
+  <entitiesExtentsMin x="1223.7982" y="-403.6028" z="76.19091999999999"/>
+  <entitiesExtentsMax x="1231.5115999999998" y="-394.4099" z="80.110356"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>the_epsilon_program</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="1227.6541339408263" y="-399.0057072299459" z="78.150638"/>
+      <position x="1227.6549" y="-399.00635" z="78.150638"/>
       <rotation x="0" y="0" z="0.906302944408405" w="0.4226286466351466"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="120"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>disobey2</name>
-  <parent>disobey2_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="409.77280689018806" y="26.201506078411086" z="47.79419999999999"/>
-  <streamingExtentsMax x="605.2952768901881" y="213.4500060784111" z="233.4265"/>
-  <entitiesExtentsMin x="499.77280689018806" y="116.20150607841109" z="137.7942"/>
-  <entitiesExtentsMax x="515.2952768901881" y="123.45000607841108" z="143.4265"/>
+  <streamingExtentsMin x="-500.22677" y="-883.7994" z="-862.2058"/>
+  <streamingExtentsMax x="1515.2957000000001" y="1123.4491" z="1143.4265"/>
+  <entitiesExtentsMin x="499.77323" y="116.20060000000001" z="137.7942"/>
+  <entitiesExtentsMax x="515.2957" y="123.4491" z="143.4265"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>disobey2</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="507.53404189018806" y="119.82575607841108" z="140.61035"/>
+      <position x="507.534465" y="119.82485" z="140.61035"/>
       <rotation x="0" y="0" z="0.9762372690802547" w="0.21670439418416607"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="90"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>crowex</name>
-  <parent>crowex_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="61.31423532329637" y="116.51897441410517" z="47.6755"/>
-  <streamingExtentsMax x="219.57403532329636" y="276.3202444141052" z="203.362"/>
-  <entitiesExtentsMin x="136.31423532329637" y="191.51897441410517" z="122.6755"/>
-  <entitiesExtentsMax x="144.57403532329636" y="201.3202444141052" z="128.362"/>
+  <streamingExtentsMin x="-863.685" y="-808.48167" z="-877.3245"/>
+  <streamingExtentsMax x="1144.5747999999999" y="1201.3196" z="1128.362"/>
+  <entitiesExtentsMin x="136.315" y="191.51833" z="122.6755"/>
+  <entitiesExtentsMax x="144.57479999999998" y="201.3196" z="128.362"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>crowex</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="140.44413532329636" y="196.4196094141052" z="125.51875"/>
+      <position x="140.4449" y="196.41896500000001" z="125.51875"/>
       <rotation x="0" y="0" z="0.9067563358390374" w="0.4216550099497965"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="75"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

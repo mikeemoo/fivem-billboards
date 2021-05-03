@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler pick_your_ring3\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			pick_your_ring3\high.mesh 0
+		}
+		Med 9998.0
+		{
+			pick_your_ring3\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.382285243609644 -0.22000000000000003 -3.8856474
+		AABBMax 22.352760649625722 0.22000000000000003 10.361726400000002
+		Radius 22.352760649625722
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

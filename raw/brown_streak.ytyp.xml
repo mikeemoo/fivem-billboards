@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="100"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-6.866739025372668" y="-0.0001" z="-2.92823"/>
       <bbMax x="6.866739025372668" y="0.0001" z="2.92823"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="6.866739025372668"/>
-      <hdTextureDist value="100"/>
+      <hdTextureDist value="1000"/>
       <name>brown_streak</name>
       <textureDictionary>brown_streak</textureDictionary>
       <clipDictionary/>

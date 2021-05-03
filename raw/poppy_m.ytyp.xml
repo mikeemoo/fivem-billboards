@@ -3,14 +3,14 @@
   <extensions/>
   <archetypes>
     <Item type="CBaseArchetypeDef">
-      <lodDist value="70"/>
+      <lodDist value="1000"/>
       <flags value="0"/>
       <specialAttribute value="0"/>
       <bbMin x="-10.533685902380043" y="-0.0001" z="-3.84424"/>
       <bbMax x="10.533685902380043" y="0.0001" z="3.84424"/>
       <bsCentre x="0" y="0" z="0"/>
       <bsRadius value="10.533685902380043"/>
-      <hdTextureDist value="70"/>
+      <hdTextureDist value="1000"/>
       <name>poppy_m</name>
       <textureDictionary>poppy_m</textureDictionary>
       <clipDictionary/>

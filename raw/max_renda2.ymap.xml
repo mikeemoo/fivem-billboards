@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>max_renda2</name>
-  <parent>max_renda2_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="1044.857980838742" y="-581.3284735632774" z="2.589359999999999"/>
-  <streamingExtentsMax x="1202.8666808387418" y="-419.8904735632774" z="158.25878999999998"/>
-  <entitiesExtentsMin x="1119.857980838742" y="-506.32847356327744" z="77.58936"/>
-  <entitiesExtentsMax x="1127.8666808387418" y="-494.8904735632774" z="83.25878999999999"/>
+  <streamingExtentsMin x="119.85879999999997" y="-1506.3279" z="-922.4106400000001"/>
+  <streamingExtentsMax x="2127.8675" y="505.1101" z="1083.25879"/>
+  <entitiesExtentsMin x="1119.8588" y="-506.3279" z="77.58936"/>
+  <entitiesExtentsMax x="1127.8674999999998" y="-494.8899" z="83.25878999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>max_renda2</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="1123.8623308387419" y="-500.60947356327745" z="80.424075"/>
+      <position x="1123.86315" y="-500.60889999999995" z="80.424075"/>
       <rotation x="0" y="0" z="0.4617557376672333" w="0.8870071243971996"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="75"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

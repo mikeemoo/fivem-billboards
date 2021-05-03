@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>shark</name>
-  <parent>shark_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-519.3950057197148" y="164.22000249271355" z="-22.050690000000003"/>
-  <streamingExtentsMax x="-280.4057057197148" y="412.1838524927135" z="215.0084"/>
-  <entitiesExtentsMin x="-404.3950057197148" y="279.22000249271355" z="92.94931"/>
-  <entitiesExtentsMax x="-395.4057057197148" y="297.1838524927135" z="100.0084"/>
+  <streamingExtentsMin x="-1404.3959" y="-720.77955" z="-907.05069"/>
+  <streamingExtentsMax x="604.5934" y="1297.1843" z="1100.0084"/>
+  <entitiesExtentsMin x="-404.39590000000004" y="279.22045" z="92.94931"/>
+  <entitiesExtentsMax x="-395.4066" y="297.1843" z="100.0084"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>shark</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-399.90035571971475" y="288.20192749271354" z="96.478855"/>
+      <position x="-399.90125" y="288.202375" z="96.478855"/>
       <rotation x="0" y="0" z="-0.525591435209156" w="0.8507371175837926"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="115"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

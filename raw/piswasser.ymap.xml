@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>piswasser</name>
-  <parent>piswasser_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="895.694107237494" y="-282.3935074242149" z="14.270560000000003"/>
-  <streamingExtentsMax x="1056.968107237494" y="-119.63813742421488" z="169.94926"/>
-  <entitiesExtentsMin x="970.694107237494" y="-207.39350742421487" z="89.27056"/>
-  <entitiesExtentsMax x="981.968107237494" y="-194.63813742421488" z="94.94926000000001"/>
+  <streamingExtentsMin x="-29.298400000000015" y="-1207.40013" z="-910.72944"/>
+  <streamingExtentsMax x="1981.9756" y="805.35524" z="1094.94926"/>
+  <entitiesExtentsMin x="970.7016" y="-207.40013" z="89.27056"/>
+  <entitiesExtentsMax x="981.9756" y="-194.64476" z="94.94926000000001"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>piswasser</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="976.331107237494" y="-201.0158224242149" z="92.10991"/>
+      <position x="976.3386" y="-201.022445" z="92.10991"/>
       <rotation x="0" y="0" z="0.9116626510147587" w="0.4109394246659016"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="75"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

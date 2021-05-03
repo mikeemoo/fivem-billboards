@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>lspd_hiring</name>
-  <parent>lspd_hiring_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="360.1707961954676" y="-258.5852828530533" z="-100.12425"/>
-  <streamingExtentsMax x="721.2894961954676" y="114.20281714694674" z="265.54519"/>
-  <entitiesExtentsMin x="540.1707961954676" y="-78.58528285305326" z="79.87575"/>
-  <entitiesExtentsMax x="541.2894961954676" y="-65.79718285305326" z="85.54519"/>
+  <streamingExtentsMin x="-459.8302" y="-1078.58537" z="-920.12425"/>
+  <streamingExtentsMax x="1541.2885" y="934.20273" z="1085.54519"/>
+  <entitiesExtentsMin x="540.1698" y="-78.58537" z="79.87575"/>
+  <entitiesExtentsMax x="541.2885" y="-65.79727" z="85.54519"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>lspd_hiring</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="540.7301461954676" y="-72.19123285305326" z="82.71047"/>
+      <position x="540.72915" y="-72.19131999999999" z="82.71047"/>
       <rotation x="0" y="0" z="-0.7372743542061464" w="0.6755934625423117"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="180"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

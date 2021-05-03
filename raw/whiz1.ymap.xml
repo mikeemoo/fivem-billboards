@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <CMapData>
   <name>whiz1</name>
-  <parent>whiz1_lod</parent>
-  <flags value="0"/>
+  <parent/>
+  <flags value="32"/>
   <contentFlags value="1"/>
-  <streamingExtentsMin x="-384.1854491926635" y="199.55461021715877" z="23.01034999999999"/>
-  <streamingExtentsMax x="-236.8050491926635" y="349.79143121715873" z="176.06846"/>
-  <entitiesExtentsMin x="-311.1854491926635" y="272.55461021715877" z="96.01034999999999"/>
-  <entitiesExtentsMax x="-309.8050491926635" y="276.79143121715873" z="103.06845999999999"/>
+  <streamingExtentsMin x="-1311.1864" y="-727.44508" z="-903.98965"/>
+  <streamingExtentsMax x="690.194" y="1276.791741" z="1103.06846"/>
+  <entitiesExtentsMin x="-311.18640000000005" y="272.55492000000004" z="96.01034999999999"/>
+  <entitiesExtentsMax x="-309.80600000000004" y="276.791741" z="103.06845999999999"/>
   <entities>
     <Item type="CEntityDef">
       <archetypeName>whiz1</archetypeName>
-      <flags value="1572872"/>
+      <flags value="1572864"/>
       <guid value="0"/>
-      <position x="-310.4952491926635" y="274.67302071715875" z="99.53940499999999"/>
+      <position x="-310.49620000000004" y="274.6733305" z="99.53940499999999"/>
       <rotation x="0" y="0" z="-0.587459427840984" w="0.8092536194795447"/>
       <scaleXY value="1"/>
       <scaleZ value="1"/>
-      <parentIndex value="0"/>
-      <lodDist value="73"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
       <childLodDist value="0"/>
       <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
       <numChildren value="0"/>

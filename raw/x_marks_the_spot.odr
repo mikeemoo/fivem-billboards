@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler x_marks_the_spot\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			x_marks_the_spot\high.mesh 0
+		}
+		Med 9998.0
+		{
+			x_marks_the_spot\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -5.655818993980979 -0.22000000000000003 -15.186606
+		AABBMax 15.082183983949278 0.22000000000000003 40.497616
+		Radius 40.497616
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

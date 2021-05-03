@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler weazel_space\texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 80.0
+		{
+			weazel_space\high.mesh 0
+		}
+		Med 9998.0
+		{
+			weazel_space\low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.326466519316583 -0.11000000000000001 -3.401658
+		AABBMax 22.203910718177553 0.11000000000000001 9.071088000000001
+		Radius 22.203910718177553
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}
