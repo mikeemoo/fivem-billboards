@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>x_marks_the_shot</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1900.92661" y="-2167.4281" z="-983.41932"/>
+  <streamingExtentsMax x="102.3605" y="-161.3143" z="1035.21989"/>
+  <entitiesExtentsMin x="-900.92661" y="-1167.4281" z="16.58068"/>
+  <entitiesExtentsMax x="-897.6395" y="-1161.3143" z="35.21989"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>x_marks_the_shot</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-899.283055" y="-1164.3712" z="25.900284999999997"/>
+      <rotation x="0" y="0" z="-0.8583555365084528" w="0.5130553312706985"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>x_marks_the_shot</name>
+    <owner/>
+  </block>
+</CMapData>

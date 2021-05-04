@@ -12,7 +12,7 @@ Version 165 32
 	Skeleton null
 	LodGroup
 	{
-		High 55
+		High 50
 		{
 			supporting_files/burgershot4_high.mesh 0
 		}

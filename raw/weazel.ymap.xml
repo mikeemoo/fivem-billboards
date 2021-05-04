@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>weazel</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1613.9197" y="-1906.3879" z="-958.24849"/>
+  <streamingExtentsMax x="403.08119999999997" y="95.09990000000005" z="1047.42094"/>
+  <entitiesExtentsMin x="-613.9197" y="-906.3879" z="41.75151"/>
+  <entitiesExtentsMax x="-596.9188" y="-904.9001" z="47.42094"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>weazel</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-605.41925" y="-905.644" z="44.586225"/>
+      <rotation x="0" y="0" z="0.04363145859733938" w="0.9990476944674206"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>weazel</name>
+    <owner/>
+  </block>
+</CMapData>

@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler supporting_files/texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 120
+		{
+			supporting_files/cola2_high.mesh 0
+		}
+		Med 9998.0
+		{
+			supporting_files/cola2_low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -7.199988 -0.33 -2.3516579999999996
+		AABBMax 19.199968000000002 0.33 6.271088
+		Radius 19.199968000000002
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

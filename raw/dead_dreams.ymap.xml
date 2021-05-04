@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>dead_dreams</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1814.77981" y="-1979.4292" z="-974.97633"/>
+  <streamingExtentsMax x="195.4697" y="20.571300000000065" z="1030.05541"/>
+  <entitiesExtentsMin x="-814.77981" y="-979.4291999999999" z="25.023670000000003"/>
+  <entitiesExtentsMax x="-804.5303" y="-979.4286999999999" z="30.055410000000002"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>dead_dreams</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-809.6550550000001" y="-979.42895" z="27.539540000000002"/>
+      <rotation x="0" y="0" z="0.000024391409908992187" w="0.9999999997025295"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>dead_dreams</name>
+    <owner/>
+  </block>
+</CMapData>

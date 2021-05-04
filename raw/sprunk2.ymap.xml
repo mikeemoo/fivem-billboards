@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>sprunk2</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-2227.3279" y="-1915.5648" z="-980.23591"/>
+  <streamingExtentsMax x="-226.48119999999994" y="93.42840000000001" z="1023.75773"/>
+  <entitiesExtentsMin x="-1227.3279" y="-915.5648" z="19.76409"/>
+  <entitiesExtentsMax x="-1226.4812" y="-906.5716" z="23.757730000000002"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>sprunk2</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-1226.90455" y="-911.0682" z="21.760910000000003"/>
+      <rotation x="0" y="0" z="0.7395046982178367" w="0.6731513955372492"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>sprunk2</name>
+    <owner/>
+  </block>
+</CMapData>

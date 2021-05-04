@@ -3332,6 +3332,582 @@
       <assetName>std</assetName>
       <extensions/>
     </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-6" y="-0.0001" z="-1.250003"/>
+      <bbMax x="6" y="0.0001" z="1.250003"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="6"/>
+      <hdTextureDist value="1000"/>
+      <name>totalbankers7</name>
+      <textureDictionary>totalbankers7</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>totalbankers7</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-6" y="-0.0001" z="-2.000004"/>
+      <bbMax x="6" y="0.0001" z="2.000004"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="6"/>
+      <hdTextureDist value="1000"/>
+      <name>josh_bernstein7</name>
+      <textureDictionary>josh_bernstein7</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>josh_bernstein7</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-6" y="-0.0001" z="-2.000003"/>
+      <bbMax x="6" y="0.0001" z="2.000003"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="6"/>
+      <hdTextureDist value="1000"/>
+      <name>crowex6</name>
+      <textureDictionary>crowex6</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>crowex6</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-6" y="-0.0001" z="-1.249998"/>
+      <bbMax x="6" y="0.0001" z="1.249998"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="6"/>
+      <hdTextureDist value="1000"/>
+      <name>totalbankers8</name>
+      <textureDictionary>totalbankers8</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>totalbankers8</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-6" y="-0.0001" z="-1.9999999999999998"/>
+      <bbMax x="6" y="0.0001" z="1.9999999999999998"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="6"/>
+      <hdTextureDist value="1000"/>
+      <name>burgershot9</name>
+      <textureDictionary>burgershot9</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>burgershot9</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-6" y="-0.0001" z="-1.9999990000000003"/>
+      <bbMax x="6" y="0.0001" z="1.9999990000000003"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="6"/>
+      <hdTextureDist value="1000"/>
+      <name>caveman6</name>
+      <textureDictionary>caveman6</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>caveman6</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-6" y="-0.0001" z="-1.2500049999999998"/>
+      <bbMax x="6" y="0.0001" z="1.2500049999999998"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="6"/>
+      <hdTextureDist value="1000"/>
+      <name>contractors7</name>
+      <textureDictionary>contractors7</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>contractors7</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.249500012195714" y="-0.0001" z="-5.03172"/>
+      <bbMax x="10.249500012195714" y="0.0001" z="5.03172"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.249500012195714"/>
+      <hdTextureDist value="1000"/>
+      <name>no_joker2</name>
+      <textureDictionary>no_joker2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>no_joker2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.249562311869711" y="-0.0001" z="-5.03173"/>
+      <bbMax x="10.249562311869711" y="0.0001" z="5.03173"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.249562311869711"/>
+      <hdTextureDist value="1000"/>
+      <name>hammerstein_and_faust4</name>
+      <textureDictionary>hammerstein_and_faust4</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>hammerstein_and_faust4</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.249500012195714" y="-0.0001" z="-5.03173"/>
+      <bbMax x="10.249500012195714" y="0.0001" z="5.03173"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.249500012195714"/>
+      <hdTextureDist value="1000"/>
+      <name>no_joker3</name>
+      <textureDictionary>no_joker3</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>no_joker3</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.065876761830904" y="-0.0001" z="-5.66943"/>
+      <bbMax x="17.065876761830904" y="0.0001" z="5.66943"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.065876761830904"/>
+      <hdTextureDist value="1000"/>
+      <name>weazel</name>
+      <textureDictionary>weazel</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>weazel</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.065833179191692" y="-0.0001" z="-5.66943"/>
+      <bbMax x="17.065833179191692" y="0.0001" z="5.66943"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.065833179191692"/>
+      <hdTextureDist value="1000"/>
+      <name>weazel2</name>
+      <textureDictionary>weazel2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>weazel2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.065898" y="-0.0001" z="-5.8261"/>
+      <bbMax x="17.065898" y="0.0001" z="5.8261"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.065898"/>
+      <hdTextureDist value="1000"/>
+      <name>dude_eat_dog</name>
+      <textureDictionary>dude_eat_dog</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dude_eat_dog</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.08342003128252" y="-0.0001" z="-5.724600000000001"/>
+      <bbMax x="17.08342003128252" y="0.0001" z="5.724600000000001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.08342003128252"/>
+      <hdTextureDist value="1000"/>
+      <name>serious_cougar2</name>
+      <textureDictionary>serious_cougar2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>serious_cougar2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-12.000046000000001" y="-0.0001" z="-3.91944"/>
+      <bbMax x="12.000046000000001" y="0.0001" z="3.91944"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.000046000000001"/>
+      <hdTextureDist value="1000"/>
+      <name>digitalden</name>
+      <textureDictionary>digitalden</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>digitalden</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.08775811367422" y="-0.0001" z="-5.24268"/>
+      <bbMax x="10.08775811367422" y="0.0001" z="5.24268"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.08775811367422"/>
+      <hdTextureDist value="1000"/>
+      <name>blank2</name>
+      <textureDictionary>blank2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>blank2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-12.23394" y="-0.0001" z="-5.242700000000001"/>
+      <bbMax x="12.23394" y="0.0001" z="5.242700000000001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.23394"/>
+      <hdTextureDist value="1000"/>
+      <name>cola</name>
+      <textureDictionary>cola</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cola</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-12.189909033216779" y="-0.0001" z="-5.153400000000001"/>
+      <bbMax x="12.189909033216779" y="0.0001" z="5.153400000000001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.189909033216779"/>
+      <hdTextureDist value="1000"/>
+      <name>the_epsilon_program3</name>
+      <textureDictionary>the_epsilon_program3</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>the_epsilon_program3</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-11.99998" y="-0.0001" z="-3.9194299999999997"/>
+      <bbMax x="11.99998" y="0.0001" z="3.9194299999999997"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="11.99998"/>
+      <hdTextureDist value="1000"/>
+      <name>cola2</name>
+      <textureDictionary>cola2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cola2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-14.425791650169499" y="-0.0001" z="-6.6996899999999995"/>
+      <bbMax x="14.425791650169499" y="0.0001" z="6.6996899999999995"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="14.425791650169499"/>
+      <hdTextureDist value="1000"/>
+      <name>cherry_popper2</name>
+      <textureDictionary>cherry_popper2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>cherry_popper2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-11.802290152936422" y="-0.0001" z="-5.66802"/>
+      <bbMax x="11.802290152936422" y="0.0001" z="5.66802"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="11.802290152936422"/>
+      <hdTextureDist value="1000"/>
+      <name>brawls2</name>
+      <textureDictionary>brawls2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>brawls2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-14.038531257222031" y="-0.0001" z="-6.285160000000001"/>
+      <bbMax x="14.038531257222031" y="0.0001" z="6.285160000000001"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="14.038531257222031"/>
+      <hdTextureDist value="1000"/>
+      <name>broiler_bites2</name>
+      <textureDictionary>broiler_bites2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>broiler_bites2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-14.42579142711068" y="-0.0001" z="-6.699222"/>
+      <bbMax x="14.42579142711068" y="0.0001" z="6.699222"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="14.42579142711068"/>
+      <hdTextureDist value="1000"/>
+      <name>no_joker4</name>
+      <textureDictionary>no_joker4</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>no_joker4</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.249563222401235" y="-0.0001" z="-5.0317419999999995"/>
+      <bbMax x="10.249563222401235" y="0.0001" z="5.0317419999999995"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.249563222401235"/>
+      <hdTextureDist value="1000"/>
+      <name>rehabs</name>
+      <textureDictionary>rehabs</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rehabs</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-6.941443840592533" y="-0.0001" z="-18.63921"/>
+      <bbMax x="6.941443840592533" y="0.0001" z="18.63921"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="18.63921"/>
+      <hdTextureDist value="1000"/>
+      <name>x_marks_the_shot</name>
+      <textureDictionary>x_marks_the_shot</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>x_marks_the_shot</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-6.94143951929281" y="-0.0001" z="-18.63921"/>
+      <bbMax x="6.94143951929281" y="0.0001" z="18.63921"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="18.63921"/>
+      <hdTextureDist value="1000"/>
+      <name>destroy_the_ring2</name>
+      <textureDictionary>destroy_the_ring2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destroy_the_ring2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.249510012195707" y="-0.0001" z="-5.031739999999999"/>
+      <bbMax x="10.249510012195707" y="0.0001" z="5.031739999999999"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.249510012195707"/>
+      <hdTextureDist value="1000"/>
+      <name>dead_dreams</name>
+      <textureDictionary>dead_dreams</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>dead_dreams</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-9.644039999999999" y="-0.0001" z="-3.6006300000000007"/>
+      <bbMax x="9.644039999999999" y="0.0001" z="3.6006300000000007"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="9.644039999999999"/>
+      <hdTextureDist value="1000"/>
+      <name>i_married_my_dad</name>
+      <textureDictionary>i_married_my_dad</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>i_married_my_dad</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-9.644039999999999" y="-0.0001" z="-3.6006300000000007"/>
+      <bbMax x="9.644039999999999" y="0.0001" z="3.6006300000000007"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="9.644039999999999"/>
+      <hdTextureDist value="1000"/>
+      <name>i_married_my_dad2</name>
+      <textureDictionary>i_married_my_dad2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>i_married_my_dad2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-9.03297000603899" y="-0.0001" z="-3.99364"/>
+      <bbMax x="9.03297000603899" y="0.0001" z="3.99364"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="9.03297000603899"/>
+      <hdTextureDist value="1000"/>
+      <name>sprunk2</name>
+      <textureDictionary>sprunk2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>sprunk2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-13.963034224379888" y="-0.0001" z="-5.66944"/>
+      <bbMax x="13.963034224379888" y="0.0001" z="5.66944"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="13.963034224379888"/>
+      <hdTextureDist value="1000"/>
+      <name>prop_2083</name>
+      <textureDictionary>prop_2083</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_2083</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-13.963236438958411" y="-0.0001" z="-5.66944"/>
+      <bbMax x="13.963236438958411" y="0.0001" z="5.66944"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="13.963236438958411"/>
+      <hdTextureDist value="1000"/>
+      <name>prop_2084</name>
+      <textureDictionary>prop_2084</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_2084</assetName>
+      <extensions/>
+    </Item>
   </archetypes>
   <name/>
   <dependencies/>

@@ -1,0 +1,33 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler supporting_files/texture.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 90
+		{
+			supporting_files/cherry_popper2_high.mesh 0
+		}
+		Med 9998.0
+		{
+			supporting_files/cherry_popper2_low.mesh 0
+		}
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -8.655474990101698 -0.22000000000000003 -4.019813999999999
+		AABBMax 23.0812666402712 0.22000000000000003 10.719504
+		Radius 23.0812666402712
+		Center 0.0000000 0.0 0.0000000
+	}
+	Light null
+	Bound null
+	Joints null
+}

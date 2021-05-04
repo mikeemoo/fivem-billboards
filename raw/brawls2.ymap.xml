@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>brawls2</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1666.0495" y="-1721.3019" z="-954.41898"/>
+  <streamingExtentsMax x="333.9524" y="290.50039000000004" z="1051.24904"/>
+  <entitiesExtentsMin x="-666.0495000000001" y="-721.3019" z="45.581019999999995"/>
+  <entitiesExtentsMax x="-666.0476" y="-709.49961" z="51.24904"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>brawls2</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-666.04855" y="-715.400755" z="48.41503"/>
+      <rotation x="0" y="0" z="-0.7071636959378377" w="0.7070498618538423"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>brawls2</name>
+    <owner/>
+  </block>
+</CMapData>
