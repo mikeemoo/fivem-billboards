@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>contractors1</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1097.48166" y="-2081.7857000000004" z="-971.560038"/>
+  <streamingExtentsMax x="904.92312" y="-76.28870000000006" z="1029.68996"/>
+  <entitiesExtentsMin x="-97.48165999999999" y="-1081.7857000000001" z="28.439961999999998"/>
+  <entitiesExtentsMax x="-95.07687999999999" y="-1076.2887" z="29.68996"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>contractors1</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-96.27927" y="-1079.0372" z="29.064961"/>
+      <rotation x="0" y="0" z="-0.5473587483956373" w="0.8368980825373908"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>contractors1</name>
+    <owner/>
+  </block>
+</CMapData>

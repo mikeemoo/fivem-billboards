@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>totalbankers6</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1193.9092" y="-2002.1421" z="-969.108584"/>
+  <streamingExtentsMax x="808.352" y="4.070299999999975" z="1032.14142"/>
+  <entitiesExtentsMin x="-193.9092" y="-1002.1421" z="30.891416"/>
+  <entitiesExtentsMax x="-191.648" y="-995.9297" z="32.14142"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>totalbankers6</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-192.77859999999998" y="-999.0359" z="31.516417999999998"/>
+      <rotation x="0" y="0" z="0.8191549513975882" w="0.5735722845473052"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>totalbankers6</name>
+    <owner/>
+  </block>
+</CMapData>

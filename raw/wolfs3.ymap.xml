@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>wolfs3</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1079.2102" y="-1950.101" z="-969.108602"/>
+  <streamingExtentsMax x="926.42798" y="51.95119999999997" z="1032.1414"/>
+  <entitiesExtentsMin x="-79.2102" y="-950.101" z="30.891398000000002"/>
+  <entitiesExtentsMax x="-73.57202" y="-948.0488" z="32.141400000000004"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>wolfs3</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-76.39111" y="-949.0749000000001" z="31.516399"/>
+      <rotation x="0" y="0" z="-0.9848067970042771" w="0.17365359937005811"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>wolfs3</name>
+    <owner/>
+  </block>
+</CMapData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>fly_u6</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1180.93309" y="-2173.79009" z="-964.39037"/>
+  <streamingExtentsMax x="825.3062" y="-165.65873999999985" z="1040.64137"/>
+  <entitiesExtentsMin x="-180.93309000000002" y="-1173.79009" z="35.60963"/>
+  <entitiesExtentsMax x="-174.6938" y="-1165.6587399999999" z="40.64137"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>fly_u6</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-177.813445" y="-1169.724415" z="38.1255"/>
+      <rotation x="0" y="0" z="-0.44229265787724736" w="0.8968707848892616"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>fly_u6</name>
+    <owner/>
+  </block>
+</CMapData>

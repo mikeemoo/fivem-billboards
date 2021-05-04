@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>caveman3</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1073.57202" y="-1952.1528" z="-969.251668"/>
+  <streamingExtentsMax x="932.06617" y="49.89949999999999" z="1032.74833"/>
+  <entitiesExtentsMin x="-73.57202" y="-952.1528000000001" z="30.748332"/>
+  <entitiesExtentsMax x="-67.93383" y="-950.1005" z="32.74833"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>caveman3</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-70.752925" y="-951.12665" z="31.748331"/>
+      <rotation x="0" y="0" z="-0.9848054866560781" w="0.17366103032080915"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>caveman3</name>
+    <owner/>
+  </block>
+</CMapData>

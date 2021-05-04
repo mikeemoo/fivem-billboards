@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>josh_bernstein4</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1126.8203" y="-1932.585" z="-969.307314"/>
+  <streamingExtentsMax x="878.8179" y="69.46680000000003" z="1032.69269"/>
+  <entitiesExtentsMin x="-126.8203" y="-932.585" z="30.692686"/>
+  <entitiesExtentsMax x="-121.18209999999999" y="-930.5332" z="32.69269"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>josh_bernstein4</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-124.0012" y="-931.5591" z="31.692688"/>
+      <rotation x="0" y="0" z="-0.9848123349027397" w="0.17362219046946162"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>josh_bernstein4</name>
+    <owner/>
+  </block>
+</CMapData>

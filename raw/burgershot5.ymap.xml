@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>burgershot5</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1084.04074" y="-2047.8653000000002" z="-970.38572"/>
+  <streamingExtentsMax x="918.0115000000001" y="-42.227600000000166" z="1031.61428"/>
+  <entitiesExtentsMin x="-84.04074" y="-1047.8653000000002" z="29.614279999999997"/>
+  <entitiesExtentsMax x="-81.98849999999999" y="-1042.2276000000002" z="31.61428"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>burgershot5</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-83.01462" y="-1045.04645" z="30.61428"/>
+      <rotation x="0" y="0" z="-0.5735581527787803" w="0.8191648462800349"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>burgershot5</name>
+    <owner/>
+  </block>
+</CMapData>

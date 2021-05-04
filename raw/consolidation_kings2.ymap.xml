@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>consolidation_kings2</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1186.77342" y="-2162.09575" z="-964.39037"/>
+  <streamingExtentsMax x="823.4756" y="-162.00639" z="1040.64137"/>
+  <entitiesExtentsMin x="-186.77342000000002" y="-1162.09575" z="35.60963"/>
+  <entitiesExtentsMax x="-176.5244" y="-1162.00639" z="40.64137"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>consolidation_kings2</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-181.64891" y="-1162.05107" z="38.1255"/>
+      <rotation x="0" y="0" z="0.9999904981328246" w="0.004359316926466069"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>consolidation_kings2</name>
+    <owner/>
+  </block>
+</CMapData>

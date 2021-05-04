@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>crowex5</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1181.4331" y="-1967.72217" z="-969.37958"/>
+  <streamingExtentsMax x="820.6191" y="37.91601000000003" z="1032.62042"/>
+  <entitiesExtentsMin x="-181.4331" y="-967.72217" z="30.62042"/>
+  <entitiesExtentsMax x="-179.3809" y="-962.08399" z="32.620419999999996"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>crowex5</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-180.407" y="-964.90308" z="31.62042"/>
+      <rotation x="0" y="0" z="0.8191552020123484" w="0.5735719266283076"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>crowex5</name>
+    <owner/>
+  </block>
+</CMapData>

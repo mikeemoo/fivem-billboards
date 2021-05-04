@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>crowex3</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1055.27711" y="-1968.83785" z="-969.353231"/>
+  <streamingExtentsMax x="946.77519" y="36.80029999999999" z="1032.64677"/>
+  <entitiesExtentsMin x="-55.27711" y="-968.83785" z="30.646769000000003"/>
+  <entitiesExtentsMax x="-53.22481" y="-963.1997" z="32.646770000000004"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>crowex3</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-54.25096" y="-966.018775" z="31.6467695"/>
+      <rotation x="0" y="0" z="-0.5735648116410318" w="0.8191601838756494"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>crowex3</name>
+    <owner/>
+  </block>
+</CMapData>
