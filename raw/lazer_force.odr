@@ -12,7 +12,7 @@ Version 165 32
 	Skeleton null
 	LodGroup
 	{
-		High 120
+		High 110
 		{
 			supporting_files/lazer_force_high.mesh 0
 		}

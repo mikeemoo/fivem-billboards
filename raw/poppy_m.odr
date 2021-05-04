@@ -12,7 +12,7 @@ Version 165 32
 	Skeleton null
 	LodGroup
 	{
-		High 50
+		High 46
 		{
 			supporting_files/poppy_m_high.mesh 0
 		}

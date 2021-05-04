@@ -12,7 +12,7 @@ Version 165 32
 	Skeleton null
 	LodGroup
 	{
-		High 70
+		High 65
 		{
 			supporting_files/lenny_avery2_high.mesh 0
 		}
