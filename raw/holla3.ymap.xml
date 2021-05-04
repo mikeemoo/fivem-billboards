@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>holla3</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-583.3715" y="-1928.3715" z="-951.33582"/>
+  <streamingExtentsMax x="1423.8756" y="78.87660000000005" z="1053.69594"/>
+  <entitiesExtentsMin x="416.62850000000003" y="-928.3715" z="48.66418"/>
+  <entitiesExtentsMax x="423.8756" y="-921.1234" z="53.69594"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>holla3</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="420.25205" y="-924.74745" z="51.18006"/>
+      <rotation x="0" y="0" z="0.3827153006018401" w="0.9238663316114746"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>holla3</name>
+    <owner/>
+  </block>
+</CMapData>

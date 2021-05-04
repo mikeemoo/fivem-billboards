@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>deliciously_infectious</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-644.14327" y="-1791.89181" z="-946.7102"/>
+  <streamingExtentsMax x="1361.414836" y="223.37724000000003" z="1060.62137"/>
+  <entitiesExtentsMin x="355.85673" y="-791.89181" z="53.2898"/>
+  <entitiesExtentsMax x="361.41483600000004" y="-776.62276" z="60.62137"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>deliciously_infectious</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="358.635783" y="-784.257285" z="56.955585"/>
+      <rotation x="0" y="0" z="-0.5735616019590881" w="0.8191624312418903"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>deliciously_infectious</name>
+    <owner/>
+  </block>
+</CMapData>

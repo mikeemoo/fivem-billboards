@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>burgershot3</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-675.3309999999999" y="-1651.60342" z="-964.89182"/>
+  <streamingExtentsMax x="1327.6568" y="356.60508000000004" z="1038.03788"/>
+  <entitiesExtentsMin x="324.66900000000004" y="-651.6034199999999" z="35.10818"/>
+  <entitiesExtentsMax x="327.65680000000003" y="-643.39492" z="38.037879999999994"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>burgershot3</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="326.16290000000004" y="-647.4991699999999" z="36.573029999999996"/>
+      <rotation x="0" y="0" z="-0.5735698127748408" w="0.8191566821270727"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>burgershot3</name>
+    <owner/>
+  </block>
+</CMapData>

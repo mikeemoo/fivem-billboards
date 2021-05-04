@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>oragan_farm</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-663.4055" y="-1793.8791099999999" z="-944.62768"/>
+  <streamingExtentsMax x="1344.3465" y="208.94265999999993" z="1064.62137"/>
+  <entitiesExtentsMin x="336.59450000000004" y="-793.87911" z="55.37232"/>
+  <entitiesExtentsMax x="344.3465" y="-791.0573400000001" z="64.62137"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>oragan_farm</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="340.4705" y="-792.4682250000001" z="59.99684500000001"/>
+      <rotation x="0" y="0" z="0.17366347546702612" w="0.9848050554747948"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>oragan_farm</name>
+    <owner/>
+  </block>
+</CMapData>

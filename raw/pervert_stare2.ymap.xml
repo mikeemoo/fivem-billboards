@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>pervert_stare2</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-520.30342" y="-1811.0754" z="-954.43165"/>
+  <streamingExtentsMax x="1486.9446" y="196.1717" z="1050.59963"/>
+  <entitiesExtentsMin x="479.69658" y="-811.0754" z="45.56835"/>
+  <entitiesExtentsMax x="486.9446" y="-803.8283" z="50.59963"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>pervert_stare2</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="483.32059" y="-807.45185" z="48.08399"/>
+      <rotation x="0" y="0" z="-0.3826541130233028" w="0.9238916764352569"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>pervert_stare2</name>
+    <owner/>
+  </block>
+</CMapData>

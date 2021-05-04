@@ -6,14 +6,14 @@ const Quaternion = require("quaternion");
 
 var builder = new Builder();
 
-const generateOdr = (name, width, height, depth) => {
+const generateOdr = (name, width, height, depth, lod) => {
   const odr = `Version 165 32
 {
 	Shaders
 	{
 		default.sps
 		{
-			DiffuseSampler texture.otx
+			DiffuseSampler supporting_files/texture.otx
 			HardAlphaBlend 1.0000000
 			UseTessellation 0.0000000
 		}
@@ -21,13 +21,13 @@ const generateOdr = (name, width, height, depth) => {
 	Skeleton null
 	LodGroup
 	{
-		High 80.0
+		High ${lod}
 		{
-			${name}_high.mesh 0
+			supporting_files/${name}_high.mesh 0
 		}
 		Med 9998.0
 		{
-			${name}_low.mesh 0
+			supporting_files/${name}_low.mesh 0
 		}
 		Low 9998.0
 		Vlow 9998.0
@@ -91,7 +91,7 @@ const generateMesh = (width, height, offset) => {
 
 const generateOtx = () => `Version 13 30
 {
-	Image texture.dds
+	Image supporting_files/texture.dds
 	Type Regular
 	PixelFormat DXT5
 	Levels 7
@@ -211,7 +211,7 @@ const generateYmap = (name, worldPosition, quaternion, p1, p2, lod ) => builder.
 });
 
 
-const generateManifest = (billboardNames) => builder.buildObject({
+const generateManifest = (billboards) => builder.buildObject({
   CPackFileMetaData: {
     MapDataGroups: [""],
     HDTxdBindingArray: [""],
@@ -219,13 +219,13 @@ const generateManifest = (billboardNames) => builder.buildObject({
     itypDependencies_2: [""],
     Interiors: [""],
     imapDependencies_2: {
-      Item: billboardNames.map((name) => ({
-        imapName: `${name}`,
+      Item: billboards.map((billboard) => [{
+        imapName: billboard,
         manifestFlags: [""],
         itypDepArray: [{
-          Item: name
+          Item: "billboards"
         }]
-      }))
+      }])
     }
   }
 });
@@ -234,10 +234,17 @@ const generateManifest = (billboardNames) => builder.buildObject({
   const billboards = JSON.parse(fs.readFileSync(path.join(__dirname, "definitions.json"), "utf8"));
   
   const outDir = path.join(__dirname, "..", "raw");
-    
-  fs.copyFileSync(path.join(__dirname, "texture.dds"), path.join(outDir, "texture.dds"));
+  const supportDir = path.join(outDir, "supporting_files");
 
-  fs.writeFileSync(path.join(outDir, "texture.otx"), generateOtx());
+  if (!fs.existsSync(supportDir)) {
+    fs.mkdirSync(supportDir);
+  }
+    
+  fs.copyFileSync(path.join(__dirname, "mip_debug.dds"), path.join(supportDir, "texture.dds"));
+
+
+  fs.writeFileSync(path.join(supportDir, "texture.otx"), generateOtx());
+
 
   const archetypes = [];
 
@@ -260,14 +267,14 @@ const generateManifest = (billboardNames) => builder.buildObject({
     //   z: wZ
     // };
 
-    const odr = generateOdr(name, width, height, lodOffset);
+    const odr = generateOdr(name, width, height, lodOffset, lod);
     fs.writeFileSync(path.join(outDir, `${name}.odr`), odr);
     
     const meshLow = generateMesh(width, height, lodOffset);
     const meshHigh = generateMesh(width, height, offset);
 
-    fs.writeFileSync(path.join(outDir, `${name}_low.mesh`), meshLow);
-    fs.writeFileSync(path.join(outDir, `${name}_high.mesh`), meshHigh);
+    fs.writeFileSync(path.join(supportDir, `${name}_low.mesh`), meshLow);
+    fs.writeFileSync(path.join(supportDir, `${name}_high.mesh`), meshHigh);
     
     archetypes.push(getArchetype(name, width, height, 1000));
 
@@ -276,8 +283,8 @@ const generateManifest = (billboardNames) => builder.buildObject({
     fs.writeFileSync(path.join(outDir, `${name}.ymap.xml`), ymap);
   });
 
-  fs.writeFileSync(path.join(outDir, `_types_billboards.ytyp.xml`), generateYtyp(archetypes));
+  fs.writeFileSync(path.join(outDir, "billboards.ytyp.xml"), generateYtyp(archetypes));
 
   const manifest = generateManifest(Object.keys(billboards));
-  fs.writeFileSync(path.join(outDir, "_manifest_billboards.ymf.xml"), manifest);
+  fs.writeFileSync(path.join(outDir, "_manifest.ymf.xml"), manifest);
 })();

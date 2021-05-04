@@ -1,0 +1,10 @@
+Version 13 30
+{
+	Image supporting_files/texture.dds
+	Type Regular
+	PixelFormat DXT5
+	Levels 7
+	Usage DIFFUSE
+	UsageFlags NOT_HALF HD_SPLIT
+	ExtraFlags 0
+}

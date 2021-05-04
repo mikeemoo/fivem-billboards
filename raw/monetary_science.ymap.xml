@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>monetary_science</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="140.4570000000001" y="-1284.25549" z="-920.73531"/>
+  <streamingExtentsMax x="2140.4570000000003" y="730.17029" z="1085.96391"/>
+  <entitiesExtentsMin x="1140.457" y="-284.25549" z="79.26469"/>
+  <entitiesExtentsMax x="1140.457" y="-269.82971" z="85.96391"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>monetary_science</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="1140.457" y="-277.0426" z="82.6143"/>
+      <rotation x="0" y="0" z="-0.7071067811865475" w="0.7071067811865476"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>monetary_science</name>
+    <owner/>
+  </block>
+</CMapData>

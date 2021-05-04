@@ -4,7 +4,7 @@ Version 165 32
 	{
 		default.sps
 		{
-			DiffuseSampler texture.otx
+			DiffuseSampler supporting_files/texture.otx
 			HardAlphaBlend 1.0000000
 			UseTessellation 0.0000000
 		}
@@ -12,18 +12,18 @@ Version 165 32
 	Skeleton null
 	LodGroup
 	{
-		High 80.0
+		High 120
 		{
-			lotto_high.mesh 0
+			supporting_files/lotto_high.mesh 0
 		}
 		Med 9998.0
 		{
-			lotto_low.mesh 0
+			supporting_files/lotto_low.mesh 0
 		}
 		Low 9998.0
 		Vlow 9998.0
-		AABBMin -10.22404434234046 -0.20900000000000002 -3.3747000000000007
-		AABBMax 27.264118246241225 0.20900000000000002 8.999200000000002
+		AABBMin -10.22404434234046 -0.319 -3.3747000000000007
+		AABBMax 27.264118246241225 0.319 8.999200000000002
 		Radius 27.264118246241225
 		Center 0.0000000 0.0 0.0000000
 	}

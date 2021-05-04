@@ -4,7 +4,7 @@ Version 165 32
 	{
 		default.sps
 		{
-			DiffuseSampler texture.otx
+			DiffuseSampler supporting_files/texture.otx
 			HardAlphaBlend 1.0000000
 			UseTessellation 0.0000000
 		}
@@ -12,13 +12,13 @@ Version 165 32
 	Skeleton null
 	LodGroup
 	{
-		High 80.0
+		High 120
 		{
-			behind_weazel_space_high.mesh 0
+			supporting_files/behind_weazel_space_high.mesh 0
 		}
 		Med 9998.0
 		{
-			behind_weazel_space_low.mesh 0
+			supporting_files/behind_weazel_space_low.mesh 0
 		}
 		Low 9998.0
 		Vlow 9998.0

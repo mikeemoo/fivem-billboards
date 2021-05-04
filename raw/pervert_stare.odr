@@ -4,7 +4,7 @@ Version 165 32
 	{
 		default.sps
 		{
-			DiffuseSampler texture.otx
+			DiffuseSampler supporting_files/texture.otx
 			HardAlphaBlend 1.0000000
 			UseTessellation 0.0000000
 		}
@@ -12,18 +12,18 @@ Version 165 32
 	Skeleton null
 	LodGroup
 	{
-		High 80.0
+		High 70
 		{
-			pervert_stare_high.mesh 0
+			supporting_files/pervert_stare_high.mesh 0
 		}
 		Med 9998.0
 		{
-			pervert_stare_low.mesh 0
+			supporting_files/pervert_stare_low.mesh 0
 		}
 		Low 9998.0
 		Vlow 9998.0
-		AABBMin -10.248213853506375 -0.20900000000000002 -3.377339999999999
-		AABBMax 27.328570276017004 0.20900000000000002 9.006239999999996
+		AABBMin -10.248213853506375 -0.33 -3.377339999999999
+		AABBMax 27.328570276017004 0.33 9.006239999999996
 		Radius 27.328570276017004
 		Center 0.0000000 0.0 0.0000000
 	}
