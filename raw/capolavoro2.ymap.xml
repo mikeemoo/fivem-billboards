@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>capolavoro2</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-2436.5991999999997" y="-1457.0177" z="-951.49049"/>
+  <streamingExtentsMax x="-430.68269999999984" y="555.58628" z="1053.84053"/>
+  <entitiesExtentsMin x="-1436.5991999999999" y="-457.01770000000005" z="48.50951"/>
+  <entitiesExtentsMax x="-1430.6826999999998" y="-444.41372" z="53.84053"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>capolavoro2</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-1433.64095" y="-450.71571" z="51.17502"/>
+      <rotation x="0" y="0" z="0.5362240634622649" w="0.8440756801164319"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>capolavoro2</name>
+    <owner/>
+  </block>
+</CMapData>

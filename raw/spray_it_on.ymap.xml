@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>spray_it_on</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-2355.3087" y="-1581.640538" z="-965.65319"/>
+  <streamingExtentsMax x="-349.6582699999999" y="427.06014000000005" z="1038.52991"/>
+  <entitiesExtentsMin x="-1355.3087" y="-581.640538" z="34.34681"/>
+  <entitiesExtentsMax x="-1349.65827" y="-572.93986" z="38.52991"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>spray_it_on</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-1352.483485" y="-577.290199" z="36.43836"/>
+      <rotation x="0" y="0" z="0.4771536578708667" w="0.8788198830138357"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>spray_it_on</name>
+    <owner/>
+  </block>
+</CMapData>

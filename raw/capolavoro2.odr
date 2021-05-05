@@ -12,19 +12,19 @@ Version 165 32
 	Skeleton null
 	LodGroup
 	{
-		High 52
+		High 60
 		{
-			supporting_files/weazel_high.mesh 0
+			supporting_files/capolavoro2_high.mesh 0
 		}
 		Med 9998.0
 		{
-			supporting_files/weazel_low.mesh 0
+			supporting_files/capolavoro2_low.mesh 0
 		}
 		Low 9998.0
 		Vlow 9998.0
-		AABBMin -10.239526057098542 -0.44000000000000006 -3.401658
-		AABBMax 27.305402818929448 0.44000000000000006 9.071088000000001
-		Radius 27.305402818929448
+		AABBMin -8.3541308508153 -0.11000000000000001 -3.1986120000000002
+		AABBMax 22.277682268840806 0.11000000000000001 8.529632000000001
+		Radius 22.277682268840806
 		Center 0.0000000 0.0 0.0000000
 	}
 	Light null

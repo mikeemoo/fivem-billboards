@@ -3908,6 +3908,330 @@
       <assetName>prop_2084</assetName>
       <extensions/>
     </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.065704741817726" y="-0.0001" z="-5.66943"/>
+      <bbMax x="17.065704741817726" y="0.0001" z="5.66943"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.065704741817726"/>
+      <hdTextureDist value="1000"/>
+      <name>lenny_avery3</name>
+      <textureDictionary>lenny_avery3</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lenny_avery3</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.065843452665913" y="-0.0001" z="-5.66943"/>
+      <bbMax x="17.065843452665913" y="0.0001" z="5.66943"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.065843452665913"/>
+      <hdTextureDist value="1000"/>
+      <name>lenny_avery4</name>
+      <textureDictionary>lenny_avery4</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lenny_avery4</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.065986323752284" y="-0.0001" z="-5.66944"/>
+      <bbMax x="17.065986323752284" y="0.0001" z="5.66944"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.065986323752284"/>
+      <hdTextureDist value="1000"/>
+      <name>chatterbot3</name>
+      <textureDictionary>chatterbot3</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>chatterbot3</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-17.06589066640238" y="-0.0001" z="-5.66944"/>
+      <bbMax x="17.06589066640238" y="0.0001" z="5.66944"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="17.06589066640238"/>
+      <hdTextureDist value="1000"/>
+      <name>chatterbot4</name>
+      <textureDictionary>chatterbot4</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>chatterbot4</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-8.377751343576687" y="-0.0001" z="-12.80178"/>
+      <bbMax x="8.377751343576687" y="0.0001" z="12.80178"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.80178"/>
+      <hdTextureDist value="1000"/>
+      <name>hashtag</name>
+      <textureDictionary>hashtag</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>hashtag</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-8.293291733081624" y="-0.0001" z="-12.68264"/>
+      <bbMax x="8.293291733081624" y="0.0001" z="12.68264"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.68264"/>
+      <hdTextureDist value="1000"/>
+      <name>vice</name>
+      <textureDictionary>vice</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>vice</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.374447303089644" y="-0.0001" z="-4.1831"/>
+      <bbMax x="10.374447303089644" y="0.0001" z="4.1831"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.374447303089644"/>
+      <hdTextureDist value="1000"/>
+      <name>spray_it_on</name>
+      <textureDictionary>spray_it_on</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>spray_it_on</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-13.502424312398903" y="-0.0001" z="-5.333986"/>
+      <bbMax x="13.502424312398903" y="0.0001" z="5.333986"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="13.502424312398903"/>
+      <hdTextureDist value="1000"/>
+      <name>lazer_force3</name>
+      <textureDictionary>lazer_force3</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lazer_force3</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-13.927978848795684" y="-0.0001" z="-19.15042"/>
+      <bbMax x="13.927978848795684" y="0.0001" z="19.15042"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="19.15042"/>
+      <hdTextureDist value="1000"/>
+      <name>anna_rex2</name>
+      <textureDictionary>anna_rex2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>anna_rex2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-12.265078208576575" y="-0.0001" z="-5.04199"/>
+      <bbMax x="12.265078208576575" y="0.0001" z="5.04199"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.265078208576575"/>
+      <hdTextureDist value="1000"/>
+      <name>lotto2</name>
+      <textureDictionary>lotto2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lotto2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.249174094530737" y="-0.0001" z="-5.03174"/>
+      <bbMax x="10.249174094530737" y="0.0001" z="5.03174"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.249174094530737"/>
+      <hdTextureDist value="1000"/>
+      <name>lotto3</name>
+      <textureDictionary>lotto3</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>lotto3</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.24938955302217" y="-0.0001" z="-5.03174"/>
+      <bbMax x="10.24938955302217" y="0.0001" z="5.03174"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.24938955302217"/>
+      <hdTextureDist value="1000"/>
+      <name>get_ripped</name>
+      <textureDictionary>get_ripped</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>get_ripped</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-10.249405772926544" y="-0.0001" z="-5.03174"/>
+      <bbMax x="10.249405772926544" y="0.0001" z="5.03174"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="10.249405772926544"/>
+      <hdTextureDist value="1000"/>
+      <name>fleeca</name>
+      <textureDictionary>fleeca</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fleeca</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-13.854033262736163" y="-0.0001" z="-6.05127"/>
+      <bbMax x="13.854033262736163" y="0.0001" z="6.05127"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="13.854033262736163"/>
+      <hdTextureDist value="1000"/>
+      <name>rehab_island</name>
+      <textureDictionary>rehab_island</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>rehab_island</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-12.265355844247203" y="-0.0001" z="-5.031739999999999"/>
+      <bbMax x="12.265355844247203" y="0.0001" z="5.031739999999999"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.265355844247203"/>
+      <hdTextureDist value="1000"/>
+      <name>piswasser3</name>
+      <textureDictionary>piswasser3</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>piswasser3</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-12.264965749295838" y="-0.0001" z="-5.031739999999999"/>
+      <bbMax x="12.264965749295838" y="0.0001" z="5.031739999999999"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="12.264965749295838"/>
+      <hdTextureDist value="1000"/>
+      <name>outlaw_nuclear_families</name>
+      <textureDictionary>outlaw_nuclear_families</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>outlaw_nuclear_families</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-13.923551418025502" y="-0.0001" z="-5.3310200000000005"/>
+      <bbMax x="13.923551418025502" y="0.0001" z="5.3310200000000005"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="13.923551418025502"/>
+      <hdTextureDist value="1000"/>
+      <name>capolavoro2</name>
+      <textureDictionary>capolavoro2</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>capolavoro2</assetName>
+      <extensions/>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="1000"/>
+      <flags value="0"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-13.923646891093439" y="-0.0001" z="-5.3310200000000005"/>
+      <bbMax x="13.923646891093439" y="0.0001" z="5.3310200000000005"/>
+      <bsCentre x="0" y="0" z="0"/>
+      <bsRadius value="13.923646891093439"/>
+      <hdTextureDist value="1000"/>
+      <name>shark4</name>
+      <textureDictionary>shark4</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>shark4</assetName>
+      <extensions/>
+    </Item>
   </archetypes>
   <name/>
   <dependencies/>

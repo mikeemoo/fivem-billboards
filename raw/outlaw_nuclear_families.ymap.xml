@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>outlaw_nuclear_families</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-2336.4003000000002" y="-1337.78028" z="-953.16457"/>
+  <streamingExtentsMax x="-333.12247" y="674.0385699999999" z="1051.86717"/>
+  <entitiesExtentsMin x="-1336.4003" y="-337.78028" z="46.83543"/>
+  <entitiesExtentsMax x="-1333.12247" y="-325.96143" z="51.86717"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>outlaw_nuclear_families</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-1334.761385" y="-331.870855" z="49.3513"/>
+      <rotation x="0" y="0" z="-0.6052885841782741" w="0.7960061116998163"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>outlaw_nuclear_families</name>
+    <owner/>
+  </block>
+</CMapData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>lotto3</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-2213.7415" y="-1333.2077" z="-956.36692"/>
+  <streamingExtentsMax x="-204.11059999999998" y="670.2982" z="1048.66482"/>
+  <entitiesExtentsMin x="-1213.7414999999999" y="-333.2077" z="43.63308"/>
+  <entitiesExtentsMax x="-1204.1106" y="-329.7018" z="48.66482"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>lotto3</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-1208.92605" y="-331.45475" z="46.14895"/>
+      <rotation x="0" y="0" z="-0.9848034614696333" w="0.1736725144558818"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>lotto3</name>
+    <owner/>
+  </block>
+</CMapData>

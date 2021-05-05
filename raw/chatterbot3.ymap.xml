@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CMapData>
+  <name>chatterbot3</name>
+  <parent/>
+  <flags value="32"/>
+  <contentFlags value="1"/>
+  <streamingExtentsMin x="-1382.89512" y="-1756.2758" z="-949.45532"/>
+  <streamingExtentsMax x="634.06533" y="245.61919999999998" z="1056.21412"/>
+  <entitiesExtentsMin x="-382.89511999999996" y="-756.2758" z="50.54468"/>
+  <entitiesExtentsMax x="-365.93467" y="-754.3808" z="56.21412"/>
+  <entities>
+    <Item type="CEntityDef">
+      <archetypeName>chatterbot3</archetypeName>
+      <flags value="1572864"/>
+      <guid value="0"/>
+      <position x="-374.414895" y="-755.3283" z="53.379400000000004"/>
+      <rotation x="0" y="0" z="-0.9984527992127418" w="0.0556058247330291"/>
+      <scaleXY value="1"/>
+      <scaleZ value="1"/>
+      <parentIndex value="-1"/>
+      <lodDist value="1000"/>
+      <childLodDist value="0"/>
+      <lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+      <numChildren value="0"/>
+      <priorityLevel>PRI_REQUIRED</priorityLevel>
+      <extensions/>
+      <ambientOcclusionMultiplier value="255"/>
+      <artificialAmbientOcclusion value="255"/>
+      <tintValue value="0"/>
+    </Item>
+  </entities>
+  <containerLods/>
+  <boxOccluders/>
+  <occludeModels/>
+  <physicsDictionaries/>
+  <instancedData>
+    <ImapLink/>
+    <PropInstanceList/>
+    <GrassInstanceList/>
+  </instancedData>
+  <timeCycleModifiers/>
+  <carGenerators/>
+  <LODLightsSOA>
+    <direction/>
+    <falloff/>
+    <falloffExponent/>
+    <timeAndStateFlags/>
+    <hash/>
+    <coneInnerAngle/>
+    <coneOuterAngleOrCapExt/>
+    <coronaIntensity/>
+  </LODLightsSOA>
+  <DistantLODLightsSOA>
+    <position/>
+    <RGBI/>
+    <numStreetLights value="0"/>
+    <category value="0"/>
+  </DistantLODLightsSOA>
+  <block>
+    <version value="0"/>
+    <flags value="0"/>
+    <name>chatterbot3</name>
+    <owner/>
+  </block>
+</CMapData>
